@@ -1,0 +1,48 @@
+Target dependency graph (19 targets)
+Target 'uninstall' in project 'Asteroid' (no dependencies)
+Target 'package' in project 'Asteroid'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'Asteroid'
+Target 'install' in project 'Asteroid'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'Asteroid'
+Target 'ALL_BUILD' in project 'Asteroid'
+➜ Explicit dependency on target 'Asteroid' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3_test' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL_uclibc' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3_image-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3_ttf-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'glew' in project 'Asteroid'
+➜ Explicit dependency on target 'glew_s' in project 'Asteroid'
+➜ Explicit dependency on target 'glewinfo' in project 'Asteroid'
+➜ Explicit dependency on target 'visualinfo' in project 'Asteroid'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'Asteroid'
+Target 'visualinfo' in project 'Asteroid'
+➜ Explicit dependency on target 'glew' in project 'Asteroid'
+Target 'glewinfo' in project 'Asteroid'
+➜ Explicit dependency on target 'glew' in project 'Asteroid'
+Target 'glew' in project 'Asteroid' (no dependencies)
+Target 'SDL3_ttf-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'harfbuzz' in project 'Asteroid'
+➜ Explicit dependency on target 'plutovg' in project 'Asteroid'
+➜ Explicit dependency on target 'plutosvg' in project 'Asteroid'
+Target 'plutosvg' in project 'Asteroid'
+➜ Explicit dependency on target 'harfbuzz' in project 'Asteroid'
+➜ Explicit dependency on target 'plutovg' in project 'Asteroid'
+Target 'plutovg' in project 'Asteroid' (no dependencies)
+Target 'harfbuzz' in project 'Asteroid'
+➜ Explicit dependency on target 'freetype' in project 'Asteroid'
+Target 'freetype' in project 'Asteroid' (no dependencies)
+Target 'SDL3_test' in project 'Asteroid' (no dependencies)
+Target 'Asteroid' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3_image-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'glew_s' in project 'Asteroid'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'Asteroid'
+Target 'ZERO_CHECK' in project 'Asteroid' (no dependencies)
+Target 'glew_s' in project 'Asteroid' (no dependencies)
+Target 'SDL3_image-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3-shared' in project 'Asteroid'
+Target 'SDL3-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL_uclibc' in project 'Asteroid'
+Target 'SDL_uclibc' in project 'Asteroid' (no dependencies)

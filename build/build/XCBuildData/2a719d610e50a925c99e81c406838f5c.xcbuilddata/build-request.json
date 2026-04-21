@@ -1,0 +1,114 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa2149ea108e38dde69f5eaef453ce909e85"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa218bc1b54d79ce72e5992967137150ff31"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21613dc1ec6853cd0abb988dadc8d3c4bf"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21a252a76b6541b80fcc9fbad8fcdf2f84"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa2152ac35773b6e56d077ab4aee6ed737f2"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa217a1701068cebba466c06059406f0b892"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21d5b3231273e15671f86a2e5e5c91e256"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa215fb5fcf119a346953821c2dc5b3b50c7"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa219e40d2591bcacc7d32d35aa777574d16"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21a623fa07beeeec06f1193aeff5384c70"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa219a4a7c779556da1c10c5fc8caf5eaf53"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21c59bd6260a8f680a018e505b7a8c9d82"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21df89c5ae56362f8dca115046b6d240b3"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21d9b5fdb27efa2c353107d51159d001f5"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa216da6e6dabc520442439cb7d909bd6d57"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21e8d1f5dc63f9c78cf98db7407121a7e6"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa2198799910c79b4407ff577619e5448c36"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa21aca0e11e219b6f5fe81bbb5d38e4c8b4"
+    },
+    {
+      "guid" : "7af9f97f886b9b48cd4cd8258727aa2168869442cd03977e0563bd1e8856aa8a"
+    }
+  ],
+  "containerPath" : "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Asteroid.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx26.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/binhnguyenthanh/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/binhnguyenthanh/Library/Developer/Xcode/DerivedData/Asteroid-bnpgnnmpwujmingubbuzsrgnevna/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/binhnguyenthanh/Library/Developer/Xcode/DerivedData/Asteroid-bnpgnnmpwujmingubbuzsrgnevna/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

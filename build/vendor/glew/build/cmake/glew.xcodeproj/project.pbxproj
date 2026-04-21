@@ -1,0 +1,2023 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0B582ADCD78344DB756D7941 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 49C7A7CE68C840C28AA736BD /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				BE35854CC0B1B2496EE4C8EA /* Generate CMakeFiles/uninstall */,
+			);
+			dependencies = (
+				29E3F19EF0CE461A929BA0F6 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		757D71E0BA476BDF9C2D226F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D114E421CB814E358AAAD445 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5BC0B6EF2D8D8D2315F228EE /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		911AB915F49FC256CC6BC6C3 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D1392673E26467C83930595 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A3BF9C8D122E4DE59F591385 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E29FA1CAC29713EDFBDA245D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41579FD3454E480AA8EA98BF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				EC910E98A8374DF6BE5AFBEE /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E2EC4718A74BF107859EC310 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7241E616C595448DB7117C35 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1CFD0E39B7A7D2AE87CC3D81 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				476021ACC8534424A82D1CA7 /* PBXTargetDependency */,
+				938CE8E62157484BAA7AF437 /* PBXTargetDependency */,
+				3B53054E1491430FB17C576D /* PBXTargetDependency */,
+				588B8F097F2342DC8CCB832E /* PBXTargetDependency */,
+				A78BC45350974B699D6F176F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0AC916863B6E44699592D1F0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 57D8F4517BDA452F92F0E380 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */; };
+		1383A4CDAB9544FBA106461A /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = F0133C7D1C124DF3B56A9E11 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		20565468D48F4005BF66AFFA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 219F851300D64C45B13F0E1A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */; };
+		25626F8AED154CFE8FAE823D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */ = {isa = PBXBuildFile; fileRef = 2D94DA853B444718BEF612EF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */; };
+		3974F27E8AD34E9BB01A7086 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = 428E8CB091E44B7FA6005F1B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/visualinfo.c */; };
+		3AD7E49E95B747419353F5A5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */ = {isa = PBXBuildFile; fileRef = 374F34C27453437C879D2B69 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */; };
+		7B67E29FCA364F2BB7F2F4B1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */ = {isa = PBXBuildFile; fileRef = 6C6A0B7AE32442DA8D1152DE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */; };
+		89EC6980FC7D436093C7E155 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */ = {isa = PBXBuildFile; fileRef = 7803EAD66267407B9A132A84 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */; };
+		8CDDB4573170470686A0FE3C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7C675D0BDB4147C98BB03F70 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */; };
+		AD3694E0F6CE475CA983306E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = 4B9F1B5DF44C4CEB893A6B54 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glewinfo.c */; };
+		BF1029093681409188C7884D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = D782242678514487B1C81CE6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */; };
+		C3AE85DE5DFB415B8F9D0331 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */ = {isa = PBXBuildFile; fileRef = C0320C3F26A1446D99F6D311 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */; };
+		D09FE7347C724756A9CD7F87 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = E25A5EBC595A4C279E7D5A54 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */; };
+		DC4D42AEBE8348F3B4F20F45 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */ = {isa = PBXBuildFile; fileRef = 041ADF57AFF246AAA7446AEE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */; };
+		E4DFBBE3AD0349D4862AB3A1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 56DC62D182FA4135BBE8694D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */; };
+		E667CA4C55D84D3283A6DDA6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */ = {isa = PBXBuildFile; fileRef = F316F7F6A36849939B256402 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */; };
+		FC945D57E2964DE496AA06B4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */ = {isa = PBXBuildFile; fileRef = 0A3849EF16F247579EBFBA94 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		155F0B72B12A456BA74AADBE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		3FE857BE8FFB4FB7ABF7424E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D550E24A1A5F4F059BD28006 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FC1C7BEA75B04B879622BC6C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		108532FB102C4AA8ACC5E3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		138D734F1A3042C787A99C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		16AB0F75DE364D609DD164A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C3AE423C07B564B175BD27;
+			remoteInfo = glew;
+		};
+		174901143AF94303B5096D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		39DFADC1D87045B7939F2877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		4A01C0DA193E480499E483EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		4E60D1C4CCB04E4599CCFC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		5EFD01997A7C44FAB8498E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		9A4EDDA1B7474EF192A5A6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D1C0573C11E46268190A8FA;
+			remoteInfo = visualinfo;
+		};
+		AB012CB2481349E8852430F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B15BC5DFCE2364DAED1AA84;
+			remoteInfo = glew_s;
+		};
+		BE23313EAC2C42D296A5CFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C3AE423C07B564B175BD27;
+			remoteInfo = glew;
+		};
+		E4E2F4320F6B43B2B6D15970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5463924657F3729CEA017240;
+			remoteInfo = glewinfo;
+		};
+		F6839617A4F24B799D6C04FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		F9F243BE5A4C47579F3AE893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21397F3683245B58D14E443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C3AE423C07B564B175BD27;
+			remoteInfo = glew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041ADF57AFF246AAA7446AEE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h; sourceTree = "<absolute>"; };
+		0A3849EF16F247579EBFBA94 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wglew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h; sourceTree = "<absolute>"; };
+		219F851300D64C45B13F0E1A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2A1E2736DF2F42A78A13FED8 /* glew_s */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLEWd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D94DA853B444718BEF612EF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glxew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h; sourceTree = "<absolute>"; };
+		374F34C27453437C879D2B69 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eglew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h; sourceTree = "<absolute>"; };
+		428E8CB091E44B7FA6005F1B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/visualinfo.c; sourceTree = "<absolute>"; };
+		4B9F1B5DF44C4CEB893A6B54 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glewinfo.c; sourceTree = "<absolute>"; };
+		56DC62D182FA4135BBE8694D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57D8F4517BDA452F92F0E380 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6C6A0B7AE32442DA8D1152DE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glxew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h; sourceTree = "<absolute>"; };
+		7803EAD66267407B9A132A84 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eglew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h; sourceTree = "<absolute>"; };
+		7C675D0BDB4147C98BB03F70 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		87BD30F838724D37947DBCF6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		89AFAA366BCE486CB2BD5613 /* glew */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libGLEWd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C60F56307A4CB386B8450F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AA99FBBACE3C4EA48F3A2D42 /* visualinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = visualinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0320C3F26A1446D99F6D311 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h; sourceTree = "<absolute>"; };
+		D782242678514487B1C81CE6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c; sourceTree = "<absolute>"; };
+		E25A5EBC595A4C279E7D5A54 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c; sourceTree = "<absolute>"; };
+		ED353567B1D74DD4882DD3AB /* glewinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = glewinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0133C7D1C124DF3B56A9E11 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F316F7F6A36849939B256402 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wglew.h; path = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB622B8940D4957AD380FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FD0312EE154C55AD40E2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471A2B5E5F64723962A6977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB74102BEAD45F6B8599EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1D75939DFE452E947F8B6C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25A5EBC595A4C279E7D5A54 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		22D66892683C468982E71896 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7803EAD66267407B9A132A84 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */,
+				C0320C3F26A1446D99F6D311 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */,
+				6C6A0B7AE32442DA8D1152DE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */,
+				F316F7F6A36849939B256402 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2B93532C43374F61A6258A19 /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				22D66892683C468982E71896 /* Header Files */,
+				633AE589C4BA42428D3C5CA8 /* Source Files */,
+				7C675D0BDB4147C98BB03F70 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		633AE589C4BA42428D3C5CA8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D782242678514487B1C81CE6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7785C790A079483EA3C2FAF7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		81EF15AF1E0F427D967A3DC7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7785C790A079483EA3C2FAF7 /* CMake Rules */,
+				87BD30F838724D37947DBCF6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8992BBE1FD5C4434A11D0EB0 = {
+			isa = PBXGroup;
+			children = (
+				2B93532C43374F61A6258A19 /* glew */,
+				EAC9848B75AC4FAFBF67DF76 /* glew_s */,
+				EFCB1E64BFD643768E11279F /* glewinfo */,
+				E0609BEAF683486989D33D05 /* visualinfo */,
+				E64B8A7EE1CE491A971B33DA /* uninstall */,
+				81EF15AF1E0F427D967A3DC7 /* ALL_BUILD */,
+				C1FFDF955EC94CACB39C065E /* Products */,
+				A039B269B1204421B0E55FBA /* Frameworks */,
+				D93C5D08756C41A5B0AC2257 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A039B269B1204421B0E55FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0133C7D1C124DF3B56A9E11 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks/OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A9C24C80EF4063AEADB52F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				374F34C27453437C879D2B69 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/eglew.h */,
+				041ADF57AFF246AAA7446AEE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glew.h */,
+				2D94DA853B444718BEF612EF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/glxew.h */,
+				0A3849EF16F247579EBFBA94 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/include/GL/wglew.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		ABADA265C45542D3B97B7CB8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BBB9A2AD862A472B8B82F2D1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				428E8CB091E44B7FA6005F1B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C1FFDF955EC94CACB39C065E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89AFAA366BCE486CB2BD5613 /* glew */,
+				2A1E2736DF2F42A78A13FED8 /* glew_s */,
+				ED353567B1D74DD4882DD3AB /* glewinfo */,
+				AA99FBBACE3C4EA48F3A2D42 /* visualinfo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1FF4C434A24B6DB2541059 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B9F1B5DF44C4CEB893A6B54 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glewinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D93C5D08756C41A5B0AC2257 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E0609BEAF683486989D33D05 /* visualinfo */ = {
+			isa = PBXGroup;
+			children = (
+				BBB9A2AD862A472B8B82F2D1 /* Source Files */,
+				219F851300D64C45B13F0E1A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */,
+			);
+			name = visualinfo;
+			sourceTree = "<group>";
+		};
+		E64B8A7EE1CE491A971B33DA /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				ABADA265C45542D3B97B7CB8 /* CMake Rules */,
+				A6C60F56307A4CB386B8450F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		EAC9848B75AC4FAFBF67DF76 /* glew_s */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C24C80EF4063AEADB52F /* Header Files */,
+				1C1D75939DFE452E947F8B6C /* Source Files */,
+				56DC62D182FA4135BBE8694D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */,
+			);
+			name = glew_s;
+			sourceTree = "<group>";
+		};
+		EFCB1E64BFD643768E11279F /* glewinfo */ = {
+			isa = PBXGroup;
+			children = (
+				CA1FF4C434A24B6DB2541059 /* Source Files */,
+				57D8F4517BDA452F92F0E380 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/CMakeLists.txt */,
+			);
+			name = glewinfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5463924657F3729CEA017240 /* glewinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC6E296CA01431A8B176F82 /* Build configuration list for PBXNativeTarget "glewinfo" */;
+			buildPhases = (
+				1F97F94E203A4C32841B55C3 /* Sources */,
+				9AB74102BEAD45F6B8599EA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8825FF8A6EE8410B8AAB7EEF /* PBXTargetDependency */,
+				D076D4D36CD54BB68B6E886B /* PBXTargetDependency */,
+			);
+			name = glewinfo;
+			productName = glewinfo;
+			productReference = ED353567B1D74DD4882DD3AB /* glewinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+		66C3AE423C07B564B175BD27 /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101DE511AD6F474FACE896B8 /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				F9AB0A5EF6F34AFCBF32DCB2 /* Sources */,
+				7471A2B5E5F64723962A6977 /* Frameworks */,
+				D3FB7DF097B56396C40F0296 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96878C02580549139E0AAB88 /* PBXTargetDependency */,
+			);
+			name = glew;
+			productName = glew;
+			productReference = 89AFAA366BCE486CB2BD5613 /* glew */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6D1C0573C11E46268190A8FA /* visualinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3061474194C2404BAEB608D8 /* Build configuration list for PBXNativeTarget "visualinfo" */;
+			buildPhases = (
+				4AD3D169402B4A47863AEF77 /* Sources */,
+				41FD0312EE154C55AD40E2E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7050D3E1952F4152BC7DEA4A /* PBXTargetDependency */,
+				35B690A5DAED41AAB9B0A0E2 /* PBXTargetDependency */,
+			);
+			name = visualinfo;
+			productName = visualinfo;
+			productReference = AA99FBBACE3C4EA48F3A2D42 /* visualinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+		8B15BC5DFCE2364DAED1AA84 /* glew_s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C68687B5C5E41158CF0BAD5 /* Build configuration list for PBXNativeTarget "glew_s" */;
+			buildPhases = (
+				3A3F2F005EFA4060B3A5F499 /* Sources */,
+				1DB622B8940D4957AD380FC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB85299B35454450AF181DC7 /* PBXTargetDependency */,
+			);
+			name = glew_s;
+			productName = glew_s;
+			productReference = 2A1E2736DF2F42A78A13FED8 /* glew_s */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21397F3683245B58D14E443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 63FAE9D72BA44E47BF6FC51C /* Build configuration list for PBXProject "glew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D550E24A1A5F4F059BD28006 /* Debug */,
+				FC1C7BEA75B04B879622BC6C /* Release */,
+				155F0B72B12A456BA74AADBE /* MinSizeRel */,
+				3FE857BE8FFB4FB7ABF7424E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8992BBE1FD5C4434A11D0EB0;
+			projectDirPath = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake;
+			projectRoot = "";
+			targets = (
+				E2EC4718A74BF107859EC310 /* ALL_BUILD */,
+				66C3AE423C07B564B175BD27 /* glew */,
+				8B15BC5DFCE2364DAED1AA84 /* glew_s */,
+				5463924657F3729CEA017240 /* glewinfo */,
+				E29FA1CAC29713EDFBDA245D /* install */,
+				911AB915F49FC256CC6BC6C3 /* package */,
+				0B582ADCD78344DB756D7941 /* uninstall */,
+				6D1C0573C11E46268190A8FA /* visualinfo */,
+				757D71E0BA476BDF9C2D226F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CFD0E39B7A7D2AE87CC3D81 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5BC0B6EF2D8D8D2315F228EE /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BE35854CC0B1B2496EE4C8EA /* Generate CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/uninstall";
+			outputPaths = (
+/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/CMakeFiles/uninstall			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D3FB7DF097B56396C40F0296 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug/libGLEWd.2.3.1.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug/libGLEWd.2.3.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug/libGLEWd.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release/libGLEW.2.3.1.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release/libGLEW.2.3.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release/libGLEW.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel/libGLEW.2.3.1.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel/libGLEW.2.3.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel/libGLEW.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/glew/build/cmake
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo/libGLEW.2.3.1.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo/libGLEW.2.3.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo/libGLEW.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F97F94E203A4C32841B55C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3694E0F6CE475CA983306E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glewinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3F2F005EFA4060B3A5F499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09FE7347C724756A9CD7F87 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD3D169402B4A47863AEF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974F27E8AD34E9BB01A7086 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AB0A5EF6F34AFCBF32DCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1029093681409188C7884D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E3F19EF0CE461A929BA0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 138D734F1A3042C787A99C37 /* PBXContainerItemProxy */;
+		};
+		35B690A5DAED41AAB9B0A0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 4A01C0DA193E480499E483EF /* PBXContainerItemProxy */;
+		};
+		3B53054E1491430FB17C576D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5463924657F3729CEA017240 /* glewinfo */;
+			targetProxy = E4E2F4320F6B43B2B6D15970 /* PBXContainerItemProxy */;
+		};
+		476021ACC8534424A82D1CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C3AE423C07B564B175BD27 /* glew */;
+			targetProxy = 16AB0F75DE364D609DD164A4 /* PBXContainerItemProxy */;
+		};
+		588B8F097F2342DC8CCB832E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D1C0573C11E46268190A8FA /* visualinfo */;
+			targetProxy = 9A4EDDA1B7474EF192A5A6A2 /* PBXContainerItemProxy */;
+		};
+		7050D3E1952F4152BC7DEA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C3AE423C07B564B175BD27 /* glew */;
+			targetProxy = BE23313EAC2C42D296A5CFC1 /* PBXContainerItemProxy */;
+		};
+		8825FF8A6EE8410B8AAB7EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C3AE423C07B564B175BD27 /* glew */;
+			targetProxy = F9F243BE5A4C47579F3AE893 /* PBXContainerItemProxy */;
+		};
+		938CE8E62157484BAA7AF437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B15BC5DFCE2364DAED1AA84 /* glew_s */;
+			targetProxy = AB012CB2481349E8852430F0 /* PBXContainerItemProxy */;
+		};
+		96878C02580549139E0AAB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 39DFADC1D87045B7939F2877 /* PBXContainerItemProxy */;
+		};
+		A3BF9C8D122E4DE59F591385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = F6839617A4F24B799D6C04FE /* PBXContainerItemProxy */;
+		};
+		A78BC45350974B699D6F176F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 174901143AF94303B5096D24 /* PBXContainerItemProxy */;
+		};
+		D076D4D36CD54BB68B6E886B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 4E60D1C4CCB04E4599CCFC42 /* PBXContainerItemProxy */;
+		};
+		EC910E98A8374DF6BE5AFBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = 108532FB102C4AA8ACC5E3D2 /* PBXContainerItemProxy */;
+		};
+		FB85299B35454450AF181DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 5EFD01997A7C44FAB8498E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006DB1B162F54BA388AB268B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		01788931DDF04D8DB80C24AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		07E5EDDC60704B308C511CF0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel/libGLEW.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glewinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0B9029B04E8D4708BE358315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1A4033AA8386451699E87D74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo/libGLEW.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/visualinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		20D65A4B46324FA0BAB46A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20EF666F1D104848B82BEA5F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew_s.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		222385E9A7654A1593E9F21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2AA1DB71613B4AABBC19F7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release/libGLEW.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/visualinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B5196A214CA46EEB4D78BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3047AC8C17074704941230B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 2.3.0;
+				DYLIB_CURRENT_VERSION = 2.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libGLEWd.2.3.dylib","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEWd.2.3.1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		309877ADB6614732A4FD7D87 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3391514946494DAF84FDF694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug/libGLEWd.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glewinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		577938B5266F48B1B6ACDD74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5804EAFFED914181A8D1E11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Release;
+		};
+		5CA382EA84F74749AF3E0AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5FE92F51EC75498282A0715F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Debug;
+		};
+		63A85D77CF88401F83026688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEWd;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew_s.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		75C7D5A20D55440285513537 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = MinSizeRel;
+		};
+		7604EE9D868745DB89ADD88D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		79B42DED8089437CB027915D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8A70C0705D6B4DAEB5A28007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8AB7CC265BE34E7EA95A3F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew_s.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9293E0BA70F3447B9AB867D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 2.3.0;
+				DYLIB_CURRENT_VERSION = 2.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libGLEW.2.3.dylib","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW.2.3.1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		99530CBEE85C409CA394023E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A139196B33F14E2E893C40F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A1B5F0F112BD471B8B62B78C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo;
+				DYLIB_COMPATIBILITY_VERSION = 2.3.0;
+				DYLIB_CURRENT_VERSION = 2.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libGLEW.2.3.dylib","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW.2.3.1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B1202AD0A95D4AA38ED2D67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B2B3BBC22EED482E96114961 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel/libGLEW.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/visualinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA6327893B384328ABC83054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Debug/libGLEWd.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/visualinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BDD87032781943F180F52F47 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C01EB9AEAAFB4534A8B11A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C2094EF5112140DDA6CF38B0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/MinSizeRel;
+				DYLIB_COMPATIBILITY_VERSION = 2.3.0;
+				DYLIB_CURRENT_VERSION = 2.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libGLEW.2.3.dylib","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW.2.3.1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC9A35E0A8A34BE8B5F3EA70 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glew_s.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D3D2F33A37934A81B3F8A57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/Release/libGLEW.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glewinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D9C250EEA4DD4F66AAA49794 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC0D87E9BDEC47EDA0BE28B5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DF65363391AE461B887DEEB1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E2989B73AC904B24AF78C613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ED83E2FE67AF4F559B6F7530 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/glew/build/cmake/../../include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIE ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/lib/RelWithDebInfo/libGLEW.2.3.1.dylib,"-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/glewinfo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC6E296CA01431A8B176F82 /* Build configuration list for PBXNativeTarget "glewinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3391514946494DAF84FDF694 /* Debug */,
+				D3D2F33A37934A81B3F8A57A /* Release */,
+				07E5EDDC60704B308C511CF0 /* MinSizeRel */,
+				ED83E2FE67AF4F559B6F7530 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		101DE511AD6F474FACE896B8 /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3047AC8C17074704941230B0 /* Debug */,
+				9293E0BA70F3447B9AB867D3 /* Release */,
+				C2094EF5112140DDA6CF38B0 /* MinSizeRel */,
+				A1B5F0F112BD471B8B62B78C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C68687B5C5E41158CF0BAD5 /* Build configuration list for PBXNativeTarget "glew_s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A85D77CF88401F83026688 /* Debug */,
+				8AB7CC265BE34E7EA95A3F00 /* Release */,
+				20EF666F1D104848B82BEA5F /* MinSizeRel */,
+				CC9A35E0A8A34BE8B5F3EA70 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3061474194C2404BAEB608D8 /* Build configuration list for PBXNativeTarget "visualinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6327893B384328ABC83054 /* Debug */,
+				2AA1DB71613B4AABBC19F7D3 /* Release */,
+				B2B3BBC22EED482E96114961 /* MinSizeRel */,
+				1A4033AA8386451699E87D74 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41579FD3454E480AA8EA98BF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA382EA84F74749AF3E0AB7 /* Debug */,
+				C01EB9AEAAFB4534A8B11A82 /* Release */,
+				99530CBEE85C409CA394023E /* MinSizeRel */,
+				79B42DED8089437CB027915D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49C7A7CE68C840C28AA736BD /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A70C0705D6B4DAEB5A28007 /* Debug */,
+				006DB1B162F54BA388AB268B /* Release */,
+				309877ADB6614732A4FD7D87 /* MinSizeRel */,
+				577938B5266F48B1B6ACDD74 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D1392673E26467C83930595 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9029B04E8D4708BE358315 /* Debug */,
+				E2989B73AC904B24AF78C613 /* Release */,
+				01788931DDF04D8DB80C24AE /* MinSizeRel */,
+				BDD87032781943F180F52F47 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63FAE9D72BA44E47BF6FC51C /* Build configuration list for PBXProject "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE92F51EC75498282A0715F /* Debug */,
+				5804EAFFED914181A8D1E11D /* Release */,
+				75C7D5A20D55440285513537 /* MinSizeRel */,
+				7604EE9D868745DB89ADD88D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7241E616C595448DB7117C35 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5196A214CA46EEB4D78BBE /* Debug */,
+				222385E9A7654A1593E9F21D /* Release */,
+				A139196B33F14E2E893C40F7 /* MinSizeRel */,
+				D9C250EEA4DD4F66AAA49794 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D114E421CB814E358AAAD445 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D65A4B46324FA0BAB46A8E /* Debug */,
+				B1202AD0A95D4AA38ED2D67B /* Release */,
+				DF65363391AE461B887DEEB1 /* MinSizeRel */,
+				DC0D87E9BDEC47EDA0BE28B5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E21397F3683245B58D14E443 /* Project object */;
+}

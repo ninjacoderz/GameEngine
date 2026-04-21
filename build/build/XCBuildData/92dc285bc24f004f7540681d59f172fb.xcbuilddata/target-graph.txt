@@ -1,0 +1,13 @@
+Target dependency graph (6 targets)
+Target 'Asteroid' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3_image-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'glew_s' in project 'Asteroid'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'Asteroid'
+Target 'ZERO_CHECK' in project 'Asteroid' (no dependencies)
+Target 'glew_s' in project 'Asteroid' (no dependencies)
+Target 'SDL3_image-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL3-shared' in project 'Asteroid'
+Target 'SDL3-shared' in project 'Asteroid'
+➜ Explicit dependency on target 'SDL_uclibc' in project 'Asteroid'
+Target 'SDL_uclibc' in project 'Asteroid' (no dependencies)

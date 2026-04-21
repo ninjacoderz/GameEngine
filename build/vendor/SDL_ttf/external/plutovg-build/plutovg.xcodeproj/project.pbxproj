@@ -1,0 +1,1159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		757D71E0BA476BDF9C2D226F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ED245F347EF3409A877E68E0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5055C6DB9A1C4D8D92AB5C42 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		911AB915F49FC256CC6BC6C3 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6A5DDD90A2814C7190BD9DE2 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				507C510FEF004492950878B7 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E29FA1CAC29713EDFBDA245D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C77DCC1DD4B40CE93DF304D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				39276424972349FABB711931 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E2EC4718A74BF107859EC310 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F0B773E88CA4FBC8141E314 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E852DDE7CB73194EAA68DEE8 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D82E3A0E864341578B31B514 /* PBXTargetDependency */,
+				664093C4650245AE9E621FC1 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00B836ECA13E477FAC4CCED4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-paint.c */ = {isa = PBXBuildFile; fileRef = D85EE0D824624A0BBE8A003D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-paint.c */; };
+		01E8D5CC3BE044E685D218C0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.c */ = {isa = PBXBuildFile; fileRef = 35CCD3C8F36446E296C8FA7A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.c */; };
+		0C20A92941C341F792268FD6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 30715A8C498F49A68AD8C381 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/CMakeLists.txt */; };
+		15F0ECD49FCF4BC29C08AE11 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.c */ = {isa = PBXBuildFile; fileRef = 3B550BC03B454790A73F9F56 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.c */; };
+		2A542971B23C48AEA9D20C88 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.h */ = {isa = PBXBuildFile; fileRef = AABEF13947564CCB9D6F3983 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.h */; };
+		2A8124C08B1C4AC6BDB4BDBA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-surface.c */ = {isa = PBXBuildFile; fileRef = CBE18FABB04E47038185B921 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-surface.c */; };
+		41FF6137E5984113A5C3690B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-utils.h */ = {isa = PBXBuildFile; fileRef = 4057D23C9A7C46F9A8AEE637 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-utils.h */; };
+		45F0E1C6DD69454AAD1E23DA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.h */ = {isa = PBXBuildFile; fileRef = 26F80F40A85C49D0885A10ED /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.h */; };
+		4D2E8EFD11DC4656A65334A2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image-write.h */ = {isa = PBXBuildFile; fileRef = 81B3F4FA832F4CBE8F5CB5D7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image-write.h */; };
+		52F783C5D54E43AF8026CB70 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-blend.c */ = {isa = PBXBuildFile; fileRef = E479A1F2821F45B2B4089F3A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-blend.c */; };
+		6CADFF57874E419B941B970E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-private.h */ = {isa = PBXBuildFile; fileRef = F0C5CB6432B147449B1B5DF8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-private.h */; };
+		7309457913F5470BBD5717C5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-types.h */ = {isa = PBXBuildFile; fileRef = E6A24C203B2C4BCFB7ABBAD3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-types.h */; };
+		7F0B8C46D450466AB279780A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-rasterize.c */ = {isa = PBXBuildFile; fileRef = 3C099EC39DFC446C843352D3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-rasterize.c */; };
+		8C8AF679FA094709A60ABAAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-matrix.c */ = {isa = PBXBuildFile; fileRef = 050A04B7A9044885A6376281 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-matrix.c */; };
+		8EEB6A01AA304E93B17532A6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-path.c */ = {isa = PBXBuildFile; fileRef = E6F8EA4646EE44F5BD696B8A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-path.c */; };
+		90738D2E29E3494C8A5DDBB0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image.h */ = {isa = PBXBuildFile; fileRef = 55284D3658154AB28D462ED5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image.h */; };
+		B2189B4C32D348A2A5CFC333 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.h */ = {isa = PBXBuildFile; fileRef = 10F345FF3F1E4101BC11501A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.h */; };
+		BC90F194595F4E50BFAE3C21 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-canvas.c */ = {isa = PBXBuildFile; fileRef = E02AACADAD8C4619B242FA48 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-canvas.c */; };
+		D381D2B4B329439B8D8A6EE9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-font.c */ = {isa = PBXBuildFile; fileRef = 5A97331F9E6340B99244AB90 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-font.c */; };
+		D5C4714EAEED4A709ADFA58A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include/plutovg.h */ = {isa = PBXBuildFile; fileRef = B220931A3D0846029FBF5C5B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include/plutovg.h */; };
+		DE22B0C3201E48E4BB4333EB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.c */ = {isa = PBXBuildFile; fileRef = 3D761C5B071B4A078266ED66 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.c */; };
+		FDCA65E11D3E4D8786A87598 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-truetype.h */ = {isa = PBXBuildFile; fileRef = 1F6F311E339C40BEAF582352 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-truetype.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5A57CF708B93460CB7172094 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8493C7F8AB954D969DF48462 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		953F30ED5EF94EAEBDE88A55 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D5A037C33707460281821B16 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3D30B0176E304D62BBB1EBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD902F92AF848E08FD4FD58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		43EAA7D0D40D4B41A7421500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD902F92AF848E08FD4FD58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		6636215902BC4190A6A4FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD902F92AF848E08FD4FD58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		88F16B46E8C04FD297515BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD902F92AF848E08FD4FD58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7E912344B74DBCC89E582D;
+			remoteInfo = plutovg;
+		};
+		EFAAD98730424644912925A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD902F92AF848E08FD4FD58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050A04B7A9044885A6376281 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-matrix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-matrix.c"; path = "source/plutovg-matrix.c"; sourceTree = SOURCE_ROOT; };
+		10F345FF3F1E4101BC11501A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-ft-raster.h"; path = "source/plutovg-ft-raster.h"; sourceTree = SOURCE_ROOT; };
+		1F6F311E339C40BEAF582352 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-stb-truetype.h"; path = "source/plutovg-stb-truetype.h"; sourceTree = SOURCE_ROOT; };
+		26F80F40A85C49D0885A10ED /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-ft-math.h"; path = "source/plutovg-ft-math.h"; sourceTree = SOURCE_ROOT; };
+		30715A8C498F49A68AD8C381 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		35CCD3C8F36446E296C8FA7A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-ft-stroker.c"; path = "source/plutovg-ft-stroker.c"; sourceTree = SOURCE_ROOT; };
+		3B550BC03B454790A73F9F56 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-ft-raster.c"; path = "source/plutovg-ft-raster.c"; sourceTree = SOURCE_ROOT; };
+		3C099EC39DFC446C843352D3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-rasterize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-rasterize.c"; path = "source/plutovg-rasterize.c"; sourceTree = SOURCE_ROOT; };
+		3D761C5B071B4A078266ED66 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-ft-math.c"; path = "source/plutovg-ft-math.c"; sourceTree = SOURCE_ROOT; };
+		3D946365E0EA4394AA7C4A0D /* plutovg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libplutovg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4057D23C9A7C46F9A8AEE637 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-utils.h"; path = "source/plutovg-utils.h"; sourceTree = SOURCE_ROOT; };
+		55284D3658154AB28D462ED5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-stb-image.h"; path = "source/plutovg-stb-image.h"; sourceTree = SOURCE_ROOT; };
+		5A97331F9E6340B99244AB90 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-font.c"; path = "source/plutovg-font.c"; sourceTree = SOURCE_ROOT; };
+		81B3F4FA832F4CBE8F5CB5D7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image-write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-stb-image-write.h"; path = "source/plutovg-stb-image-write.h"; sourceTree = SOURCE_ROOT; };
+		8DAF3F7C680840C9B2953B55 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AABEF13947564CCB9D6F3983 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-ft-stroker.h"; path = "source/plutovg-ft-stroker.h"; sourceTree = SOURCE_ROOT; };
+		B220931A3D0846029FBF5C5B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include/plutovg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plutovg.h; path = include/plutovg.h; sourceTree = SOURCE_ROOT; };
+		CBE18FABB04E47038185B921 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-surface.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-surface.c"; path = "source/plutovg-surface.c"; sourceTree = SOURCE_ROOT; };
+		D85EE0D824624A0BBE8A003D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-paint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-paint.c"; path = "source/plutovg-paint.c"; sourceTree = SOURCE_ROOT; };
+		E02AACADAD8C4619B242FA48 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-canvas.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-canvas.c"; path = "source/plutovg-canvas.c"; sourceTree = SOURCE_ROOT; };
+		E479A1F2821F45B2B4089F3A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-blend.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-blend.c"; path = "source/plutovg-blend.c"; sourceTree = SOURCE_ROOT; };
+		E6A24C203B2C4BCFB7ABBAD3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-ft-types.h"; path = "source/plutovg-ft-types.h"; sourceTree = SOURCE_ROOT; };
+		E6F8EA4646EE44F5BD696B8A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-path.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "plutovg-path.c"; path = "source/plutovg-path.c"; sourceTree = SOURCE_ROOT; };
+		F0C5CB6432B147449B1B5DF8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutovg-private.h"; path = "source/plutovg-private.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D664A2EC23B45A4A4007912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3431715DDD674AD395A2E906 = {
+			isa = PBXGroup;
+			children = (
+				66823AAB73FB45E5BDFFB115 /* plutovg */,
+				E2E0979E910245DDB6F27B20 /* ALL_BUILD */,
+				7E2F425B2D1B4C1DAB26DA44 /* Products */,
+				E84647F93C6C40E59EF83477 /* Frameworks */,
+				82AC67A37AE1466EAE71E20C /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		59B9E38DDD9F48BAA2452BB6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B220931A3D0846029FBF5C5B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include/plutovg.h */,
+				26F80F40A85C49D0885A10ED /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.h */,
+				10F345FF3F1E4101BC11501A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.h */,
+				AABEF13947564CCB9D6F3983 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.h */,
+				E6A24C203B2C4BCFB7ABBAD3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-types.h */,
+				F0C5CB6432B147449B1B5DF8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-private.h */,
+				81B3F4FA832F4CBE8F5CB5D7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image-write.h */,
+				55284D3658154AB28D462ED5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-image.h */,
+				1F6F311E339C40BEAF582352 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-stb-truetype.h */,
+				4057D23C9A7C46F9A8AEE637 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-utils.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		66823AAB73FB45E5BDFFB115 /* plutovg */ = {
+			isa = PBXGroup;
+			children = (
+				C1B7F952E692484FBBCBC7A7 /* Source Files */,
+				59B9E38DDD9F48BAA2452BB6 /* Header Files */,
+				30715A8C498F49A68AD8C381 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/CMakeLists.txt */,
+			);
+			name = plutovg;
+			sourceTree = "<group>";
+		};
+		7E2F425B2D1B4C1DAB26DA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D946365E0EA4394AA7C4A0D /* plutovg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AC67A37AE1466EAE71E20C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C1B7F952E692484FBBCBC7A7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E479A1F2821F45B2B4089F3A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-blend.c */,
+				E02AACADAD8C4619B242FA48 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-canvas.c */,
+				5A97331F9E6340B99244AB90 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-font.c */,
+				3D761C5B071B4A078266ED66 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.c */,
+				3B550BC03B454790A73F9F56 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.c */,
+				35CCD3C8F36446E296C8FA7A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.c */,
+				050A04B7A9044885A6376281 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-matrix.c */,
+				D85EE0D824624A0BBE8A003D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-paint.c */,
+				E6F8EA4646EE44F5BD696B8A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-path.c */,
+				3C099EC39DFC446C843352D3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-rasterize.c */,
+				CBE18FABB04E47038185B921 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-surface.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DC3E74B25DC84DFDB5EE81B2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E2E0979E910245DDB6F27B20 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E74B25DC84DFDB5EE81B2 /* CMake Rules */,
+				8DAF3F7C680840C9B2953B55 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E84647F93C6C40E59EF83477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7E912344B74DBCC89E582D /* plutovg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE5D13DEB8A4B51800A9909 /* Build configuration list for PBXNativeTarget "plutovg" */;
+			buildPhases = (
+				10B6E7047AF640578CD0B0CC /* Sources */,
+				5D664A2EC23B45A4A4007912 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD8D7BF51014132BD64CA88 /* PBXTargetDependency */,
+			);
+			name = plutovg;
+			productName = plutovg;
+			productReference = 3D946365E0EA4394AA7C4A0D /* plutovg */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD902F92AF848E08FD4FD58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = D9AD4F6CCE4847919902BA6A /* Build configuration list for PBXProject "plutovg" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				953F30ED5EF94EAEBDE88A55 /* Debug */,
+				8493C7F8AB954D969DF48462 /* Release */,
+				D5A037C33707460281821B16 /* MinSizeRel */,
+				5A57CF708B93460CB7172094 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3431715DDD674AD395A2E906;
+			projectDirPath = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg;
+			projectRoot = "";
+			targets = (
+				E2EC4718A74BF107859EC310 /* ALL_BUILD */,
+				E29FA1CAC29713EDFBDA245D /* install */,
+				911AB915F49FC256CC6BC6C3 /* package */,
+				FD7E912344B74DBCC89E582D /* plutovg */,
+				757D71E0BA476BDF9C2D226F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5055C6DB9A1C4D8D92AB5C42 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E852DDE7CB73194EAA68DEE8 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B6E7047AF640578CD0B0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F783C5D54E43AF8026CB70 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-blend.c */,
+				BC90F194595F4E50BFAE3C21 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-canvas.c */,
+				D381D2B4B329439B8D8A6EE9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-font.c */,
+				DE22B0C3201E48E4BB4333EB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-math.c */,
+				15F0ECD49FCF4BC29C08AE11 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-raster.c */,
+				01E8D5CC3BE044E685D218C0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.c */,
+				8C8AF679FA094709A60ABAAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-matrix.c */,
+				00B836ECA13E477FAC4CCED4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-paint.c */,
+				8EEB6A01AA304E93B17532A6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-path.c */,
+				7F0B8C46D450466AB279780A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-rasterize.c */,
+				2A8124C08B1C4AC6BDB4BDBA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source/plutovg-surface.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD8D7BF51014132BD64CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 43EAA7D0D40D4B41A7421500 /* PBXContainerItemProxy */;
+		};
+		39276424972349FABB711931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = 6636215902BC4190A6A4FEC3 /* PBXContainerItemProxy */;
+		};
+		507C510FEF004492950878B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = 3D30B0176E304D62BBB1EBDD /* PBXContainerItemProxy */;
+		};
+		664093C4650245AE9E621FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = EFAAD98730424644912925A6 /* PBXContainerItemProxy */;
+		};
+		D82E3A0E864341578B31B514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7E912344B74DBCC89E582D /* plutovg */;
+			targetProxy = 88F16B46E8C04FD297515BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14B540E02213413A8641E2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Debug;
+		};
+		23B1D6C4F6EE4D9B8B9E9D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		37A02620B3394D8B93E9B17E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3DACA2E1ED5B4FDE95D22EEA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOVG_BUILD,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutovg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutovg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E865436F3CF4C75A9E0101B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		43EA4CD361414343A6C19907 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		54F9027ABBD1418498A44E23 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		626FD2A74D374CB79CA30114 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C77B17A3D0846E9AD792589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Release;
+		};
+		7DEE09662E14482681BA916A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOVG_BUILD,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutovg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutovg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		82C98E02D4E04CCB94FEF84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOVG_BUILD,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutovg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutovg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		85E5DB0039A341A986321B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8F6B67F1EF404BDBBF9C96F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutovg-build/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOVG_BUILD,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/source,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutovg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutovg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		92473D1D042A40D4BB80791E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A3CCC324D0FF4A63923F170D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A854DEE18A544A8DBDEA278D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C423139DED164187BAE41644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CF07F057A58B463AB02EB8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CF64DCF0D3094C6583AE0EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DA5F8624FD3845A9B95324D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F28A911A41B14F7C8701A7A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F4D57CDB0D934920AEB5B1AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F9825110396F4A859F6EAFD5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FA5534A505074D65A82EA1C7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0B773E88CA4FBC8141E314 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C423139DED164187BAE41644 /* Debug */,
+				DA5F8624FD3845A9B95324D6 /* Release */,
+				626FD2A74D374CB79CA30114 /* MinSizeRel */,
+				3E865436F3CF4C75A9E0101B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DE5D13DEB8A4B51800A9909 /* Build configuration list for PBXNativeTarget "plutovg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C98E02D4E04CCB94FEF84A /* Debug */,
+				8F6B67F1EF404BDBBF9C96F4 /* Release */,
+				3DACA2E1ED5B4FDE95D22EEA /* MinSizeRel */,
+				7DEE09662E14482681BA916A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C77DCC1DD4B40CE93DF304D /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF07F057A58B463AB02EB8BD /* Debug */,
+				23B1D6C4F6EE4D9B8B9E9D37 /* Release */,
+				37A02620B3394D8B93E9B17E /* MinSizeRel */,
+				43EA4CD361414343A6C19907 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A5DDD90A2814C7190BD9DE2 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92473D1D042A40D4BB80791E /* Debug */,
+				A854DEE18A544A8DBDEA278D /* Release */,
+				54F9027ABBD1418498A44E23 /* MinSizeRel */,
+				F9825110396F4A859F6EAFD5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9AD4F6CCE4847919902BA6A /* Build configuration list for PBXProject "plutovg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B540E02213413A8641E2AA /* Debug */,
+				6C77B17A3D0846E9AD792589 /* Release */,
+				FA5534A505074D65A82EA1C7 /* MinSizeRel */,
+				F28A911A41B14F7C8701A7A5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED245F347EF3409A877E68E0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64DCF0D3094C6583AE0EAB /* Debug */,
+				85E5DB0039A341A986321B1C /* Release */,
+				A3CCC324D0FF4A63923F170D /* MinSizeRel */,
+				F4D57CDB0D934920AEB5B1AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD902F92AF848E08FD4FD58 /* Project object */;
+}

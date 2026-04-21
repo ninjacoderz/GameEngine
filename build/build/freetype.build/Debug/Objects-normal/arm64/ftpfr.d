@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpfr.c \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdebug.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/ft2build.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftheader.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include/freetype/config/ftconfig.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include/freetype/config/ftoption.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftstdlib.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/integer-types.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/public-macros.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/mac-support.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/freetype.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttypes.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsystem.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftimage.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrors.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmoderr.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrdef.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/compiler-macros.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftobjs.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftrender.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmodapi.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftglyph.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsizes.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlcdfil.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftparams.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmemory.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftgloadr.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdrv.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/autohint.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftserv.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftcalc.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftincrem.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/services/svpfr.h \
+  /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftpfr.h

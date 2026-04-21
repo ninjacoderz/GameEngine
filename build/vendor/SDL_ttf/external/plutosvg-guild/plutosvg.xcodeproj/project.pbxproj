@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		757D71E0BA476BDF9C2D226F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7A242A2246C409ABE73EA2F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D78561323371D8439E3DC430 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		911AB915F49FC256CC6BC6C3 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B052B96912949469016F69F /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				00A7B3DE3DF8400B9B7B7994 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E29FA1CAC29713EDFBDA245D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9E9C22F99AEE4C259989DFFB /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4E641BB6CA4F4482AEAD573F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E2EC4718A74BF107859EC310 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4E56517FB1874B88820A1B9E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6A1A44A7742410FC8C373A97 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D645390DFFC94B0FB18E649F /* PBXTargetDependency */,
+				A4E48D70C3CF4F3E9484C6DF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5365EFB6716E425A88BFB433 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.c */ = {isa = PBXBuildFile; fileRef = B6ED831CF65E4FF8A27F71D6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.c */; };
+		6AB03F6302A9454F96A02232 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg-ft.h */ = {isa = PBXBuildFile; fileRef = D750511D99464F88B4F3DB86 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg-ft.h */; };
+		6DE5631C021F4A33BF6C7D6C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6BED669DE48E4AD7BF6F640D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/CMakeLists.txt */; };
+		BB0F267FABDC456793CADB9E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.h */ = {isa = PBXBuildFile; fileRef = D870ED1DFBC24D7E89A82662 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		397D641DA0384ACAB479421F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		86313C9561C843F1B84AAA6F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8AA1CD26F6044DD1A51F77A6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FEE2F238749B487185D7BFC8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		436097E3EE664F559C3485BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD250385E548E890071740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		7B2800EB92CC453B8E431EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD250385E548E890071740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		A98AF9AA81914391B2862AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD250385E548E890071740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		D059BF9822F1463384E3BA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD250385E548E890071740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		D92414A7694B463CA47E9684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD250385E548E890071740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C69D87AE363949286A2817;
+			remoteInfo = plutosvg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30A71B1C26B64699B9168436 /* plutosvg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libplutosvg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BED669DE48E4AD7BF6F640D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		901D3774FDB04D54A42D447E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B6ED831CF65E4FF8A27F71D6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = plutosvg.c; path = source/plutosvg.c; sourceTree = SOURCE_ROOT; };
+		D750511D99464F88B4F3DB86 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg-ft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "plutosvg-ft.h"; path = "source/plutosvg-ft.h"; sourceTree = SOURCE_ROOT; };
+		D870ED1DFBC24D7E89A82662 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plutosvg.h; path = source/plutosvg.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05EA0C648E2C481190399336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046FAF644B194E6A8A2E3422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A71B1C26B64699B9168436 /* plutosvg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B18AC7AFA624D1E827362FE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6D98A0A270DF4936B96DA44D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED831CF65E4FF8A27F71D6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7C0BAD883AA44AB89F8CDE07 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6B18AC7AFA624D1E827362FE /* CMake Rules */,
+				901D3774FDB04D54A42D447E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		89F24C0226BF404AB298C06D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D70EB54E60647DF97C6DFCD /* plutosvg */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C3E709A0547F1968B57A5 /* Header Files */,
+				6D98A0A270DF4936B96DA44D /* Source Files */,
+				6BED669DE48E4AD7BF6F640D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/CMakeLists.txt */,
+			);
+			name = plutosvg;
+			sourceTree = "<group>";
+		};
+		D35295A2306F454593740D52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D84F8D5289E84CE2AEE0BE16 = {
+			isa = PBXGroup;
+			children = (
+				9D70EB54E60647DF97C6DFCD /* plutosvg */,
+				7C0BAD883AA44AB89F8CDE07 /* ALL_BUILD */,
+				046FAF644B194E6A8A2E3422 /* Products */,
+				89F24C0226BF404AB298C06D /* Frameworks */,
+				D35295A2306F454593740D52 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3C3E709A0547F1968B57A5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D750511D99464F88B4F3DB86 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg-ft.h */,
+				D870ED1DFBC24D7E89A82662 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C69D87AE363949286A2817 /* plutosvg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087696DCD9FE46BD88453495 /* Build configuration list for PBXNativeTarget "plutosvg" */;
+			buildPhases = (
+				9EBA80FC88C74230AE5AE3EC /* Sources */,
+				05EA0C648E2C481190399336 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A29033BB1FB4E55B259D4DD /* PBXTargetDependency */,
+			);
+			name = plutosvg;
+			productName = plutosvg;
+			productReference = 30A71B1C26B64699B9168436 /* plutosvg */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAD250385E548E890071740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = E14F6473D7C548B6AC1D2A87 /* Build configuration list for PBXProject "plutosvg" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				397D641DA0384ACAB479421F /* Debug */,
+				8AA1CD26F6044DD1A51F77A6 /* Release */,
+				86313C9561C843F1B84AAA6F /* MinSizeRel */,
+				FEE2F238749B487185D7BFC8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D84F8D5289E84CE2AEE0BE16;
+			projectDirPath = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg;
+			projectRoot = "";
+			targets = (
+				E2EC4718A74BF107859EC310 /* ALL_BUILD */,
+				E29FA1CAC29713EDFBDA245D /* install */,
+				911AB915F49FC256CC6BC6C3 /* package */,
+				31C69D87AE363949286A2817 /* plutosvg */,
+				757D71E0BA476BDF9C2D226F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6A1A44A7742410FC8C373A97 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D78561323371D8439E3DC430 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EBA80FC88C74230AE5AE3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5365EFB6716E425A88BFB433 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source/plutosvg.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A7B3DE3DF8400B9B7B7994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = 7B2800EB92CC453B8E431EB4 /* PBXContainerItemProxy */;
+		};
+		4E641BB6CA4F4482AEAD573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = A98AF9AA81914391B2862AD7 /* PBXContainerItemProxy */;
+		};
+		7A29033BB1FB4E55B259D4DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = D059BF9822F1463384E3BA08 /* PBXContainerItemProxy */;
+		};
+		A4E48D70C3CF4F3E9484C6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 436097E3EE664F559C3485BB /* PBXContainerItemProxy */;
+		};
+		D645390DFFC94B0FB18E649F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C69D87AE363949286A2817 /* plutosvg */;
+			targetProxy = D92414A7694B463CA47E9684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03981607107C498AAC243D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		06B4F951D37B47AD89AD130B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2A5A15D24E0C483BB0C26E60 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39581BD7404D4AD58B8033FA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4CD86992406F4EEEAAE41254 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5DFD5D61254548D58DD10E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		74CC48A74DA04F39A2509A54 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		78282624AEFD460F8E5067DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9C29F93B57F1463DB2C63078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOSVG_BUILD,PLUTOSVG_BUILD_STATIC,PLUTOSVG_HAS_FREETYPE,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutosvg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutosvg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A043111158664405BCB24E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A2021E32015A4108A1906811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Debug;
+		};
+		A4EAF9BBD4D54440BBE0FCB1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		B2ED6F2C9F7B41409A42DEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B31FEFF3717D4B1BB41A01A0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOSVG_BUILD,PLUTOSVG_BUILD_STATIC,PLUTOSVG_HAS_FREETYPE,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutosvg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutosvg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BB6C954E189C48D789ED0733 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOSVG_BUILD,PLUTOSVG_BUILD_STATIC,PLUTOSVG_HAS_FREETYPE,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutosvg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutosvg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BD63CCE15EE244418966A879 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = MinSizeRel;
+		};
+		BFB824245D934C718B965EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/plutosvg-guild/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PLUTOSVG_BUILD,PLUTOSVG_BUILD_STATIC,PLUTOSVG_HAS_FREETYPE,PLUTOVG_BUILD_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutosvg/source,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/plutovg/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = plutosvg;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/plutosvg.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C7BBF053D6394FAD815AF58B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC660B9876BC4B40B2757DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DCD86D94366C4A97AD77EBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DEC12448DA5A467695FE196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E02BB0E973AA460F812D7213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Release;
+		};
+		E9E3F0589B7A481ABB44346B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F25D09CF55DA4B5AA8AB963C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087696DCD9FE46BD88453495 /* Build configuration list for PBXNativeTarget "plutosvg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB824245D934C718B965EB2 /* Debug */,
+				9C29F93B57F1463DB2C63078 /* Release */,
+				BB6C954E189C48D789ED0733 /* MinSizeRel */,
+				B31FEFF3717D4B1BB41A01A0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B052B96912949469016F69F /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A043111158664405BCB24E11 /* Debug */,
+				DCD86D94366C4A97AD77EBB6 /* Release */,
+				4CD86992406F4EEEAAE41254 /* MinSizeRel */,
+				F25D09CF55DA4B5AA8AB963C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E56517FB1874B88820A1B9E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2ED6F2C9F7B41409A42DEE8 /* Debug */,
+				03981607107C498AAC243D71 /* Release */,
+				39581BD7404D4AD58B8033FA /* MinSizeRel */,
+				2A5A15D24E0C483BB0C26E60 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E9C22F99AEE4C259989DFFB /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC660B9876BC4B40B2757DBD /* Debug */,
+				5DFD5D61254548D58DD10E01 /* Release */,
+				06B4F951D37B47AD89AD130B /* MinSizeRel */,
+				74CC48A74DA04F39A2509A54 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E14F6473D7C548B6AC1D2A87 /* Build configuration list for PBXProject "plutosvg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2021E32015A4108A1906811 /* Debug */,
+				E02BB0E973AA460F812D7213 /* Release */,
+				BD63CCE15EE244418966A879 /* MinSizeRel */,
+				A4EAF9BBD4D54440BBE0FCB1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7A242A2246C409ABE73EA2F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC12448DA5A467695FE196F /* Debug */,
+				78282624AEFD460F8E5067DD /* Release */,
+				E9E3F0589B7A481ABB44346B /* MinSizeRel */,
+				C7BBF053D6394FAD815AF58B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAD250385E548E890071740 /* Project object */;
+}

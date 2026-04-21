@@ -1,0 +1,1480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		757D71E0BA476BDF9C2D226F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F53482BE5C0E44598B271C77 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C3F13EA1EFD29CA2B090D4AA /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		911AB915F49FC256CC6BC6C3 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CBB05FCCF47046FB904DF3FB /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				47F4D070356C46C7B3B6FACC /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E29FA1CAC29713EDFBDA245D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BB66BD7A0954CDBA41A41FA /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				5A0060BF856B41A6BBC1426B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E2EC4718A74BF107859EC310 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36C99AAD19194478A15F000B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2647835F6AE10DEBEBBE8715 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				359B341005B14A92AC3FA7C0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01344AF3BD6343EFA7D002B8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftpfr.h */ = {isa = PBXBuildFile; fileRef = 6FCECDAE5C844DA0B156C9F1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftpfr.h */; };
+		0C26301392014DCAB5916727 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftdriver.h */ = {isa = PBXBuildFile; fileRef = BDF559F0F60B4C8FA6A11926 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftdriver.h */; };
+		0E093104F2E348A5BAF8E102 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftstream.h */ = {isa = PBXBuildFile; fileRef = 5F1F1FE53B294966A872631D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftstream.h */; };
+		0E3B340B51664E8AA20FE8C5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sdf/sdf.c */ = {isa = PBXBuildFile; fileRef = 699D9EC8CCE342069155AE50 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sdf/sdf.c */; };
+		0E851D9255D244EC9B85CCA2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = 2C1CF85DFACE47409BD6DF3E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/smooth/smooth.c */; };
+		17C632CB9D564F849E9D544D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = F770606DC0DF457EB7DCBD18 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type42/type42.c */; };
+		19F02154111140CEA1620CAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbbox.h */ = {isa = PBXBuildFile; fileRef = AF2493C4116E492581EA3E37 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbbox.h */; };
+		1A1CC43AE7DE446089F97E35 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = 68FF40DFB69F47B59F4B6F0C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftglyph.c */; };
+		1C6B82C75FAC4B63B248C1F2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = 0E3E46ED8D434AF4B6A496F2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type1/type1.c */; };
+		1ED9250A03CF4E7BA3AA6C30 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmodapi.h */ = {isa = PBXBuildFile; fileRef = 02058FFB82FF457AA1F46ADA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmodapi.h */; };
+		225F48BFA95E4676B4E7F72B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftotval.c */ = {isa = PBXBuildFile; fileRef = 32C16DE648974F3884C7E70B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftotval.c */; };
+		23581BFD02394D8786A4A359 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmm.h */ = {isa = PBXBuildFile; fileRef = C129F2FB59EF4349AAA3468C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmm.h */; };
+		288F7D108D994A63BBBB4527 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdrv.h */ = {isa = PBXBuildFile; fileRef = D1C9B3E380C34CC5BFCC2C6E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdrv.h */; };
+		299F7A993D8048F7BD7A28EA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = 228C459BE3C245E989523C43 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/autofit/autofit.c */; };
+		2C17800FCDEC43E791F39A20 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/mac-support.h */ = {isa = PBXBuildFile; fileRef = AB7CEEBEC7AB4BA7853A3BFD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/mac-support.h */; };
+		2C54315A6DA341BC948642EB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/t1tables.h */ = {isa = PBXBuildFile; fileRef = D5C10EC334E44C9A886FE9C6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/t1tables.h */; };
+		331453AEA5E344AB84189909 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcid.h */ = {isa = PBXBuildFile; fileRef = 6E67027F210A4BF9AB0970A6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcid.h */; };
+		333A2FCE133B43EB90C39F13 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftimage.h */ = {isa = PBXBuildFile; fileRef = 7BF264E7EE8D4DDE9B321986 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftimage.h */; };
+		342B1AEB08034D89971354A0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftwinfnt.h */ = {isa = PBXBuildFile; fileRef = E714A9C78C704AF286335276 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftwinfnt.h */; };
+		3650219F9FCF45AA96D2AEE2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftcid.c */ = {isa = PBXBuildFile; fileRef = 62568D11BC1C4C289DBF0E4B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftcid.c */; };
+		39366AB20E9A4E5DA540A1F9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/freetype.h */ = {isa = PBXBuildFile; fileRef = F56D71EBC28A4EBA85C2A92D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/freetype.h */; };
+		3A24D5DF38304FC3BC58D714 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = 8576871E37E54109B3737865 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pcf/pcf.c */; };
+		3EFCC8BD672A432FA4B2FE48 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cfftypes.h */ = {isa = PBXBuildFile; fileRef = A991583458C34DC089A8C409 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cfftypes.h */; };
+		43F5EBCADEB94B66B27EC7C0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbitmap.h */ = {isa = PBXBuildFile; fileRef = 15C96A164FF1449D877E532A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbitmap.h */; };
+		451D9882457647CBB0AF7A31 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = F265B0270CCE495AAE8E2E86 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftmodule.h */; };
+		48D77B8AAC6B480983662BBA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftpsprop.h */ = {isa = PBXBuildFile; fileRef = FFA969838F434715B79C8749 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftpsprop.h */; };
+		48E7D7D0A689467AB44A6355 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = 0348900580D743BC9671168B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftstroke.c */; };
+		49868A44045242669DAC0117 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/psaux.h */ = {isa = PBXBuildFile; fileRef = 884B0C0DBEE642D1B88CC8A8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/psaux.h */; };
+		4AF2C92D79394041A23CACFD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsynth.h */ = {isa = PBXBuildFile; fileRef = 2F6CE29684DB4FA883F5EB96 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsynth.h */; };
+		4CB02F152AE54883AAEA7362 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = C0339021B8514DB0A53916B5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftfstype.c */; };
+		4F75AA8F40CC437DB0959FE2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftobjs.h */ = {isa = PBXBuildFile; fileRef = DD4280B968B94DD58617C744 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftobjs.h */; };
+		50E7203B1A054FF8A4758BF9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/otsvg.h */ = {isa = PBXBuildFile; fileRef = 2A0239496E8C42C29C28D7AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/otsvg.h */; };
+		51C4EDE018274B239EFD877C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = 8EB5BFC126D14F788E97CCAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pshinter/pshinter.c */; };
+		556286956F1E4ED3AD9CF8BB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/tttypes.h */ = {isa = PBXBuildFile; fileRef = 6B5F3F054C7944F78B10F19F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/tttypes.h */; };
+		5603E7C7B96548F78FA5A1DE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = 379D60CA1B724145BCD9F22B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftoption.h */; };
+		5610815358EE46A6BFC05CCB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftincrem.h */ = {isa = PBXBuildFile; fileRef = 617AA647D2E04C6A9937BA2B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftincrem.h */; };
+		5760635EC2224FE087F07E25 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/pshints.h */ = {isa = PBXBuildFile; fileRef = 7DE59852BE7C41ADBEC4D52E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/pshints.h */; };
+		5A6DAE38AD7A4AEF86DE5EC7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbase.c */ = {isa = PBXBuildFile; fileRef = 509F2440FF494BD4A90488C7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbase.c */; };
+		5F8D496BA60D4411AA8A67FF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbdf.c */ = {isa = PBXBuildFile; fileRef = 80366CE38C224D0AAF948DBE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbdf.c */; };
+		60B795AFC77F44B987771851 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fthash.h */ = {isa = PBXBuildFile; fileRef = 6A30E4EDA95946718377F718 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fthash.h */; };
+		61212EC936FE46568E0193AA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftfntfmt.h */ = {isa = PBXBuildFile; fileRef = A114729D655C43AAB057F1F5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftfntfmt.h */; };
+		618C1732C3DB40E0868BFA99 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/compiler-macros.h */ = {isa = PBXBuildFile; fileRef = 2D2C10106A414D2882A1F445 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/compiler-macros.h */; };
+		62BB1A389CB740608AB06843 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgxval.h */ = {isa = PBXBuildFile; fileRef = 042F4C177140410A8E4D910C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgxval.h */; };
+		63409C6C5FE7439C89799D85 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttrigon.h */ = {isa = PBXBuildFile; fileRef = 5E2227DD9A7540E9934C0CF9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttrigon.h */; };
+		63533A2106634E71AD0DD127 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = 2D189B21387944DDB5207C19 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sfnt/sfnt.c */; };
+		6B731AAB5E354359BA0BC5E5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftparams.h */ = {isa = PBXBuildFile; fileRef = 24BD803F468149D2946F8F1B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftparams.h */; };
+		6D35EA10DB26440BAA76D15B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbdf.h */ = {isa = PBXBuildFile; fileRef = 3C6E9358A58D44C0BB755744 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbdf.h */; };
+		7045A493F0414ED7A3EA8FFE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsizes.h */ = {isa = PBXBuildFile; fileRef = 210C96A18D914CADA0DE653F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsizes.h */; };
+		704EF6D70C3E432683DA8F65 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsnames.h */ = {isa = PBXBuildFile; fileRef = 4BC2245C1351404EA6EAB2FD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsnames.h */; };
+		72B0D639CB734E84827EFE70 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftvalid.h */ = {isa = PBXBuildFile; fileRef = 001B6744DC7E485C8A19817D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftvalid.h */; };
+		746051699F3948CCADCF505E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpatent.c */ = {isa = PBXBuildFile; fileRef = B2A62B2167564557B6A0D498 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpatent.c */; };
+		74BC6A41E3C44B9094030536 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = E74121001DA1496FAC22B548 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftstdlib.h */; };
+		762815665DA444B6BBD393C4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psnames/psnames.c */ = {isa = PBXBuildFile; fileRef = D1FA38F3C93546CABABA0F3E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psnames/psnames.c */; };
+		77D6C57B2EDC4A3BA44D0802 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/wofftypes.h */ = {isa = PBXBuildFile; fileRef = FA68AEF04C8449A4B4487661 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/wofftypes.h */; };
+		7800AC717913442C917F8750 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgxval.c */ = {isa = PBXBuildFile; fileRef = 5C1C689C32994D86B3FD3D67 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgxval.c */; };
+		791D8370C06B42AAA01E6643 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = 4B06CA6E3CFD4E62982E87C5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/fttype1.c */; };
+		7BB2B571DFEC43AFB9454D09 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = 4BBE58CD3CCC462E8B4A4355 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/lzw/ftlzw.c */; };
+		7BDE5675354C4B9182C4438E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftrfork.h */ = {isa = PBXBuildFile; fileRef = 4046D48791E74D9291474669 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftrfork.h */; };
+		7C561B1BCF474DC89038A4D0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttypes.h */ = {isa = PBXBuildFile; fileRef = 753A371BA204425F960EAEE7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttypes.h */; };
+		7EAAB286C9E44AC3870A8D6D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/integer-types.h */ = {isa = PBXBuildFile; fileRef = 87FBF199DF0541D69BE7F134 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/integer-types.h */; };
+		7EBEF7D43E0D439A8F0068BC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftotval.h */ = {isa = PBXBuildFile; fileRef = C313E94E69F448EEBEC7E814 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftotval.h */; };
+		8092DD174314406AA21819E1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcolor.h */ = {isa = PBXBuildFile; fileRef = 9F165CCEDF9146AA818A0AEB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcolor.h */; };
+		80CA30EA90B041168CE07DBC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlzw.h */ = {isa = PBXBuildFile; fileRef = 312687E8261646068315725C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlzw.h */; };
+		82B7545CD3BE469F8DB1A149 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrdef.h */ = {isa = PBXBuildFile; fileRef = B82767988C02455E88226116 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrdef.h */; };
+		86319EE97FEB4580A45519E4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftcalc.h */ = {isa = PBXBuildFile; fileRef = 999E44BF8B18477EA6D33DAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftcalc.h */; };
+		8FFF256F2DD94052857C554D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = 4144E023A0C94BD38E537676 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psaux/psaux.c */; };
+		900CE15A51424F5F87533107 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/svg/svg.c */ = {isa = PBXBuildFile; fileRef = 89234EB3988E491586AF9DEA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/svg/svg.c */; };
+		924E51F2224F405CBBC3F3EC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftrender.h */ = {isa = PBXBuildFile; fileRef = 70A51679D8CF49D484456402 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftrender.h */; };
+		944D88AB20F74440BE82C3D0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = 38D13ECBC9874CECB65C2BF3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftsynth.c */; };
+		95D7D03CA3B344DCB97C59CD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cffotypes.h */ = {isa = PBXBuildFile; fileRef = 67F183AC476048F6AC0720FB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cffotypes.h */; };
+		981DEF16BA6242C0A607DDBD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = 63E34545FC1149A0B0DDE1EE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cache/ftcache.c */; };
+		98F0EE4415FB4F76A1D2C8E9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftchapters.h */ = {isa = PBXBuildFile; fileRef = 20DEC90EB0804270A43CDCBA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftchapters.h */; };
+		9BE873F5004A4EF69BC03418 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/public-macros.h */ = {isa = PBXBuildFile; fileRef = 446D100291384A55BBC493BC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/public-macros.h */; };
+		9C03B19C3425465C8F180BFD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlogging.h */ = {isa = PBXBuildFile; fileRef = BDC5FDF52F574A878F9A5431 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlogging.h */; };
+		9C6BC50424644EC4B6DF0164 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftgloadr.h */ = {isa = PBXBuildFile; fileRef = D59A65F7028946E29C06DCDE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftgloadr.h */; };
+		9E372BDFF517423085FE8AE7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsystem.h */ = {isa = PBXBuildFile; fileRef = C397493EC51C4728877963B2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsystem.h */; };
+		A16E4762B99B45559FF66C9B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlcdfil.h */ = {isa = PBXBuildFile; fileRef = B8E10E11A38B4C0384F14F46 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlcdfil.h */; };
+		A2DDCA02AB174DF48A4E1F00 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrors.h */ = {isa = PBXBuildFile; fileRef = 1AD1A594408D43BC830B2943 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrors.h */; };
+		A38BA1158B854F45BF2B0E43 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/t1types.h */ = {isa = PBXBuildFile; fileRef = 44D00A64F2624D369048C437 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/t1types.h */; };
+		A5F2EAB925D44CC291AAA4B4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgasp.h */ = {isa = PBXBuildFile; fileRef = 94CA55F8E6F644EBA76537CC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgasp.h */; };
+		A76578422F8D4414B2B883B4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttags.h */ = {isa = PBXBuildFile; fileRef = 02E26925602943359D39C661 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttags.h */; };
+		A83A69DB3A6D43DA937C7189 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = BE942632E0C04C709FCF2CB9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftheader.h */; };
+		A90A1019105144818361F0F7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmemory.h */ = {isa = PBXBuildFile; fileRef = 6C62B2C00FB8459980ACB445 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmemory.h */; };
+		AC00F4F903FA4A02960EA32B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = F9BA65CB1635440097711CA0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/winfonts/winfnt.c */; };
+		ACBF43615542432A837D362E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/svginterface.h */ = {isa = PBXBuildFile; fileRef = 214033FE0F62412090A7E303 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/svginterface.h */; };
+		ADB28F7E2EDD4F6CA793440A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = F7A30A0F97E6422896B7D3AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bzip2/ftbzip2.c */; };
+		AEB0C81D9D11465E925E14EF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = 8970D24BCB974CEC901148C3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftconfig.h */; };
+		AFA8EC5BBE7243229BFCA50F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftstroke.h */ = {isa = PBXBuildFile; fileRef = A3B981FA8F8B4C93B7AE735F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftstroke.h */; };
+		B21E350FD9434803B7D51D76 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7DFA7F2BEA1F458BB575FA0C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/CMakeLists.txt */; };
+		B4BF44679BB0411E8346611D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmac.h */ = {isa = PBXBuildFile; fileRef = 5ACF6E5F955A4E2A82D81DC4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmac.h */; };
+		B55DBACFEBFC4D1E87ADB041 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftdebug.c */ = {isa = PBXBuildFile; fileRef = 68DE215344A04E44B842140B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftdebug.c */; };
+		B752D2CA5B7147399C8D9DBB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmoderr.h */ = {isa = PBXBuildFile; fileRef = BEF68E15622B4E608B08BF05 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmoderr.h */; };
+		C149746E6FE24E9EBD91A493 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = 20220189AA1A403C8C64F550 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftwinfnt.c */; };
+		C1F044821E934CFFA102F40B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = 67E917C7C4624435B0216572 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpfr.c */; };
+		C23D10502D5A46E78C06253C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = 26E0D40323C4408BBCFE2B4D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftmm.c */; };
+		C413F8549ABE4CB395A178A3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftglyph.h */ = {isa = PBXBuildFile; fileRef = 505B8A03AB984CBFAA825668 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftglyph.h */; };
+		C9F9724C5D2642748BF6376C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = 008D2C033B6F4DA4B333625D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/truetype/truetype.c */; };
+		CA638BAA666643A78C0A923D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttables.h */ = {isa = PBXBuildFile; fileRef = A757A8BFC0E94C02817A50AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttables.h */; };
+		CD892AD823E84FB78DD6C18F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbzip2.h */ = {isa = PBXBuildFile; fileRef = 4CA2CD8E41EE4D618D1A7EE8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbzip2.h */; };
+		CDABE064F84E4EBAA2FEA7E1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlist.h */ = {isa = PBXBuildFile; fileRef = A58DE9B343FE4111800D1613 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlist.h */; };
+		CE932F82299B4EC19D210207 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ttnameid.h */ = {isa = PBXBuildFile; fileRef = DC51C493C8344362AA26C137 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ttnameid.h */; };
+		CFFAB548D28F435CBD75BB80 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = D909BC51E6F448B1A723AE72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/raster/raster.c */; };
+		D20F80647BD547D1B8D3B0D2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = 69C8897B7B9645EFAB807BFF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/gzip/ftgzip.c */; };
+		D27FC9039BCE496D88508AC7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/ft2build.h */ = {isa = PBXBuildFile; fileRef = 4B3FED9290BA4F3D85AC42F1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/ft2build.h */; };
+		D2C9CC9B1CD14461B61308E7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = DEE5A138080C46D38739FE29 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cid/type1cid.c */; };
+		D7D41A733F0448B3A3523906 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/autohint.h */ = {isa = PBXBuildFile; fileRef = 08E9D26D0073406092920B24 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/autohint.h */; };
+		D831B4280AC5478C8E4141E7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdebug.h */ = {isa = PBXBuildFile; fileRef = 0A9E83235BA04D339C99FB05 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdebug.h */; };
+		D88BCEE652274C0289C174E2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = 528E6E114318430C809C0F42 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pfr/pfr.c */; };
+		DA123391144C43AD973151F0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/sfnt.h */ = {isa = PBXBuildFile; fileRef = 90785E25BD7F4F479C7AFB72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/sfnt.h */; };
+		DBE50225D05942779DB381AA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/builds/unix/ftsystem.c */ = {isa = PBXBuildFile; fileRef = DD0CEF95BC1845AFB2E389E1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/builds/unix/ftsystem.c */; };
+		DD967F9EBE7B409A81AFE29D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftserv.h */ = {isa = PBXBuildFile; fileRef = B438D950CDDD4375B68DE266 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftserv.h */; };
+		DE53875A078442B6A34D3D1A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = ACB7D0BC331C4BB2BD730AE1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbitmap.c */; };
+		E05D15AE14404928A02762C3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fttrace.h */ = {isa = PBXBuildFile; fileRef = 8A94DA141BA04C749D4C89F5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fttrace.h */; };
+		E1574EEC4ED34ABEAEEBA82D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftadvanc.h */ = {isa = PBXBuildFile; fileRef = 9183A423C54A4DA09F677DB3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftadvanc.h */; };
+		E48D534B1D61440C8812394B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = 3D832BC6791749FF88E8AA44 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbbox.c */; };
+		E6B8C2F05E55492DB8444C0A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgzip.h */ = {isa = PBXBuildFile; fileRef = CF4A5D7D6BC54321AAE8F7FA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgzip.h */; };
+		E7268FD368D349DE9293C6AE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = B1E9F3A57479491C9715E94F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgasp.c */; };
+		F15E5342E72A44968FF69390 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = EAFAFE3477B541DEB52B89F7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bdf/bdf.c */; };
+		F21063250ADF46B68DF1285E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = EF370B76462643C5B06F28CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cff/cff.c */; };
+		F5078F84BE43403B9AE0CBA8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmmtypes.h */ = {isa = PBXBuildFile; fileRef = 4BEC740FB1334A308EF2FEA9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmmtypes.h */; };
+		FA9E7FD32772474DAFEDBF3B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = 72691CFF0A3D4312AEDD0599 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftinit.c */; };
+		FDF9031923094C489C420082 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcache.h */ = {isa = PBXBuildFile; fileRef = 8E55167A0D304517B55A0A30 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcache.h */; };
+		FED9DE2A822247C68576D415 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftoutln.h */ = {isa = PBXBuildFile; fileRef = 9F2C91A19B914EB89291C579 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftoutln.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		01B94B0AF7CF4D4CB9EC544B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		0F50C923AC1D46A895EA46C8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		425665D0C2434358812D3DD8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5B848B5ACB2C4CE79B20FE2B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		14FFA9A97FDF4DA4A1082B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA075904E6F4973B9EA7444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		3D8C2FE2F7924DA98E6EE335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA075904E6F4973B9EA7444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		52B2BCB594A34BB78F18DA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA075904E6F4973B9EA7444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		EF8EA6CCFAC345BE881DBCF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA075904E6F4973B9EA7444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001B6744DC7E485C8A19817D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftvalid.h; path = include/freetype/internal/ftvalid.h; sourceTree = SOURCE_ROOT; };
+		008D2C033B6F4DA4B333625D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/truetype/truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = truetype.c; path = src/truetype/truetype.c; sourceTree = SOURCE_ROOT; };
+		02058FFB82FF457AA1F46ADA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmodapi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodapi.h; path = include/freetype/ftmodapi.h; sourceTree = SOURCE_ROOT; };
+		02E26925602943359D39C661 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttags.h; path = include/freetype/tttags.h; sourceTree = SOURCE_ROOT; };
+		0348900580D743BC9671168B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftstroke.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstroke.c; path = src/base/ftstroke.c; sourceTree = SOURCE_ROOT; };
+		042F4C177140410A8E4D910C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgxval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgxval.h; path = include/freetype/ftgxval.h; sourceTree = SOURCE_ROOT; };
+		08E9D26D0073406092920B24 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/autohint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autohint.h; path = include/freetype/internal/autohint.h; sourceTree = SOURCE_ROOT; };
+		0A9E83235BA04D339C99FB05 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdebug.h; path = include/freetype/internal/ftdebug.h; sourceTree = SOURCE_ROOT; };
+		0E3E46ED8D434AF4B6A496F2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type1/type1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1.c; path = src/type1/type1.c; sourceTree = SOURCE_ROOT; };
+		15C96A164FF1449D877E532A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbitmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbitmap.h; path = include/freetype/ftbitmap.h; sourceTree = SOURCE_ROOT; };
+		1AD1A594408D43BC830B2943 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fterrors.h; path = include/freetype/fterrors.h; sourceTree = SOURCE_ROOT; };
+		20220189AA1A403C8C64F550 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftwinfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftwinfnt.c; path = src/base/ftwinfnt.c; sourceTree = SOURCE_ROOT; };
+		20DEC90EB0804270A43CDCBA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftchapters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftchapters.h; path = include/freetype/ftchapters.h; sourceTree = SOURCE_ROOT; };
+		210C96A18D914CADA0DE653F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsizes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsizes.h; path = include/freetype/ftsizes.h; sourceTree = SOURCE_ROOT; };
+		214033FE0F62412090A7E303 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/svginterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = svginterface.h; path = include/freetype/internal/svginterface.h; sourceTree = SOURCE_ROOT; };
+		228C459BE3C245E989523C43 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/autofit/autofit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = autofit.c; path = src/autofit/autofit.c; sourceTree = SOURCE_ROOT; };
+		24BD803F468149D2946F8F1B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftparams.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftparams.h; path = include/freetype/ftparams.h; sourceTree = SOURCE_ROOT; };
+		24FAEE2FBB0A4A5CB1D81AAB /* freetype */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libfreetyped.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E0D40323C4408BBCFE2B4D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftmm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftmm.c; path = src/base/ftmm.c; sourceTree = SOURCE_ROOT; };
+		2A0239496E8C42C29C28D7AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/otsvg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = otsvg.h; path = include/freetype/otsvg.h; sourceTree = SOURCE_ROOT; };
+		2C1CF85DFACE47409BD6DF3E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/smooth/smooth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = smooth.c; path = src/smooth/smooth.c; sourceTree = SOURCE_ROOT; };
+		2D189B21387944DDB5207C19 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sfnt/sfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sfnt.c; path = src/sfnt/sfnt.c; sourceTree = SOURCE_ROOT; };
+		2D2C10106A414D2882A1F445 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/compiler-macros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "compiler-macros.h"; path = "include/freetype/internal/compiler-macros.h"; sourceTree = SOURCE_ROOT; };
+		2F6CE29684DB4FA883F5EB96 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsynth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsynth.h; path = include/freetype/ftsynth.h; sourceTree = SOURCE_ROOT; };
+		312687E8261646068315725C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlzw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlzw.h; path = include/freetype/ftlzw.h; sourceTree = SOURCE_ROOT; };
+		32C16DE648974F3884C7E70B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftotval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftotval.c; path = src/base/ftotval.c; sourceTree = SOURCE_ROOT; };
+		379D60CA1B724145BCD9F22B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftoption.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoption.h; path = include/freetype/config/ftoption.h; sourceTree = SOURCE_ROOT; };
+		38D13ECBC9874CECB65C2BF3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftsynth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsynth.c; path = src/base/ftsynth.c; sourceTree = SOURCE_ROOT; };
+		3C6E9358A58D44C0BB755744 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbdf.h; path = include/freetype/ftbdf.h; sourceTree = SOURCE_ROOT; };
+		3D832BC6791749FF88E8AA44 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbbox.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbbox.c; path = src/base/ftbbox.c; sourceTree = SOURCE_ROOT; };
+		4046D48791E74D9291474669 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftrfork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrfork.h; path = include/freetype/internal/ftrfork.h; sourceTree = SOURCE_ROOT; };
+		4144E023A0C94BD38E537676 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psaux/psaux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psaux.c; path = src/psaux/psaux.c; sourceTree = SOURCE_ROOT; };
+		446D100291384A55BBC493BC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/public-macros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "public-macros.h"; path = "include/freetype/config/public-macros.h"; sourceTree = SOURCE_ROOT; };
+		44D00A64F2624D369048C437 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/t1types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1types.h; path = include/freetype/internal/t1types.h; sourceTree = SOURCE_ROOT; };
+		4917BEB5D9594284B01FB084 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4B06CA6E3CFD4E62982E87C5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/fttype1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttype1.c; path = src/base/fttype1.c; sourceTree = SOURCE_ROOT; };
+		4B3FED9290BA4F3D85AC42F1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/ft2build.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ft2build.h; path = include/ft2build.h; sourceTree = SOURCE_ROOT; };
+		4BBE58CD3CCC462E8B4A4355 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/lzw/ftlzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlzw.c; path = src/lzw/ftlzw.c; sourceTree = SOURCE_ROOT; };
+		4BC2245C1351404EA6EAB2FD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsnames.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsnames.h; path = include/freetype/ftsnames.h; sourceTree = SOURCE_ROOT; };
+		4BEC740FB1334A308EF2FEA9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmmtypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmmtypes.h; path = include/freetype/internal/ftmmtypes.h; sourceTree = SOURCE_ROOT; };
+		4CA2CD8E41EE4D618D1A7EE8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbzip2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbzip2.h; path = include/freetype/ftbzip2.h; sourceTree = SOURCE_ROOT; };
+		505B8A03AB984CBFAA825668 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftglyph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftglyph.h; path = include/freetype/ftglyph.h; sourceTree = SOURCE_ROOT; };
+		509F2440FF494BD4A90488C7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbase.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbase.c; path = src/base/ftbase.c; sourceTree = SOURCE_ROOT; };
+		528E6E114318430C809C0F42 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pfr/pfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pfr.c; path = src/pfr/pfr.c; sourceTree = SOURCE_ROOT; };
+		5ACF6E5F955A4E2A82D81DC4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmac.h; path = include/freetype/ftmac.h; sourceTree = SOURCE_ROOT; };
+		5C1C689C32994D86B3FD3D67 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgxval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgxval.c; path = src/base/ftgxval.c; sourceTree = SOURCE_ROOT; };
+		5E2227DD9A7540E9934C0CF9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttrigon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrigon.h; path = include/freetype/fttrigon.h; sourceTree = SOURCE_ROOT; };
+		5F1F1FE53B294966A872631D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstream.h; path = include/freetype/internal/ftstream.h; sourceTree = SOURCE_ROOT; };
+		617AA647D2E04C6A9937BA2B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftincrem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftincrem.h; path = include/freetype/ftincrem.h; sourceTree = SOURCE_ROOT; };
+		62568D11BC1C4C289DBF0E4B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftcid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcid.c; path = src/base/ftcid.c; sourceTree = SOURCE_ROOT; };
+		63E34545FC1149A0B0DDE1EE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cache/ftcache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcache.c; path = src/cache/ftcache.c; sourceTree = SOURCE_ROOT; };
+		67E917C7C4624435B0216572 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpfr.c; path = src/base/ftpfr.c; sourceTree = SOURCE_ROOT; };
+		67F183AC476048F6AC0720FB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cffotypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cffotypes.h; path = include/freetype/internal/cffotypes.h; sourceTree = SOURCE_ROOT; };
+		68DE215344A04E44B842140B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftdebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdebug.c; path = src/base/ftdebug.c; sourceTree = SOURCE_ROOT; };
+		68FF40DFB69F47B59F4B6F0C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftglyph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftglyph.c; path = src/base/ftglyph.c; sourceTree = SOURCE_ROOT; };
+		699D9EC8CCE342069155AE50 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sdf/sdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sdf.c; path = src/sdf/sdf.c; sourceTree = SOURCE_ROOT; };
+		69C8897B7B9645EFAB807BFF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/gzip/ftgzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgzip.c; path = src/gzip/ftgzip.c; sourceTree = SOURCE_ROOT; };
+		6A30E4EDA95946718377F718 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fthash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fthash.h; path = include/freetype/internal/fthash.h; sourceTree = SOURCE_ROOT; };
+		6B5F3F054C7944F78B10F19F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/tttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttypes.h; path = include/freetype/internal/tttypes.h; sourceTree = SOURCE_ROOT; };
+		6C62B2C00FB8459980ACB445 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmemory.h; path = include/freetype/internal/ftmemory.h; sourceTree = SOURCE_ROOT; };
+		6E67027F210A4BF9AB0970A6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcid.h; path = include/freetype/ftcid.h; sourceTree = SOURCE_ROOT; };
+		6FCECDAE5C844DA0B156C9F1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftpfr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpfr.h; path = include/freetype/ftpfr.h; sourceTree = SOURCE_ROOT; };
+		70A51679D8CF49D484456402 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftrender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrender.h; path = include/freetype/ftrender.h; sourceTree = SOURCE_ROOT; };
+		72691CFF0A3D4312AEDD0599 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftinit.c; path = src/base/ftinit.c; sourceTree = SOURCE_ROOT; };
+		753A371BA204425F960EAEE7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttypes.h; path = include/freetype/fttypes.h; sourceTree = SOURCE_ROOT; };
+		7BF264E7EE8D4DDE9B321986 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftimage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftimage.h; path = include/freetype/ftimage.h; sourceTree = SOURCE_ROOT; };
+		7DE59852BE7C41ADBEC4D52E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/pshints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pshints.h; path = include/freetype/internal/pshints.h; sourceTree = SOURCE_ROOT; };
+		7DFA7F2BEA1F458BB575FA0C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		80366CE38C224D0AAF948DBE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbdf.c; path = src/base/ftbdf.c; sourceTree = SOURCE_ROOT; };
+		8576871E37E54109B3737865 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pcf/pcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pcf.c; path = src/pcf/pcf.c; sourceTree = SOURCE_ROOT; };
+		87FBF199DF0541D69BE7F134 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/integer-types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "integer-types.h"; path = "include/freetype/config/integer-types.h"; sourceTree = SOURCE_ROOT; };
+		884B0C0DBEE642D1B88CC8A8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/psaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = psaux.h; path = include/freetype/internal/psaux.h; sourceTree = SOURCE_ROOT; };
+		89234EB3988E491586AF9DEA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/svg/svg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = svg.c; path = src/svg/svg.c; sourceTree = SOURCE_ROOT; };
+		8970D24BCB974CEC901148C3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftconfig.h; path = include/freetype/config/ftconfig.h; sourceTree = SOURCE_ROOT; };
+		8A94DA141BA04C749D4C89F5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fttrace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrace.h; path = include/freetype/internal/fttrace.h; sourceTree = SOURCE_ROOT; };
+		8E55167A0D304517B55A0A30 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcache.h; path = include/freetype/ftcache.h; sourceTree = SOURCE_ROOT; };
+		8EB5BFC126D14F788E97CCAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pshinter/pshinter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pshinter.c; path = src/pshinter/pshinter.c; sourceTree = SOURCE_ROOT; };
+		90785E25BD7F4F479C7AFB72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/sfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sfnt.h; path = include/freetype/internal/sfnt.h; sourceTree = SOURCE_ROOT; };
+		9183A423C54A4DA09F677DB3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftadvanc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftadvanc.h; path = include/freetype/ftadvanc.h; sourceTree = SOURCE_ROOT; };
+		94CA55F8E6F644EBA76537CC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgasp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgasp.h; path = include/freetype/ftgasp.h; sourceTree = SOURCE_ROOT; };
+		999E44BF8B18477EA6D33DAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftcalc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcalc.h; path = include/freetype/internal/ftcalc.h; sourceTree = SOURCE_ROOT; };
+		9F165CCEDF9146AA818A0AEB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcolor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcolor.h; path = include/freetype/ftcolor.h; sourceTree = SOURCE_ROOT; };
+		9F2C91A19B914EB89291C579 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftoutln.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoutln.h; path = include/freetype/ftoutln.h; sourceTree = SOURCE_ROOT; };
+		A114729D655C43AAB057F1F5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftfntfmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftfntfmt.h; path = include/freetype/ftfntfmt.h; sourceTree = SOURCE_ROOT; };
+		A3B981FA8F8B4C93B7AE735F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftstroke.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstroke.h; path = include/freetype/ftstroke.h; sourceTree = SOURCE_ROOT; };
+		A58DE9B343FE4111800D1613 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlist.h; path = include/freetype/ftlist.h; sourceTree = SOURCE_ROOT; };
+		A757A8BFC0E94C02817A50AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttables.h; path = include/freetype/tttables.h; sourceTree = SOURCE_ROOT; };
+		A991583458C34DC089A8C409 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cfftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cfftypes.h; path = include/freetype/internal/cfftypes.h; sourceTree = SOURCE_ROOT; };
+		AB7CEEBEC7AB4BA7853A3BFD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/mac-support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mac-support.h"; path = "include/freetype/config/mac-support.h"; sourceTree = SOURCE_ROOT; };
+		ACB7D0BC331C4BB2BD730AE1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbitmap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbitmap.c; path = src/base/ftbitmap.c; sourceTree = SOURCE_ROOT; };
+		AF2493C4116E492581EA3E37 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbbox.h; path = include/freetype/ftbbox.h; sourceTree = SOURCE_ROOT; };
+		B1E9F3A57479491C9715E94F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgasp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgasp.c; path = src/base/ftgasp.c; sourceTree = SOURCE_ROOT; };
+		B2A62B2167564557B6A0D498 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpatent.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpatent.c; path = src/base/ftpatent.c; sourceTree = SOURCE_ROOT; };
+		B438D950CDDD4375B68DE266 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftserv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftserv.h; path = include/freetype/internal/ftserv.h; sourceTree = SOURCE_ROOT; };
+		B82767988C02455E88226116 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrdef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fterrdef.h; path = include/freetype/fterrdef.h; sourceTree = SOURCE_ROOT; };
+		B8E10E11A38B4C0384F14F46 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlcdfil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlcdfil.h; path = include/freetype/ftlcdfil.h; sourceTree = SOURCE_ROOT; };
+		BDC5FDF52F574A878F9A5431 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlogging.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlogging.h; path = include/freetype/ftlogging.h; sourceTree = SOURCE_ROOT; };
+		BDF559F0F60B4C8FA6A11926 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftdriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdriver.h; path = include/freetype/ftdriver.h; sourceTree = SOURCE_ROOT; };
+		BE942632E0C04C709FCF2CB9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftheader.h; path = include/freetype/config/ftheader.h; sourceTree = SOURCE_ROOT; };
+		BEF68E15622B4E608B08BF05 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmoderr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmoderr.h; path = include/freetype/ftmoderr.h; sourceTree = SOURCE_ROOT; };
+		C0339021B8514DB0A53916B5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftfstype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfstype.c; path = src/base/ftfstype.c; sourceTree = SOURCE_ROOT; };
+		C129F2FB59EF4349AAA3468C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmm.h; path = include/freetype/ftmm.h; sourceTree = SOURCE_ROOT; };
+		C313E94E69F448EEBEC7E814 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftotval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftotval.h; path = include/freetype/ftotval.h; sourceTree = SOURCE_ROOT; };
+		C397493EC51C4728877963B2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsystem.h; path = include/freetype/ftsystem.h; sourceTree = SOURCE_ROOT; };
+		CF4A5D7D6BC54321AAE8F7FA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgzip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgzip.h; path = include/freetype/ftgzip.h; sourceTree = SOURCE_ROOT; };
+		D1C9B3E380C34CC5BFCC2C6E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdrv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdrv.h; path = include/freetype/internal/ftdrv.h; sourceTree = SOURCE_ROOT; };
+		D1FA38F3C93546CABABA0F3E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psnames/psnames.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psnames.c; path = src/psnames/psnames.c; sourceTree = SOURCE_ROOT; };
+		D59A65F7028946E29C06DCDE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftgloadr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgloadr.h; path = include/freetype/internal/ftgloadr.h; sourceTree = SOURCE_ROOT; };
+		D5C10EC334E44C9A886FE9C6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/t1tables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1tables.h; path = include/freetype/t1tables.h; sourceTree = SOURCE_ROOT; };
+		D909BC51E6F448B1A723AE72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/raster/raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = raster.c; path = src/raster/raster.c; sourceTree = SOURCE_ROOT; };
+		DC51C493C8344362AA26C137 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ttnameid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ttnameid.h; path = include/freetype/ttnameid.h; sourceTree = SOURCE_ROOT; };
+		DD0CEF95BC1845AFB2E389E1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/builds/unix/ftsystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsystem.c; path = builds/unix/ftsystem.c; sourceTree = SOURCE_ROOT; };
+		DD4280B968B94DD58617C744 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftobjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftobjs.h; path = include/freetype/internal/ftobjs.h; sourceTree = SOURCE_ROOT; };
+		DEE5A138080C46D38739FE29 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cid/type1cid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1cid.c; path = src/cid/type1cid.c; sourceTree = SOURCE_ROOT; };
+		E714A9C78C704AF286335276 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftwinfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftwinfnt.h; path = include/freetype/ftwinfnt.h; sourceTree = SOURCE_ROOT; };
+		E74121001DA1496FAC22B548 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftstdlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstdlib.h; path = include/freetype/config/ftstdlib.h; sourceTree = SOURCE_ROOT; };
+		EAFAFE3477B541DEB52B89F7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bdf/bdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bdf.c; path = src/bdf/bdf.c; sourceTree = SOURCE_ROOT; };
+		EF370B76462643C5B06F28CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cff/cff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cff.c; path = src/cff/cff.c; sourceTree = SOURCE_ROOT; };
+		F265B0270CCE495AAE8E2E86 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodule.h; path = include/freetype/config/ftmodule.h; sourceTree = SOURCE_ROOT; };
+		F56D71EBC28A4EBA85C2A92D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/freetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freetype.h; path = include/freetype/freetype.h; sourceTree = SOURCE_ROOT; };
+		F770606DC0DF457EB7DCBD18 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type42/type42.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type42.c; path = src/type42/type42.c; sourceTree = SOURCE_ROOT; };
+		F7A30A0F97E6422896B7D3AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbzip2.c; path = src/bzip2/ftbzip2.c; sourceTree = SOURCE_ROOT; };
+		F9BA65CB1635440097711CA0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/winfonts/winfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = winfnt.c; path = src/winfonts/winfnt.c; sourceTree = SOURCE_ROOT; };
+		FA68AEF04C8449A4B4487661 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/wofftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wofftypes.h; path = include/freetype/internal/wofftypes.h; sourceTree = SOURCE_ROOT; };
+		FFA969838F434715B79C8749 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftpsprop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpsprop.h; path = include/freetype/internal/ftpsprop.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E40FB9A8C7644F18694E5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2FC798073F48A2A909519E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25D1D8BD081E40B5A9393635 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0CEF95BC1845AFB2E389E1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/builds/unix/ftsystem.c */,
+				228C459BE3C245E989523C43 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/autofit/autofit.c */,
+				509F2440FF494BD4A90488C7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbase.c */,
+				3D832BC6791749FF88E8AA44 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbbox.c */,
+				80366CE38C224D0AAF948DBE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbdf.c */,
+				ACB7D0BC331C4BB2BD730AE1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbitmap.c */,
+				62568D11BC1C4C289DBF0E4B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftcid.c */,
+				68DE215344A04E44B842140B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftdebug.c */,
+				C0339021B8514DB0A53916B5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftfstype.c */,
+				B1E9F3A57479491C9715E94F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgasp.c */,
+				68FF40DFB69F47B59F4B6F0C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftglyph.c */,
+				5C1C689C32994D86B3FD3D67 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgxval.c */,
+				72691CFF0A3D4312AEDD0599 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftinit.c */,
+				26E0D40323C4408BBCFE2B4D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftmm.c */,
+				32C16DE648974F3884C7E70B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftotval.c */,
+				B2A62B2167564557B6A0D498 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpatent.c */,
+				67E917C7C4624435B0216572 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpfr.c */,
+				0348900580D743BC9671168B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftstroke.c */,
+				38D13ECBC9874CECB65C2BF3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftsynth.c */,
+				4B06CA6E3CFD4E62982E87C5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/fttype1.c */,
+				20220189AA1A403C8C64F550 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftwinfnt.c */,
+				EAFAFE3477B541DEB52B89F7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bdf/bdf.c */,
+				F7A30A0F97E6422896B7D3AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bzip2/ftbzip2.c */,
+				63E34545FC1149A0B0DDE1EE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cache/ftcache.c */,
+				EF370B76462643C5B06F28CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cff/cff.c */,
+				DEE5A138080C46D38739FE29 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cid/type1cid.c */,
+				69C8897B7B9645EFAB807BFF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/gzip/ftgzip.c */,
+				4BBE58CD3CCC462E8B4A4355 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/lzw/ftlzw.c */,
+				8576871E37E54109B3737865 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pcf/pcf.c */,
+				528E6E114318430C809C0F42 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pfr/pfr.c */,
+				4144E023A0C94BD38E537676 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psaux/psaux.c */,
+				8EB5BFC126D14F788E97CCAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pshinter/pshinter.c */,
+				D1FA38F3C93546CABABA0F3E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psnames/psnames.c */,
+				D909BC51E6F448B1A723AE72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/raster/raster.c */,
+				699D9EC8CCE342069155AE50 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sdf/sdf.c */,
+				2D189B21387944DDB5207C19 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sfnt/sfnt.c */,
+				2C1CF85DFACE47409BD6DF3E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/smooth/smooth.c */,
+				89234EB3988E491586AF9DEA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/svg/svg.c */,
+				008D2C033B6F4DA4B333625D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/truetype/truetype.c */,
+				0E3E46ED8D434AF4B6A496F2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type1/type1.c */,
+				F770606DC0DF457EB7DCBD18 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type42/type42.c */,
+				F9BA65CB1635440097711CA0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/winfonts/winfnt.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4820CB9FD515428DB0F3B48B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D07345FAEFD7485D8AF42EDA /* CMake Rules */,
+				4917BEB5D9594284B01FB084 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5EFC27625FE041E6B14BBD4E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8970D24BCB974CEC901148C3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftconfig.h */,
+				BE942632E0C04C709FCF2CB9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftheader.h */,
+				F265B0270CCE495AAE8E2E86 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftmodule.h */,
+				379D60CA1B724145BCD9F22B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftoption.h */,
+				E74121001DA1496FAC22B548 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/ftstdlib.h */,
+				87FBF199DF0541D69BE7F134 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/integer-types.h */,
+				AB7CEEBEC7AB4BA7853A3BFD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/mac-support.h */,
+				446D100291384A55BBC493BC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/config/public-macros.h */,
+				F56D71EBC28A4EBA85C2A92D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/freetype.h */,
+				9183A423C54A4DA09F677DB3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftadvanc.h */,
+				AF2493C4116E492581EA3E37 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbbox.h */,
+				3C6E9358A58D44C0BB755744 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbdf.h */,
+				15C96A164FF1449D877E532A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbitmap.h */,
+				4CA2CD8E41EE4D618D1A7EE8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftbzip2.h */,
+				8E55167A0D304517B55A0A30 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcache.h */,
+				20DEC90EB0804270A43CDCBA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftchapters.h */,
+				6E67027F210A4BF9AB0970A6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcid.h */,
+				9F165CCEDF9146AA818A0AEB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftcolor.h */,
+				BDF559F0F60B4C8FA6A11926 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftdriver.h */,
+				B82767988C02455E88226116 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrdef.h */,
+				1AD1A594408D43BC830B2943 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fterrors.h */,
+				A114729D655C43AAB057F1F5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftfntfmt.h */,
+				94CA55F8E6F644EBA76537CC /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgasp.h */,
+				505B8A03AB984CBFAA825668 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftglyph.h */,
+				042F4C177140410A8E4D910C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgxval.h */,
+				CF4A5D7D6BC54321AAE8F7FA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftgzip.h */,
+				7BF264E7EE8D4DDE9B321986 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftimage.h */,
+				617AA647D2E04C6A9937BA2B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftincrem.h */,
+				B8E10E11A38B4C0384F14F46 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlcdfil.h */,
+				A58DE9B343FE4111800D1613 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlist.h */,
+				BDC5FDF52F574A878F9A5431 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlogging.h */,
+				312687E8261646068315725C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftlzw.h */,
+				5ACF6E5F955A4E2A82D81DC4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmac.h */,
+				C129F2FB59EF4349AAA3468C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmm.h */,
+				02058FFB82FF457AA1F46ADA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmodapi.h */,
+				BEF68E15622B4E608B08BF05 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftmoderr.h */,
+				C313E94E69F448EEBEC7E814 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftotval.h */,
+				9F2C91A19B914EB89291C579 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftoutln.h */,
+				24BD803F468149D2946F8F1B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftparams.h */,
+				6FCECDAE5C844DA0B156C9F1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftpfr.h */,
+				70A51679D8CF49D484456402 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftrender.h */,
+				210C96A18D914CADA0DE653F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsizes.h */,
+				4BC2245C1351404EA6EAB2FD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsnames.h */,
+				A3B981FA8F8B4C93B7AE735F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftstroke.h */,
+				2F6CE29684DB4FA883F5EB96 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsynth.h */,
+				C397493EC51C4728877963B2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftsystem.h */,
+				5E2227DD9A7540E9934C0CF9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttrigon.h */,
+				753A371BA204425F960EAEE7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/fttypes.h */,
+				E714A9C78C704AF286335276 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ftwinfnt.h */,
+				08E9D26D0073406092920B24 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/autohint.h */,
+				67F183AC476048F6AC0720FB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cffotypes.h */,
+				A991583458C34DC089A8C409 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/cfftypes.h */,
+				2D2C10106A414D2882A1F445 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/compiler-macros.h */,
+				999E44BF8B18477EA6D33DAF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftcalc.h */,
+				0A9E83235BA04D339C99FB05 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdebug.h */,
+				D1C9B3E380C34CC5BFCC2C6E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftdrv.h */,
+				D59A65F7028946E29C06DCDE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftgloadr.h */,
+				6A30E4EDA95946718377F718 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fthash.h */,
+				6C62B2C00FB8459980ACB445 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmemory.h */,
+				4BEC740FB1334A308EF2FEA9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftmmtypes.h */,
+				DD4280B968B94DD58617C744 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftobjs.h */,
+				FFA969838F434715B79C8749 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftpsprop.h */,
+				4046D48791E74D9291474669 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftrfork.h */,
+				B438D950CDDD4375B68DE266 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftserv.h */,
+				5F1F1FE53B294966A872631D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftstream.h */,
+				8A94DA141BA04C749D4C89F5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/fttrace.h */,
+				001B6744DC7E485C8A19817D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/ftvalid.h */,
+				884B0C0DBEE642D1B88CC8A8 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/psaux.h */,
+				7DE59852BE7C41ADBEC4D52E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/pshints.h */,
+				90785E25BD7F4F479C7AFB72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/sfnt.h */,
+				214033FE0F62412090A7E303 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/svginterface.h */,
+				44D00A64F2624D369048C437 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/t1types.h */,
+				6B5F3F054C7944F78B10F19F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/tttypes.h */,
+				FA68AEF04C8449A4B4487661 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/internal/wofftypes.h */,
+				2A0239496E8C42C29C28D7AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/otsvg.h */,
+				D5C10EC334E44C9A886FE9C6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/t1tables.h */,
+				DC51C493C8344362AA26C137 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/ttnameid.h */,
+				A757A8BFC0E94C02817A50AF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttables.h */,
+				02E26925602943359D39C661 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/freetype/tttags.h */,
+				4B3FED9290BA4F3D85AC42F1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include/ft2build.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		936DC7D16E864059A411979E = {
+			isa = PBXGroup;
+			children = (
+				AF2935AE53BD4BDC8063B379 /* freetype */,
+				4820CB9FD515428DB0F3B48B /* ALL_BUILD */,
+				98AA8BC454BC4BF79E4697F2 /* Products */,
+				A6C2CA361F7949E49FF914CB /* Frameworks */,
+				0A2FC798073F48A2A909519E /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		98AA8BC454BC4BF79E4697F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FAEE2FBB0A4A5CB1D81AAB /* freetype */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C2CA361F7949E49FF914CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF2935AE53BD4BDC8063B379 /* freetype */ = {
+			isa = PBXGroup;
+			children = (
+				5EFC27625FE041E6B14BBD4E /* Header Files */,
+				25D1D8BD081E40B5A9393635 /* Source Files */,
+				7DFA7F2BEA1F458BB575FA0C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/CMakeLists.txt */,
+			);
+			name = freetype;
+			sourceTree = "<group>";
+		};
+		D07345FAEFD7485D8AF42EDA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70100BFD16E9C1D1B601C7A /* freetype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFCF4C4CF2B45B8B0FB4C27 /* Build configuration list for PBXNativeTarget "freetype" */;
+			buildPhases = (
+				94EA4FA56654490ABFC661CC /* Sources */,
+				3E40FB9A8C7644F18694E5BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CBC5E1ABE14D5BA12F4476 /* PBXTargetDependency */,
+			);
+			name = freetype;
+			productName = freetype;
+			productReference = 24FAEE2FBB0A4A5CB1D81AAB /* freetype */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EA075904E6F4973B9EA7444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 0B9ADB2EE9B94C2EAFDB5A9A /* Build configuration list for PBXProject "freetype" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				01B94B0AF7CF4D4CB9EC544B /* Debug */,
+				425665D0C2434358812D3DD8 /* Release */,
+				0F50C923AC1D46A895EA46C8 /* MinSizeRel */,
+				5B848B5ACB2C4CE79B20FE2B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 936DC7D16E864059A411979E;
+			projectDirPath = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype;
+			projectRoot = "";
+			targets = (
+				E2EC4718A74BF107859EC310 /* ALL_BUILD */,
+				A70100BFD16E9C1D1B601C7A /* freetype */,
+				E29FA1CAC29713EDFBDA245D /* install */,
+				911AB915F49FC256CC6BC6C3 /* package */,
+				757D71E0BA476BDF9C2D226F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2647835F6AE10DEBEBBE8715 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C3F13EA1EFD29CA2B090D4AA /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EA4FA56654490ABFC661CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE50225D05942779DB381AA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/builds/unix/ftsystem.c */,
+				299F7A993D8048F7BD7A28EA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/autofit/autofit.c */,
+				5A6DAE38AD7A4AEF86DE5EC7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbase.c */,
+				E48D534B1D61440C8812394B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbbox.c */,
+				5F8D496BA60D4411AA8A67FF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbdf.c */,
+				DE53875A078442B6A34D3D1A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftbitmap.c */,
+				3650219F9FCF45AA96D2AEE2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftcid.c */,
+				B55DBACFEBFC4D1E87ADB041 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftdebug.c */,
+				4CB02F152AE54883AAEA7362 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftfstype.c */,
+				E7268FD368D349DE9293C6AE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgasp.c */,
+				1A1CC43AE7DE446089F97E35 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftglyph.c */,
+				7800AC717913442C917F8750 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftgxval.c */,
+				FA9E7FD32772474DAFEDBF3B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftinit.c */,
+				C23D10502D5A46E78C06253C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftmm.c */,
+				225F48BFA95E4676B4E7F72B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftotval.c */,
+				746051699F3948CCADCF505E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpatent.c */,
+				C1F044821E934CFFA102F40B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftpfr.c */,
+				48E7D7D0A689467AB44A6355 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftstroke.c */,
+				944D88AB20F74440BE82C3D0 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftsynth.c */,
+				791D8370C06B42AAA01E6643 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/fttype1.c */,
+				C149746E6FE24E9EBD91A493 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/base/ftwinfnt.c */,
+				F15E5342E72A44968FF69390 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bdf/bdf.c */,
+				ADB28F7E2EDD4F6CA793440A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/bzip2/ftbzip2.c */,
+				981DEF16BA6242C0A607DDBD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cache/ftcache.c */,
+				F21063250ADF46B68DF1285E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cff/cff.c */,
+				D2C9CC9B1CD14461B61308E7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/cid/type1cid.c */,
+				D20F80647BD547D1B8D3B0D2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/gzip/ftgzip.c */,
+				7BB2B571DFEC43AFB9454D09 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/lzw/ftlzw.c */,
+				3A24D5DF38304FC3BC58D714 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pcf/pcf.c */,
+				D88BCEE652274C0289C174E2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pfr/pfr.c */,
+				8FFF256F2DD94052857C554D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psaux/psaux.c */,
+				51C4EDE018274B239EFD877C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/pshinter/pshinter.c */,
+				762815665DA444B6BBD393C4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/psnames/psnames.c */,
+				CFFAB548D28F435CBD75BB80 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/raster/raster.c */,
+				0E3B340B51664E8AA20FE8C5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sdf/sdf.c */,
+				63533A2106634E71AD0DD127 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/sfnt/sfnt.c */,
+				0E851D9255D244EC9B85CCA2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/smooth/smooth.c */,
+				900CE15A51424F5F87533107 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/svg/svg.c */,
+				C9F9724C5D2642748BF6376C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/truetype/truetype.c */,
+				1C6B82C75FAC4B63B248C1F2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type1/type1.c */,
+				17C632CB9D564F849E9D544D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/type42/type42.c */,
+				AC00F4F903FA4A02960EA32B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/src/winfonts/winfnt.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CBC5E1ABE14D5BA12F4476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 3D8C2FE2F7924DA98E6EE335 /* PBXContainerItemProxy */;
+		};
+		359B341005B14A92AC3FA7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 52B2BCB594A34BB78F18DA70 /* PBXContainerItemProxy */;
+		};
+		47F4D070356C46C7B3B6FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = EF8EA6CCFAC345BE881DBCF7 /* PBXContainerItemProxy */;
+		};
+		5A0060BF856B41A6BBC1426B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = 14FFA9A97FDF4DA4A1082B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B3C2C1183B49FBA03C67CD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0628F9C63CAD4C30B5B29C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1E7A2BA545E54647B0460216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		441ADD6D3C954CA6AC48A5DC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"'FT_PUBLIC_FUNCTION_ATTRIBUTE='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include/freetype/config",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/harfbuzz/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4A9939C30DA74697A532B067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"'FT_PUBLIC_FUNCTION_ATTRIBUTE='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include/freetype/config",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/harfbuzz/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6414BA294F394130ABA0A2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Debug;
+		};
+		647CBA7AB214471BB92356AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		706CECD3F21B4A92AF5EDED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		77B861A5E76446859FFAE342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		83F787CD712B4EE0B43FDDCC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		88741E1A71054A3195C9CC5F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		89C6D039DC654F19B76A9C5C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8B42FE69505C4C11962A45E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		90C13368AE4443A38B102ED8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A1D4772A8E8940B6AA8A73DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AAC7EACD2A664F7EAEC1C265 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		AFB75870B264431AB9A6533C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"'FT_PUBLIC_FUNCTION_ATTRIBUTE='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include/freetype/config",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/harfbuzz/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetyped;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B1995DFAC3B0432CB9F7F4A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CD780A1CBC3544B4AD9615DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Release;
+		};
+		DD1E8A0610DB48AE81FBFB73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = MinSizeRel;
+		};
+		E661C7729B9A4E7594176E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EA06CE4A0EE74B0E93A5560A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EAC18098348E4D188189EE7E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"'FT_PUBLIC_FUNCTION_ATTRIBUTE='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/freetype/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_ttf/external/freetype-build/include/freetype/config",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_ttf/external/harfbuzz/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -fvisibility=hidden ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EBE5389642D4404EB40566E8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B9ADB2EE9B94C2EAFDB5A9A /* Build configuration list for PBXProject "freetype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6414BA294F394130ABA0A2F1 /* Debug */,
+				CD780A1CBC3544B4AD9615DB /* Release */,
+				DD1E8A0610DB48AE81FBFB73 /* MinSizeRel */,
+				AAC7EACD2A664F7EAEC1C265 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DFCF4C4CF2B45B8B0FB4C27 /* Build configuration list for PBXNativeTarget "freetype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB75870B264431AB9A6533C /* Debug */,
+				4A9939C30DA74697A532B067 /* Release */,
+				441ADD6D3C954CA6AC48A5DC /* MinSizeRel */,
+				EAC18098348E4D188189EE7E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36C99AAD19194478A15F000B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706CECD3F21B4A92AF5EDED2 /* Debug */,
+				A1D4772A8E8940B6AA8A73DA /* Release */,
+				EBE5389642D4404EB40566E8 /* MinSizeRel */,
+				88741E1A71054A3195C9CC5F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BB66BD7A0954CDBA41A41FA /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7A2BA545E54647B0460216 /* Debug */,
+				0628F9C63CAD4C30B5B29C76 /* Release */,
+				B1995DFAC3B0432CB9F7F4A3 /* MinSizeRel */,
+				83F787CD712B4EE0B43FDDCC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CBB05FCCF47046FB904DF3FB /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B861A5E76446859FFAE342 /* Debug */,
+				E661C7729B9A4E7594176E22 /* Release */,
+				90C13368AE4443A38B102ED8 /* MinSizeRel */,
+				89C6D039DC654F19B76A9C5C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F53482BE5C0E44598B271C77 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B42FE69505C4C11962A45E9 /* Debug */,
+				647CBA7AB214471BB92356AF /* Release */,
+				05B3C2C1183B49FBA03C67CD /* MinSizeRel */,
+				EA06CE4A0EE74B0E93A5560A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EA075904E6F4973B9EA7444 /* Project object */;
+}

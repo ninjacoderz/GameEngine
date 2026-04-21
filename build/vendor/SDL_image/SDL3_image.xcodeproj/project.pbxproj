@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		757D71E0BA476BDF9C2D226F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1923B308AAAB46F8AA5CCD06 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				63AC468D1FAD2CC863918B5A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		911AB915F49FC256CC6BC6C3 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F53965F676814DB38BE46898 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4103515E841844D09DDEB58E /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E29FA1CAC29713EDFBDA245D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3547531648354A56952F56D5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DE807EBBFB944E9AA097BF95 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E2EC4718A74BF107859EC310 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D7FAB78EA0647B5A7EC70C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				98DD52246A223170EE565269 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				31A92866444348DC87B9F199 /* PBXTargetDependency */,
+				233299D51B1444CD9416E0E9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0DDFAA0F713F44179E78E924 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG.c */ = {isa = PBXBuildFile; fileRef = 6E3584752F7D4FF3BEA61863 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG.c */; };
+		25B9A9F55BC64E919E9B9D8F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ImageIO.m */ = {isa = PBXBuildFile; fileRef = 84AB25B3ADD642AFB18EFD2F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ImageIO.m */; };
+		3194D3805809416F86D1EDE4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jpg.c */ = {isa = PBXBuildFile; fileRef = 7796E22088AC45F1A6F3B1DF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jpg.c */; };
+		3222B830792B4BD193E75DD3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pcx.c */ = {isa = PBXBuildFile; fileRef = 649CB54AA00145A6A3D13981 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pcx.c */; };
+		407CDD02F7C841F1B3288370 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_libpng.c */ = {isa = PBXBuildFile; fileRef = 432B751EE5174252BB2D2715 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_libpng.c */; };
+		44BF44A6C66A4BC9AC8F6184 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_avif.c */ = {isa = PBXBuildFile; fileRef = 26A14594B59043C087D009B6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_avif.c */; };
+		4727B073A3244D46874709FD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ani.c */ = {isa = PBXBuildFile; fileRef = E9C7D19478F741F59526DF80 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ani.c */; };
+		4BF1B7444C104458B054248E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jxl.c */ = {isa = PBXBuildFile; fileRef = B6568B53B4F54D3BAA344775 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jxl.c */; };
+		55325F7528084848ADE5A505 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_png.c */ = {isa = PBXBuildFile; fileRef = 2A46EC2EE74B458BBD0620CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_png.c */; };
+		56A27D03AEC14FE7BB865BD5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tif.c */ = {isa = PBXBuildFile; fileRef = 9D3221E0A1D04384AE47EA65 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tif.c */; };
+		5904ED639AD64BF69388D46B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_svg.c */ = {isa = PBXBuildFile; fileRef = B99BC8870717489C80970C4F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_svg.c */; };
+		8254D253CC86401184192CCF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_lbm.c */ = {isa = PBXBuildFile; fileRef = 81CC7D821C6E410C929A0C36 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_lbm.c */; };
+		8B83AB22BFD54295A0BF2DE5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_webp.c */ = {isa = PBXBuildFile; fileRef = 434861BFD07C406BA6E7F6CB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_webp.c */; };
+		97C63810262A4FD6B1C58E39 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/xmlman.c */ = {isa = PBXBuildFile; fileRef = E521C4DBD9DC45F38AA25588 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/xmlman.c */; };
+		A71517F84A744C3996508818 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_decoder.c */ = {isa = PBXBuildFile; fileRef = C9EF16B37A224D98B5F2D5AA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_decoder.c */; };
+		AA38F9CD9F874666AB2FFABF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_gif.c */ = {isa = PBXBuildFile; fileRef = 952D3FBE7BCB4E5E90220F64 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_gif.c */; };
+		B5752F958B1540D2BE53D47C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_encoder.c */ = {isa = PBXBuildFile; fileRef = 11BAD655CDB54F84B1B2B9CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_encoder.c */; };
+		C00355D657584324BF072BFE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_WIC.c */ = {isa = PBXBuildFile; fileRef = 8668AB0201574837A06F2ED1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_WIC.c */; };
+		C007EE2A1AC94EEB838545B7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xcf.c */ = {isa = PBXBuildFile; fileRef = 023950FB905C457286A00B9F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xcf.c */; };
+		CA24A8E668534CB28B596E9F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tga.c */ = {isa = PBXBuildFile; fileRef = 36FE9A317D0248A88161076D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tga.c */; };
+		D199BFDC72D742C4B9BF8333 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_bmp.c */ = {isa = PBXBuildFile; fileRef = D82B18D236C74B7F903D707B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_bmp.c */; };
+		E31FE500457343BC87A9B145 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xv.c */ = {isa = PBXBuildFile; fileRef = 9EEFD7AAC4BE489CA4FED76C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xv.c */; };
+		EC0FBBB5266F4C6DA8669B9D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_qoi.c */ = {isa = PBXBuildFile; fileRef = A3140E1FF77644129B77FAB9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_qoi.c */; };
+		ED10C47008724156981F0C72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_stb.c */ = {isa = PBXBuildFile; fileRef = F1401F009F8742B8B9293032 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_stb.c */; };
+		F976801CA3ED4687A01835A4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5905316403C44A7895B15F2D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/CMakeLists.txt */; };
+		FC8821320B99471F844DCAD2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xpm.c */ = {isa = PBXBuildFile; fileRef = 9F6C71368E60487383A93882 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xpm.c */; };
+		FE502DA44A06489AACC68A48 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pnm.c */ = {isa = PBXBuildFile; fileRef = CDAFE80ACCF04C858581568D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pnm.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		57E41DAB9D914030B1617C18 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D234023429D84508A2963E14 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DE3F680A633C4D8293086EBF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F0A83FFE27F74015A77A486A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		36CF79ED876B43D2BB7A9E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7714E58157554110AF8E7372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		573BA57C639D49D58AD903F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7714E58157554110AF8E7372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		7EF479C4B1A843C891A41953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7714E58157554110AF8E7372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757D71E0BA476BDF9C2D226F;
+			remoteInfo = ZERO_CHECK;
+		};
+		E394570A5EFE4F57BD66F1C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7714E58157554110AF8E7372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC4718A74BF107859EC310;
+			remoteInfo = ALL_BUILD;
+		};
+		FF0527676E5A4C4FADB128A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7714E58157554110AF8E7372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BB3C1E2100B92B34EEB6F8;
+			remoteInfo = "SDL3_image-shared";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023950FB905C457286A00B9F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_xcf.c; path = src/IMG_xcf.c; sourceTree = SOURCE_ROOT; };
+		0CF9C1DFFCD24549AB9C250A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		11BAD655CDB54F84B1B2B9CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_encoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_anim_encoder.c; path = src/IMG_anim_encoder.c; sourceTree = SOURCE_ROOT; };
+		25F727C54D67415AA6F5858C /* SDL3_image-shared */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSDL3_image.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A14594B59043C087D009B6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_avif.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_avif.c; path = src/IMG_avif.c; sourceTree = SOURCE_ROOT; };
+		2A46EC2EE74B458BBD0620CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_png.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_png.c; path = src/IMG_png.c; sourceTree = SOURCE_ROOT; };
+		36FE9A317D0248A88161076D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tga.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_tga.c; path = src/IMG_tga.c; sourceTree = SOURCE_ROOT; };
+		432B751EE5174252BB2D2715 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_libpng.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_libpng.c; path = src/IMG_libpng.c; sourceTree = SOURCE_ROOT; };
+		434861BFD07C406BA6E7F6CB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_webp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_webp.c; path = src/IMG_webp.c; sourceTree = SOURCE_ROOT; };
+		5905316403C44A7895B15F2D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		649CB54AA00145A6A3D13981 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pcx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_pcx.c; path = src/IMG_pcx.c; sourceTree = SOURCE_ROOT; };
+		6E3584752F7D4FF3BEA61863 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG.c; path = src/IMG.c; sourceTree = SOURCE_ROOT; };
+		7796E22088AC45F1A6F3B1DF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jpg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_jpg.c; path = src/IMG_jpg.c; sourceTree = SOURCE_ROOT; };
+		81CC7D821C6E410C929A0C36 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_lbm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_lbm.c; path = src/IMG_lbm.c; sourceTree = SOURCE_ROOT; };
+		84AB25B3ADD642AFB18EFD2F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ImageIO.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_ImageIO.m; path = src/IMG_ImageIO.m; sourceTree = SOURCE_ROOT; };
+		8668AB0201574837A06F2ED1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_WIC.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_WIC.c; path = src/IMG_WIC.c; sourceTree = SOURCE_ROOT; };
+		952D3FBE7BCB4E5E90220F64 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_gif.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_gif.c; path = src/IMG_gif.c; sourceTree = SOURCE_ROOT; };
+		9D3221E0A1D04384AE47EA65 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tif.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_tif.c; path = src/IMG_tif.c; sourceTree = SOURCE_ROOT; };
+		9EEFD7AAC4BE489CA4FED76C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_xv.c; path = src/IMG_xv.c; sourceTree = SOURCE_ROOT; };
+		9F6C71368E60487383A93882 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xpm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_xpm.c; path = src/IMG_xpm.c; sourceTree = SOURCE_ROOT; };
+		A3140E1FF77644129B77FAB9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_qoi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_qoi.c; path = src/IMG_qoi.c; sourceTree = SOURCE_ROOT; };
+		B6568B53B4F54D3BAA344775 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jxl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_jxl.c; path = src/IMG_jxl.c; sourceTree = SOURCE_ROOT; };
+		B99BC8870717489C80970C4F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_svg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_svg.c; path = src/IMG_svg.c; sourceTree = SOURCE_ROOT; };
+		C9EF16B37A224D98B5F2D5AA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_decoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_anim_decoder.c; path = src/IMG_anim_decoder.c; sourceTree = SOURCE_ROOT; };
+		CDAFE80ACCF04C858581568D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pnm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_pnm.c; path = src/IMG_pnm.c; sourceTree = SOURCE_ROOT; };
+		D82B18D236C74B7F903D707B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_bmp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_bmp.c; path = src/IMG_bmp.c; sourceTree = SOURCE_ROOT; };
+		E521C4DBD9DC45F38AA25588 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/xmlman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlman.c; path = src/xmlman.c; sourceTree = SOURCE_ROOT; };
+		E9C7D19478F741F59526DF80 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ani.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_ani.c; path = src/IMG_ani.c; sourceTree = SOURCE_ROOT; };
+		F1401F009F8742B8B9293032 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_stb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = IMG_stb.c; path = src/IMG_stb.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0415E5712FE84D4F97F3CAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2F8122241F497289549780 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B6C167F204B461286F13B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE44DF47CBA4A009CEC4AFE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3584752F7D4FF3BEA61863 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG.c */,
+				84AB25B3ADD642AFB18EFD2F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ImageIO.m */,
+				8668AB0201574837A06F2ED1 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_WIC.c */,
+				E9C7D19478F741F59526DF80 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ani.c */,
+				C9EF16B37A224D98B5F2D5AA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_decoder.c */,
+				11BAD655CDB54F84B1B2B9CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_encoder.c */,
+				26A14594B59043C087D009B6 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_avif.c */,
+				D82B18D236C74B7F903D707B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_bmp.c */,
+				952D3FBE7BCB4E5E90220F64 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_gif.c */,
+				7796E22088AC45F1A6F3B1DF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jpg.c */,
+				B6568B53B4F54D3BAA344775 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jxl.c */,
+				81CC7D821C6E410C929A0C36 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_lbm.c */,
+				432B751EE5174252BB2D2715 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_libpng.c */,
+				649CB54AA00145A6A3D13981 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pcx.c */,
+				2A46EC2EE74B458BBD0620CA /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_png.c */,
+				CDAFE80ACCF04C858581568D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pnm.c */,
+				A3140E1FF77644129B77FAB9 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_qoi.c */,
+				F1401F009F8742B8B9293032 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_stb.c */,
+				B99BC8870717489C80970C4F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_svg.c */,
+				36FE9A317D0248A88161076D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tga.c */,
+				9D3221E0A1D04384AE47EA65 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tif.c */,
+				434861BFD07C406BA6E7F6CB /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_webp.c */,
+				023950FB905C457286A00B9F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xcf.c */,
+				9F6C71368E60487383A93882 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xpm.c */,
+				9EEFD7AAC4BE489CA4FED76C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xv.c */,
+				E521C4DBD9DC45F38AA25588 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/xmlman.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		752EBE73EFC8450EB87E24FC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7C0F0899FDCB445C8EDF07A9 /* SDL3_image-shared */ = {
+			isa = PBXGroup;
+			children = (
+				4CE44DF47CBA4A009CEC4AFE /* Source Files */,
+				5905316403C44A7895B15F2D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/CMakeLists.txt */,
+			);
+			name = "SDL3_image-shared";
+			sourceTree = "<group>";
+		};
+		BF6A6D9B81BA412C8B2A140C = {
+			isa = PBXGroup;
+			children = (
+				7C0F0899FDCB445C8EDF07A9 /* SDL3_image-shared */,
+				DE9A0900871A40E485775405 /* ALL_BUILD */,
+				C982B44003CA4E9CB78A6A81 /* Products */,
+				3B6C167F204B461286F13B60 /* Frameworks */,
+				2F2F8122241F497289549780 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		C982B44003CA4E9CB78A6A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F727C54D67415AA6F5858C /* SDL3_image-shared */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9A0900871A40E485775405 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				752EBE73EFC8450EB87E24FC /* CMake Rules */,
+				0CF9C1DFFCD24549AB9C250A /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BB3C1E2100B92B34EEB6F8 /* SDL3_image-shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7B4F5E2F0447ABB21EB046 /* Build configuration list for PBXNativeTarget "SDL3_image-shared" */;
+			buildPhases = (
+				DF4E2D1C6971430990A4E843 /* Sources */,
+				0415E5712FE84D4F97F3CAA2 /* Frameworks */,
+				B25FEBAA6EF5E061B5AA1643 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC5F73443614A378787A4D0 /* PBXTargetDependency */,
+			);
+			name = "SDL3_image-shared";
+			productName = "SDL3_image-shared";
+			productReference = 25F727C54D67415AA6F5858C /* SDL3_image-shared */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7714E58157554110AF8E7372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 0C974617CC614EAA8F56D00D /* Build configuration list for PBXProject "SDL3_image" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D234023429D84508A2963E14 /* Debug */,
+				57E41DAB9D914030B1617C18 /* Release */,
+				F0A83FFE27F74015A77A486A /* MinSizeRel */,
+				DE3F680A633C4D8293086EBF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BF6A6D9B81BA412C8B2A140C;
+			projectDirPath = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image;
+			projectRoot = "";
+			targets = (
+				E2EC4718A74BF107859EC310 /* ALL_BUILD */,
+				E29FA1CAC29713EDFBDA245D /* install */,
+				911AB915F49FC256CC6BC6C3 /* package */,
+				73BB3C1E2100B92B34EEB6F8 /* SDL3_image-shared */,
+				757D71E0BA476BDF9C2D226F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		63AC468D1FAD2CC863918B5A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  make -f /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		98DD52246A223170EE565269 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B25FEBAA6EF5E061B5AA1643 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Debug/libSDL3_image.0.3.2.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Debug/libSDL3_image.0.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Debug/libSDL3_image.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Release/libSDL3_image.0.3.2.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Release/libSDL3_image.0.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Release/libSDL3_image.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/MinSizeRel/libSDL3_image.0.3.2.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/MinSizeRel/libSDL3_image.0.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/MinSizeRel/libSDL3_image.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL_image
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/RelWithDebInfo/libSDL3_image.0.3.2.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/RelWithDebInfo/libSDL3_image.0.dylib /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/RelWithDebInfo/libSDL3_image.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4E2D1C6971430990A4E843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDFAA0F713F44179E78E924 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG.c */,
+				25B9A9F55BC64E919E9B9D8F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ImageIO.m */,
+				C00355D657584324BF072BFE /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_WIC.c */,
+				4727B073A3244D46874709FD /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_ani.c */,
+				A71517F84A744C3996508818 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_decoder.c */,
+				B5752F958B1540D2BE53D47C /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_anim_encoder.c */,
+				44BF44A6C66A4BC9AC8F6184 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_avif.c */,
+				D199BFDC72D742C4B9BF8333 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_bmp.c */,
+				AA38F9CD9F874666AB2FFABF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_gif.c */,
+				3194D3805809416F86D1EDE4 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jpg.c */,
+				4BF1B7444C104458B054248E /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_jxl.c */,
+				8254D253CC86401184192CCF /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_lbm.c */,
+				407CDD02F7C841F1B3288370 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_libpng.c */,
+				3222B830792B4BD193E75DD3 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pcx.c */,
+				55325F7528084848ADE5A505 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_png.c */,
+				FE502DA44A06489AACC68A48 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_pnm.c */,
+				EC0FBBB5266F4C6DA8669B9D /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_qoi.c */,
+				ED10C47008724156981F0C72 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_stb.c */,
+				5904ED639AD64BF69388D46B /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_svg.c */,
+				CA24A8E668534CB28B596E9F /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tga.c */,
+				56A27D03AEC14FE7BB865BD5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_tif.c */,
+				8B83AB22BFD54295A0BF2DE5 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_webp.c */,
+				C007EE2A1AC94EEB838545B7 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xcf.c */,
+				FC8821320B99471F844DCAD2 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xpm.c */,
+				E31FE500457343BC87A9B145 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/IMG_xv.c */,
+				97C63810262A4FD6B1C58E39 /* /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/xmlman.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233299D51B1444CD9416E0E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 7EF479C4B1A843C891A41953 /* PBXContainerItemProxy */;
+		};
+		31A92866444348DC87B9F199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BB3C1E2100B92B34EEB6F8 /* SDL3_image-shared */;
+			targetProxy = FF0527676E5A4C4FADB128A3 /* PBXContainerItemProxy */;
+		};
+		4103515E841844D09DDEB58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = E394570A5EFE4F57BD66F1C4 /* PBXContainerItemProxy */;
+		};
+		4DC5F73443614A378787A4D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757D71E0BA476BDF9C2D226F /* ZERO_CHECK */;
+			targetProxy = 573BA57C639D49D58AD903F4 /* PBXContainerItemProxy */;
+		};
+		DE807EBBFB944E9AA097BF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC4718A74BF107859EC310 /* ALL_BUILD */;
+			targetProxy = 36CF79ED876B43D2BB7A9E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001F32A83E0D42578F3B9F22 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		039E962C329C4BC5A4CBF7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Debug;
+		};
+		06E7534A58164CFC8224E5DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		071C7E10374A42A99429D343 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		10CA8F11B1BF4B96A705BD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1364891CE2F24BF8804FB2A4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/MinSizeRel;
+				DYLIB_COMPATIBILITY_VERSION = 303.0.0;
+				DYLIB_CURRENT_VERSION = 303.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLL_EXPORT,BUILD_SDL,"'SDL_BUILD_MAJOR_VERSION=3'","'SDL_BUILD_MINOR_VERSION=3'","'SDL_BUILD_MICRO_VERSION=2'",USE_STBIMAGE,LOAD_AVIF,"'SAVE_AVIF=1'","'LOAD_AVIF_DYNAMIC=\"libavif.16.dylib\"'",LOAD_ANI,"'SAVE_ANI=1'",LOAD_BMP,"'SAVE_BMP=1'",LOAD_GIF,"'SAVE_GIF=1'",LOAD_JPG,"'SAVE_JPG=1'",LOAD_LBM,LOAD_PCX,"'LOAD_LIBPNG_DYNAMIC=\"libpng16.16.dylib\"'",LOAD_PNG,"'SAVE_PNG=1'",LOAD_PNM,LOAD_QOI,LOAD_SVG,LOAD_TGA,"'SAVE_TGA=1'",LOAD_WEBP,"'SAVE_WEBP=1'","'LOAD_WEBPDEMUX_DYNAMIC=\"libwebpdemux.2.dylib\"'","'LOAD_WEBPMUX_DYNAMIC=\"libwebpmux.3.dylib\"'","'LOAD_WEBP_DYNAMIC=\"libwebp.7.dylib\"'",LOAD_XCF,LOAD_XPM,LOAD_XV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL/include-revision",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL/include,/opt/homebrew/include,/opt/homebrew/include/webp,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/MinSizeRel,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -fvisibility=hidden -Wall -Wextra -Wno-unused-parameter '-Wno-error=deprecated-declarations' ","$(inherited)");
+				OTHER_LDFLAGS = ("'-Wl,-exported_symbols_list,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/SDL_image.exports' '-Wl,-undefined,error' -dynamiclib '-Wl,-headerpad_max_install_names' -install_name @rpath/libSDL3_image.0.dylib",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/MinSizeRel/libSDL3.0.dylib,"-Wl,-framework,ApplicationServices","-lobjc","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL3_image.0.3.2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/SDL3_image-shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		151014DD66F24C95BE8FB483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = Release;
+		};
+		3AD321AB027E4827BE7A7086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3AFD38808432402E86C804BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3FB86E98A3314BBB9916ED6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		63EFE01E6C454E31B9D6D42A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		792EAB756AE7467B9E8E6177 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B451AF798AF443DA32EBFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Release;
+				DYLIB_COMPATIBILITY_VERSION = 303.0.0;
+				DYLIB_CURRENT_VERSION = 303.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLL_EXPORT,BUILD_SDL,"'SDL_BUILD_MAJOR_VERSION=3'","'SDL_BUILD_MINOR_VERSION=3'","'SDL_BUILD_MICRO_VERSION=2'",USE_STBIMAGE,LOAD_AVIF,"'SAVE_AVIF=1'","'LOAD_AVIF_DYNAMIC=\"libavif.16.dylib\"'",LOAD_ANI,"'SAVE_ANI=1'",LOAD_BMP,"'SAVE_BMP=1'",LOAD_GIF,"'SAVE_GIF=1'",LOAD_JPG,"'SAVE_JPG=1'",LOAD_LBM,LOAD_PCX,"'LOAD_LIBPNG_DYNAMIC=\"libpng16.16.dylib\"'",LOAD_PNG,"'SAVE_PNG=1'",LOAD_PNM,LOAD_QOI,LOAD_SVG,LOAD_TGA,"'SAVE_TGA=1'",LOAD_WEBP,"'SAVE_WEBP=1'","'LOAD_WEBPDEMUX_DYNAMIC=\"libwebpdemux.2.dylib\"'","'LOAD_WEBPMUX_DYNAMIC=\"libwebpmux.3.dylib\"'","'LOAD_WEBP_DYNAMIC=\"libwebp.7.dylib\"'",LOAD_XCF,LOAD_XPM,LOAD_XV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL/include-revision",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL/include,/opt/homebrew/include,/opt/homebrew/include/webp,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Release,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -fvisibility=hidden -Wall -Wextra -Wno-unused-parameter '-Wno-error=deprecated-declarations' ","$(inherited)");
+				OTHER_LDFLAGS = ("'-Wl,-exported_symbols_list,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/SDL_image.exports' '-Wl,-undefined,error' -dynamiclib '-Wl,-headerpad_max_install_names' -install_name @rpath/libSDL3_image.0.dylib",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Release/libSDL3.0.dylib,"-Wl,-framework,ApplicationServices","-lobjc","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL3_image.0.3.2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/SDL3_image-shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7FEBE7F098024676A75CEF61 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		86D270C02BE64B68AEB796B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 303.0.0;
+				DYLIB_CURRENT_VERSION = 303.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLL_EXPORT,BUILD_SDL,"'SDL_BUILD_MAJOR_VERSION=3'","'SDL_BUILD_MINOR_VERSION=3'","'SDL_BUILD_MICRO_VERSION=2'",USE_STBIMAGE,LOAD_AVIF,"'SAVE_AVIF=1'","'LOAD_AVIF_DYNAMIC=\"libavif.16.dylib\"'",LOAD_ANI,"'SAVE_ANI=1'",LOAD_BMP,"'SAVE_BMP=1'",LOAD_GIF,"'SAVE_GIF=1'",LOAD_JPG,"'SAVE_JPG=1'",LOAD_LBM,LOAD_PCX,"'LOAD_LIBPNG_DYNAMIC=\"libpng16.16.dylib\"'",LOAD_PNG,"'SAVE_PNG=1'",LOAD_PNM,LOAD_QOI,LOAD_SVG,LOAD_TGA,"'SAVE_TGA=1'",LOAD_WEBP,"'SAVE_WEBP=1'","'LOAD_WEBPDEMUX_DYNAMIC=\"libwebpdemux.2.dylib\"'","'LOAD_WEBPMUX_DYNAMIC=\"libwebpmux.3.dylib\"'","'LOAD_WEBP_DYNAMIC=\"libwebp.7.dylib\"'",LOAD_XCF,LOAD_XPM,LOAD_XV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL/include-revision",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL/include,/opt/homebrew/include,/opt/homebrew/include/webp,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Debug,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -fvisibility=hidden -Wall -Wextra -Wno-unused-parameter '-Wno-error=deprecated-declarations' ","$(inherited)");
+				OTHER_LDFLAGS = ("'-Wl,-exported_symbols_list,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/SDL_image.exports' '-Wl,-undefined,error' -dynamiclib '-Wl,-headerpad_max_install_names' -install_name @rpath/libSDL3_image.0.dylib",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/Debug/libSDL3.0.dylib,"-Wl,-framework,ApplicationServices","-lobjc","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL3_image.0.3.2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/SDL3_image-shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A17BF64B26EB407C892A3E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A2FF8C96FBAC40CDBAF0E48C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA21E8E0257345AD9726B33E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build;
+			};
+			name = MinSizeRel;
+		};
+		CF84DCE8D4F5452EA6864CC5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/RelWithDebInfo;
+				DYLIB_COMPATIBILITY_VERSION = 303.0.0;
+				DYLIB_CURRENT_VERSION = 303.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLL_EXPORT,BUILD_SDL,"'SDL_BUILD_MAJOR_VERSION=3'","'SDL_BUILD_MINOR_VERSION=3'","'SDL_BUILD_MICRO_VERSION=2'",USE_STBIMAGE,LOAD_AVIF,"'SAVE_AVIF=1'","'LOAD_AVIF_DYNAMIC=\"libavif.16.dylib\"'",LOAD_ANI,"'SAVE_ANI=1'",LOAD_BMP,"'SAVE_BMP=1'",LOAD_GIF,"'SAVE_GIF=1'",LOAD_JPG,"'SAVE_JPG=1'",LOAD_LBM,LOAD_PCX,"'LOAD_LIBPNG_DYNAMIC=\"libpng16.16.dylib\"'",LOAD_PNG,"'SAVE_PNG=1'",LOAD_PNM,LOAD_QOI,LOAD_SVG,LOAD_TGA,"'SAVE_TGA=1'",LOAD_WEBP,"'SAVE_WEBP=1'","'LOAD_WEBPDEMUX_DYNAMIC=\"libwebpdemux.2.dylib\"'","'LOAD_WEBPMUX_DYNAMIC=\"libwebpmux.3.dylib\"'","'LOAD_WEBP_DYNAMIC=\"libwebp.7.dylib\"'",LOAD_XCF,LOAD_XPM,LOAD_XV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/include,"/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/vendor/SDL/include-revision",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL/include,/opt/homebrew/include,/opt/homebrew/include/webp,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/RelWithDebInfo,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -fvisibility=hidden -Wall -Wextra -Wno-unused-parameter '-Wno-error=deprecated-declarations' ","$(inherited)");
+				OTHER_LDFLAGS = ("'-Wl,-exported_symbols_list,/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/vendor/SDL_image/src/SDL_image.exports' '-Wl,-undefined,error' -dynamiclib '-Wl,-headerpad_max_install_names' -install_name @rpath/libSDL3_image.0.dylib",/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/RelWithDebInfo/libSDL3.0.dylib,"-Wl,-framework,ApplicationServices","-lobjc","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL3_image.0.3.2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/binhnguyenthanh/Documents/GameProgramming/SDL3/OpenGLEngine/build/build/SDL3_image-shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D21BC269189D4E33A8A428D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D6382827F891476197E1568C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D934AC117FF044D79D87BBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0B5913DBF9644E9BF313493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EBBF2D0CBFB8421399DCF3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C974617CC614EAA8F56D00D /* Build configuration list for PBXProject "SDL3_image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039E962C329C4BC5A4CBF7F3 /* Debug */,
+				151014DD66F24C95BE8FB483 /* Release */,
+				BA21E8E0257345AD9726B33E /* MinSizeRel */,
+				06E7534A58164CFC8224E5DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1923B308AAAB46F8AA5CCD06 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D934AC117FF044D79D87BBB5 /* Debug */,
+				10CA8F11B1BF4B96A705BD02 /* Release */,
+				7FEBE7F098024676A75CEF61 /* MinSizeRel */,
+				D6382827F891476197E1568C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3547531648354A56952F56D5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB86E98A3314BBB9916ED6E /* Debug */,
+				3AD321AB027E4827BE7A7086 /* Release */,
+				A2FF8C96FBAC40CDBAF0E48C /* MinSizeRel */,
+				792EAB756AE7467B9E8E6177 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A7B4F5E2F0447ABB21EB046 /* Build configuration list for PBXNativeTarget "SDL3_image-shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D270C02BE64B68AEB796B4 /* Debug */,
+				7B451AF798AF443DA32EBFD3 /* Release */,
+				1364891CE2F24BF8804FB2A4 /* MinSizeRel */,
+				CF84DCE8D4F5452EA6864CC5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D7FAB78EA0647B5A7EC70C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFD38808432402E86C804BB /* Debug */,
+				E0B5913DBF9644E9BF313493 /* Release */,
+				071C7E10374A42A99429D343 /* MinSizeRel */,
+				D21BC269189D4E33A8A428D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F53965F676814DB38BE46898 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17BF64B26EB407C892A3E16 /* Debug */,
+				EBBF2D0CBFB8421399DCF3BA /* Release */,
+				63EFE01E6C454E31B9D6D42A /* MinSizeRel */,
+				001F32A83E0D42578F3B9F22 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7714E58157554110AF8E7372 /* Project object */;
+}
