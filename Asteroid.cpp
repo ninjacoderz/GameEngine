@@ -18,7 +18,7 @@ Asteroid::Asteroid(Game* game)
 	,mCircle(nullptr)
 {
 	// Initialize to random position/orientation
-	Vector2 randPos = Random::GetVector(Vector2(-512.0f, -384.0f),
+	Vector3 randPos = Random::GetVector(Vector2(-512.0f, -384.0f),
 		Vector2(512.0f, 384.0f));
 	SetPosition(randPos);
 
