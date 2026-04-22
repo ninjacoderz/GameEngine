@@ -32,7 +32,14 @@ public:
 	void RemoveSprite(class SpriteComponent* sprite);
 	
 	Texture* GetTexture(const std::string& fileName);
+
+	// Game-specific (add/remove asteroid)
+	void AddAsteroid(class Asteroid* ast);
+	void RemoveAsteroid(class Asteroid* ast);
+	std::vector<class Asteroid*>& GetAsteroids() { return mAsteroids; }
+
 	bool LoadShaders();
+	Ship* GetShip() { return mShip; }
 private:
 	void ProcessInput();
 	void UpdateGame();
@@ -58,6 +65,11 @@ private:
 	bool mIsRunning;
 	// Track if we're updating actors right now
 	bool mUpdatingActors;
+
+	// Game-specific
+	class Ship* mShip; // Player's ship
+	std::vector<class Asteroid*> mAsteroids;
+
 	SDL_GLContext mContext;
 
 	VertexArray* mSpriteVertexArray;

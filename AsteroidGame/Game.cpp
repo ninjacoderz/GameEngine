@@ -179,7 +179,16 @@ void Game::GenerateOutput()
 
 void Game::LoadData()
 {
+	// Create player's ship
+	mShip = new Ship(this);
+	mShip->SetPosition(Vector2(0, 0));
 
+	// Create asteroids
+	const int numAsteroids = 20;
+	for (int i = 0; i < numAsteroids; i++)
+	{
+		new Asteroid(this);
+	}
 }
 
 void Game::UnloadData()
