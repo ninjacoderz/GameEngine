@@ -24,19 +24,20 @@ add_executable(Asteroid
         Main.cpp
         Game.cpp
         Actor.cpp
-        Asteroid.cpp
         CircleComponent.cpp
         Component.cpp
         InputComponent.cpp
-        Laser.cpp
         Math.cpp
         MoveComponent.cpp
         Random.cpp
-        Ship.cpp
         SpriteComponent.cpp
         VertexArray.cpp
         Shader.cpp
         Texture.cpp
+        Mesh.cpp
+        Mesh.h
+        Renderer.cpp
+        Renderer.h
 )
 set(SDLTTF_VENDORED ON)
 set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")
@@ -49,7 +50,7 @@ target_include_directories(Asteroid
 
 if(APPLE)
   set_target_properties(Asteroid PROPERTIES
-          INSTALL_RPATH "@executable_path;@loader_path"
+          INSTALL_RPATH "@executable_path;@loader_path;@executable_path/../lib"
           BUILD_WITH_INSTALL_RPATH TRUE
           MACOSX_RPATH TRUE
   )
@@ -71,7 +72,7 @@ add_subdirectory(${VENDOR_DIR}/glew/build/cmake)
 target_link_libraries(Asteroid
         SDL3::SDL3
         SDL3_image::SDL3_image
-        glew_s
+        glew
         soil
         ${COREFOUNDATION}
 )

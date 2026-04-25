@@ -15,7 +15,6 @@
 #include "Shader.h"
 #include "Texture.h"
 #include "VertexArray.h"
-#include  "Ship.h"
 
 class Game
 {
@@ -59,7 +58,6 @@ private:
 	// Track if we're updating actors right now
 	bool mUpdatingActors;
 	SDL_GLContext mContext;
-
 	VertexArray* mSpriteVertexArray;
 	Shader* mSpriteShader;
 };
