@@ -13,11 +13,16 @@
 #include "SpriteComponent.h"
 #include "Random.h"
 #include <GL/glew.h>
+#include "Math.h"
+
+#define WINDOW_WIDTH 1024
+#define WINDOW_HEIGHT 768
 
 Game::Game()
     : mWindow(nullptr)
-      , mIsRunning(true)
-      , mUpdatingActors(false) {
+    , mTicksCount(0), mIsRunning(true)
+    , mUpdatingActors(false), mContext(nullptr), mSpriteVertexArray(nullptr), mSpriteShader(nullptr),
+    mRenderer(nullptr) {
 }
 
 bool Game::Initialize() {
@@ -55,6 +60,13 @@ bool Game::Initialize() {
 
     LoadShaders();
     InitSpriteVerts();
+    mRenderer = new Renderer(this);
+    if (!mRenderer -> Initialize(WINDOW_WIDTH, WINDOW_HEIGHT)) {
+        SDL_Log("Failed to initialize Renderer");
+        delete mRenderer;
+        mRenderer = nullptr;
+        return false;
+    }
     LoadData();
 
     Random::Init();
@@ -139,23 +151,15 @@ void Game::UpdateGame() {
 }
 
 void Game::GenerateOutput() {
-    glClearColor(0.86f, 0.86f, 0.86f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT);
 
-    // Draw all sprite components
-    // Enable alpha blending on the color buffer
-    glEnable(GL_BLEND);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    mSpriteShader->SetActive();
-    mSpriteVertexArray->SetActive();
-    for (SpriteComponent *sprite: mSprites) {
-        sprite->Draw(mSpriteShader);
-    }
-
-    SDL_GL_SwapWindow(mWindow);
+	mRenderer->Draw();
 }
 
 void Game::LoadData() {
+    Actor* cube = new Actor(this);
+    cube->SetPosition(Vector3(0, 0, 0));
+    MeshComponent* meshComp = new MeshComponent(cube);
+    meshComp->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
 }
 
 void Game::UnloadData() {

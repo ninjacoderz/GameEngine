@@ -7,14 +7,14 @@
 #include <string>
 
 #include "Texture.h"
-#include "AsteroidGame/VertexArray.h"
+#include "VertexArray.h"
 #include <vector>
 
 class Mesh {
 public:
     Mesh();
     ~Mesh();
-    bool Load(const std::string& fileName, class Game* game);
+    bool Load(const std::string& fileName, class Renderer* renderer);
     void Unload();
     VertexArray* GetVertextArray() {
         return mVertexArray;
@@ -24,7 +24,6 @@ public:
     const std::string& GetShaderName () const { return mShaderName; }
     VertexArray* GetVertexArray() { return mVertexArray; }
     Texture* GetTexture(size_t index);
-
 private:
     VertexArray* mVertexArray;
     std::vector<Texture*> mTextures;

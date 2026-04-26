@@ -16,7 +16,7 @@ public:
 
     bool Load(const char* vertexPath, const char* fragmentPath);
     void Unload();
-    void SetActive();
+    void SetActive() const;
 
     void SetMatrixUniform(const char* name, const Matrix4& matrix);
 private:

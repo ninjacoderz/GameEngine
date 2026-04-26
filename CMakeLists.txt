@@ -38,6 +38,8 @@ add_executable(Asteroid
         Mesh.h
         Renderer.cpp
         Renderer.h
+        MeshComponent.cpp
+        MeshComponent.h
 )
 set(SDLTTF_VENDORED ON)
 set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")
@@ -68,6 +70,9 @@ add_subdirectory(${VENDOR_DIR}/SDL_image)
 add_subdirectory(${VENDOR_DIR}/SDL_ttf)
 add_subdirectory(${VENDOR_DIR}/SOIL)
 add_subdirectory(${VENDOR_DIR}/glew/build/cmake)
+
+# For Debug Sanitize
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
 
 target_link_libraries(Asteroid
         SDL3::SDL3

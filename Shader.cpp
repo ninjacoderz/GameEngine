@@ -38,7 +38,7 @@ void Shader::Unload() {
     glDeleteShader(mFragmentShader);
 }
 
-void Shader::SetActive() {
+void Shader::SetActive() const {
     glUseProgram(mShaderProgram);
 }
 

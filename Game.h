@@ -12,6 +12,7 @@
 #include <string>
 #include <vector>
 
+#include "Renderer.h"
 #include "Shader.h"
 #include "Texture.h"
 #include "VertexArray.h"
@@ -32,6 +33,8 @@ public:
 	
 	Texture* GetTexture(const std::string& fileName);
 	bool LoadShaders();
+
+	Renderer* GetRenderer() const { return mRenderer; }
 private:
 	void ProcessInput();
 	void UpdateGame();
@@ -60,4 +63,5 @@ private:
 	SDL_GLContext mContext;
 	VertexArray* mSpriteVertexArray;
 	Shader* mSpriteShader;
+	Renderer* mRenderer;
 };

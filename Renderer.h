@@ -4,25 +4,34 @@
 
 #ifndef ASTEROID_RENDERER_H
 #define ASTEROID_RENDERER_H
+#include <unordered_map>
+#include <SDL3/SDL.h>
 #include "Mesh.h"
-#include "SpriteComponent.h"
+#include "MeshComponent.h"
 
 
 class Renderer {
 public:
-    Renderer();
+    Renderer(class Game* game);
     ~Renderer();
     bool Initialize( float screenWidth, float screenHeight );
     void Shutdown();
     void UnloadData();
     void Draw();
-    void AddSprite(SpriteComponent* sprite);
-    void RemoveSprite(SpriteComponent* sprite);
+    void AddMeshComp(MeshComponent* mesh);
+    void RemoveMeshComp(MeshComponent* mesh);
     Texture* GetTexture(const std::string& textureName);
     Mesh* GetMesh(const std::string& meshName);
 private:
     bool LoadShaders();
     void CreateSpriteVerts();
+    Game* mGame;
+    std::unordered_map<std::string, Mesh*> mMeshes;
+    Shader* mMeshShader;
+    std::vector<MeshComponent*> mMeshComps;
+    Matrix4 mView;
+    Matrix4 mProjection;
+    float mScreenWidth, mScreenHeight;
 };
 
 
