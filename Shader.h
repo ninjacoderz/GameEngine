@@ -8,7 +8,6 @@
 
 #include "Math.h"
 
-
 class Shader {
 public:
     Shader();
@@ -19,6 +18,10 @@ public:
     void SetActive() const;
 
     void SetMatrixUniform(const char* name, const Matrix4& matrix);
+    void SetVectorUniform(const char* name, const Vector3& vector) const;
+
+    // Sets a float uniform
+    void SetFloatUniform(const char* name, float value) const;
 private:
     bool CompileShader(const char* fileName, GLuint shaderType, GLuint& outShader);
     bool IsCompiled(GLuint shader);
@@ -28,6 +31,5 @@ private:
     GLuint mFragmentShader;
     GLuint mShaderProgram;
 };
-
 
 #endif //_SHADER_H

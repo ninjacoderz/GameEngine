@@ -48,6 +48,7 @@ target_include_directories(Asteroid
         PRIVATE ${PROJECT_SOURCE_DIR}/src
         PRIVATE ${VENDOR_DIR}/glew/include
         PRIVATE ${VENDOR_DIR}/SOIL/includes
+        PRIVATE ${VENDOR_DIR}/rapidjson/include
 )
 
 if(APPLE)

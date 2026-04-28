@@ -41,11 +41,6 @@ private:
 	void GenerateOutput();
 	void LoadData();
 	void UnloadData();
-	void InitSpriteVerts();
-
-	void SetSpriteVertsActive();
-
-	void SetSpriteShaderActive();
 
 	// Map of textures loaded
 	std::unordered_map<std::string, Texture*> mTextures;
@@ -55,13 +50,9 @@ private:
 	std::vector<class Actor*> mPendingActors;
 	// All the sprite components drawn
 	std::vector<class SpriteComponent*> mSprites;
-	SDL_Window* mWindow;
 	Uint32 mTicksCount;
 	bool mIsRunning;
 	// Track if we're updating actors right now
 	bool mUpdatingActors;
-	SDL_GLContext mContext;
-	VertexArray* mSpriteVertexArray;
-	Shader* mSpriteShader;
 	Renderer* mRenderer;
 };

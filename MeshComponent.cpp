@@ -19,6 +19,7 @@ MeshComponent::~MeshComponent() {
 void MeshComponent::Draw(Shader *shader) {
     if (mMesh) {
         shader->SetMatrixUniform("uWorldTransform", mOwner->GetWorldTransform());
+        shader->SetFloatUniform("uSpecPower", mMesh->GetSpecPower());
         Texture* tex = mMesh->GetTexture(mTextureIndex);
         if (tex) tex->SetActive();
         VertexArray* vao = mMesh->GetVertexArray();

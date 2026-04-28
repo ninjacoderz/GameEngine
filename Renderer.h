@@ -9,6 +9,15 @@
 #include "Mesh.h"
 #include "MeshComponent.h"
 
+struct DirectionalLight
+{
+    // Direction of light
+    Vector3 mDirection;
+    // Diffuse color
+    Vector3 mDiffuseColor;
+    // Specular color
+    Vector3 mSpecColor;
+};
 
 class Renderer {
 public:
@@ -17,21 +26,34 @@ public:
     bool Initialize( float screenWidth, float screenHeight );
     void Shutdown();
     void UnloadData();
-    void Draw();
+    void Draw() const;
     void AddMeshComp(MeshComponent* mesh);
     void RemoveMeshComp(MeshComponent* mesh);
     Texture* GetTexture(const std::string& textureName);
     Mesh* GetMesh(const std::string& meshName);
+
+    void SetOpenGLAttributes();
 private:
     bool LoadShaders();
+    void SetLightUniforms(Shader *shader) const;
+
     void CreateSpriteVerts();
     Game* mGame;
     std::unordered_map<std::string, Mesh*> mMeshes;
+    std::unordered_map<std::string, Texture*> mTextures;
     Shader* mMeshShader;
     std::vector<MeshComponent*> mMeshComps;
     Matrix4 mView;
     Matrix4 mProjection;
+    Vector3 mAmbientLight;
+    DirectionalLight mDirLight;
     float mScreenWidth, mScreenHeight;
+    VertexArray* mSpriteVerts;
+
+    // Window
+    SDL_Window* mWindow;
+    // OpenGL context
+    SDL_GLContext mContext;
 };
 
 

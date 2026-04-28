@@ -19,9 +19,8 @@
 #define WINDOW_HEIGHT 768
 
 Game::Game()
-    : mWindow(nullptr)
-    , mTicksCount(0), mIsRunning(true)
-    , mUpdatingActors(false), mContext(nullptr), mSpriteVertexArray(nullptr), mSpriteShader(nullptr),
+    : mTicksCount(0), mIsRunning(true)
+    , mUpdatingActors(false),
     mRenderer(nullptr) {
 }
 
@@ -31,35 +30,6 @@ bool Game::Initialize() {
         return false;
     }
 
-    // Setup OpenGL Window
-    mWindow = SDL_CreateWindow("Game Programming in C++ (Chapter 6)", 1024, 768, SDL_WINDOW_OPENGL);
-    if (!mWindow) {
-        SDL_Log("Failed to create window: %s", SDL_GetError());
-        return false;
-    }
-
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
-    SDL_GL_SetAttribute(SDL_GL_GREEN_SIZE, 8);
-    SDL_GL_SetAttribute(SDL_GL_BLUE_SIZE, 8);
-    SDL_GL_SetAttribute(SDL_GL_ALPHA_SIZE, 8);
-    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
-    SDL_GL_SetAttribute(SDL_GL_ACCELERATED_VISUAL, 1);
-
-    mContext = SDL_GL_CreateContext(mWindow);
-    glewExperimental = GL_TRUE;
-
-    if (glewInit() != GLEW_OK) {
-        SDL_Log("Failed to initialize GLEW");
-        return false;
-    }
-
-    glGetError();
-
-    LoadShaders();
-    InitSpriteVerts();
     mRenderer = new Renderer(this);
     if (!mRenderer -> Initialize(WINDOW_WIDTH, WINDOW_HEIGHT)) {
         SDL_Log("Failed to initialize Renderer");
@@ -67,9 +37,8 @@ bool Game::Initialize() {
         mRenderer = nullptr;
         return false;
     }
-    LoadData();
 
-    Random::Init();
+    LoadData();
 
     mTicksCount = SDL_GetTicks();
     return true;
@@ -81,18 +50,6 @@ void Game::RunLoop() {
         UpdateGame();
         GenerateOutput();
     }
-}
-
-bool Game::LoadShaders() {
-    mSpriteShader = new Shader();
-    if (!mSpriteShader->Load("Shaders/Sprite.vert", "Shaders/Sprite.frag")) {
-        return false;
-    }
-    mSpriteShader->SetActive();
-    Matrix4 viewProj = Matrix4::CreateSimpleViewProj(1024.f, 768.f);
-    mSpriteShader->SetMatrixUniform("uViewProj", viewProj);
-
-    return true;
 }
 
 void Game::ProcessInput() {
@@ -151,15 +108,18 @@ void Game::UpdateGame() {
 }
 
 void Game::GenerateOutput() {
-
 	mRenderer->Draw();
 }
 
 void Game::LoadData() {
-    Actor* cube = new Actor(this);
-    cube->SetPosition(Vector3(0, 0, 0));
-    MeshComponent* meshComp = new MeshComponent(cube);
-    meshComp->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
+    Actor* a = new Actor(this);
+    a->SetPosition(Vector3(200.0f, 75.0f, 0.0f));
+    a->SetScale(100.0f);
+    Quaternion q(Vector3::UnitY, -Math::PiOver2);
+    q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::Pi + Math::Pi / 4.0f));
+    a->SetRotation(q);
+    MeshComponent* mc = new MeshComponent(a);
+    mc->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
 }
 
 void Game::UnloadData() {
@@ -176,33 +136,6 @@ void Game::UnloadData() {
     }
     mTextures.clear();
 
-    // Destroy shader
-    delete mSpriteShader;
-    delete mSpriteVertexArray;
-}
-
-void Game::InitSpriteVerts() {
-    float vertexBuffer[] = {
-        -0.5f, 0.5f, 0.f, 0.f, 0.f, // top left
-        0.5f, 0.5f, 0.f, 1.f, 0.f, // top right
-        0.5f, -0.5f, 0.f, 1.f, 1.f, // bottom right
-        -0.5f, -0.5f, 0.f, 0.f, 1.f // bottom left
-    };
-
-    const unsigned int indexBuffer[] = {
-        0, 1, 2,
-        2, 3, 0
-    };
-
-    mSpriteVertexArray = new VertexArray(vertexBuffer, 4, indexBuffer, 6);
-}
-
-void Game::SetSpriteVertsActive() {
-    mSpriteVertexArray->SetActive();
-}
-
-void Game::SetSpriteShaderActive() {
-    mSpriteShader->SetActive();
 }
 
 Texture *Game::GetTexture(const std::string &fileName) {
@@ -226,8 +159,6 @@ Texture *Game::GetTexture(const std::string &fileName) {
 
 void Game::Shutdown() {
     UnloadData();
-    SDL_DestroyWindow(mWindow);
-    SDL_GL_DestroyContext(mContext);
     SDL_Quit();
 }
 

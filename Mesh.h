@@ -16,19 +16,18 @@ public:
     ~Mesh();
     bool Load(const std::string& fileName, class Renderer* renderer);
     void Unload();
-    VertexArray* GetVertextArray() {
-        return mVertexArray;
-    }
-
     float GetRadius () const { return mRadius; }
     const std::string& GetShaderName () const { return mShaderName; }
-    VertexArray* GetVertexArray() { return mVertexArray; }
-    Texture* GetTexture(size_t index);
+    VertexArray* GetVertexArray() const { return mVertexArray; }
+    Texture* GetTexture(size_t index) const;
+    // Get specular power of mesh
+    float GetSpecPower() const { return mSpecPower; }
 private:
     VertexArray* mVertexArray;
     std::vector<Texture*> mTextures;
     std::string mShaderName;
     float mRadius;
+    float mSpecPower;
 };
 
 
