@@ -12,7 +12,7 @@
 class MeshComponent : public Component{
 public:
     MeshComponent(Actor* actor);
-    ~MeshComponent();
+    ~MeshComponent() override;
 
     virtual void Draw(Shader* shader);
     virtual void SetMesh(Mesh* mesh);

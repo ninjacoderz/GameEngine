@@ -6,17 +6,24 @@
 #include <SDL3/SDL.h>
 #include <cassert>
 
+const Vector3 DEFAULT_EMBIENTLIGHT = Vector3(0.2f, 0.2f, 0.2f);
+const Vector3 DEFAULT_DIRLIGHT = Vector3(0.0f, -0.707f, -0.707f);
+const Vector3 DEFAULT_DIFFUSECOLOR = Vector3(0.0f, 1.0f, 1.0f);
+const Vector3 DEFAULT_SPECLIGHT = Vector3(0.8f, 0.8f, 0.8f);
 
 Renderer::Renderer(Game *game)
-: mGame(game)
-, mMeshShader(nullptr){
+    : mGame(game)
+    , mMeshShader(nullptr)
+    , mScreenWidth(0)
+    , mScreenHeight(0)
+    , mWindow(nullptr)
+    , mContext(nullptr) {
 }
 
 Renderer::~Renderer() {
 }
 
 bool Renderer::Initialize(float screenWidth, float screenHeight) {
-
     mScreenWidth = screenWidth;
     mScreenHeight = screenHeight;
 
@@ -29,7 +36,6 @@ bool Renderer::Initialize(float screenWidth, float screenHeight) {
         return false;
     }
     mContext = SDL_GL_CreateContext(mWindow);
-
     glewExperimental = GL_TRUE;
     if (glewInit() != GLEW_OK) {
         SDL_Log("Failed to initialize GLEW");
@@ -37,13 +43,20 @@ bool Renderer::Initialize(float screenWidth, float screenHeight) {
     }
     glGetError();
 
-    if (!LoadShaders())
-    {
+    if (!LoadShaders()) {
         SDL_Log("Failed to load shaders.");
         return false;
     }
+
+    // Setup Light
+    SetAmbientLight(DEFAULT_EMBIENTLIGHT);
+    DirectionalLight &dir = GetDirectionalLight();
+    dir.mDirection = DEFAULT_DIRLIGHT;
+    dir.mDiffuseColor = DEFAULT_DIFFUSECOLOR;
+    dir.mSpecColor = DEFAULT_SPECLIGHT;
     return true;
 }
+
 
 void Renderer::Shutdown() {
     mMeshShader->Unload();
@@ -83,8 +96,7 @@ void Renderer::Draw() const {
     mMeshShader->SetMatrixUniform("uViewProj", mView * mProjection);
     // Update lighting uniforms
     SetLightUniforms(mMeshShader);
-    for (auto mc : mMeshComps)
-    {
+    for (auto mc: mMeshComps) {
         mc->Draw(mMeshShader);
     }
 
@@ -97,26 +109,20 @@ void Renderer::AddMeshComp(MeshComponent *mesh) {
 }
 
 void Renderer::RemoveMeshComp(MeshComponent *mesh) {
-    std::vector<MeshComponent*>::iterator it = std::find(mMeshComps.begin(), mMeshComps.end(), mesh);
+    std::vector<MeshComponent *>::iterator it = std::find(mMeshComps.begin(), mMeshComps.end(), mesh);
     mMeshComps.erase(it);
 }
 
-Texture * Renderer::GetTexture(const std::string &textureName) {
-    Texture* tex = nullptr;
+Texture *Renderer::GetTexture(const std::string &textureName) {
+    Texture *tex = nullptr;
     auto iter = mTextures.find(textureName);
-    if (iter != mTextures.end())
-    {
+    if (iter != mTextures.end()) {
         tex = iter->second;
-    }
-    else
-    {
+    } else {
         tex = new Texture();
-        if (tex->Load(textureName.c_str()))
-        {
+        if (tex->Load(textureName.c_str())) {
             mTextures.emplace(textureName, tex);
-        }
-        else
-        {
+        } else {
             delete tex;
             tex = nullptr;
         }
@@ -124,22 +130,16 @@ Texture * Renderer::GetTexture(const std::string &textureName) {
     return tex;
 }
 
-Mesh* Renderer::GetMesh(const std::string &fileName) {
-    Mesh* m = nullptr;
+Mesh *Renderer::GetMesh(const std::string &fileName) {
+    Mesh *m = nullptr;
     auto iter = mMeshes.find(fileName);
-    if (iter != mMeshes.end())
-    {
+    if (iter != mMeshes.end()) {
         m = iter->second;
-    }
-    else
-    {
+    } else {
         m = new Mesh();
-        if (m->Load(fileName, this))
-        {
+        if (m->Load(fileName, this)) {
             mMeshes.emplace(fileName, m);
-        }
-        else
-        {
+        } else {
             delete m;
             m = nullptr;
         }
@@ -167,19 +167,15 @@ void Renderer::SetOpenGLAttributes() {
 }
 
 bool Renderer::LoadShaders() {
-
-    // Create basic mesh shader
+    // Create a basic mesh shader
     mMeshShader = new Shader();
-    if (!mMeshShader->Load("Shaders/Phong.vert", "Shaders/Phong.frag"))
-    {
+    if (!mMeshShader->Load("Shaders/Phong.vert", "Shaders/Phong.frag")) {
         return false;
     }
-
-    mMeshShader->SetActive();
     // Set the view-projection matrix
     mView = Matrix4::CreateLookAt(Vector3::Zero, Vector3::UnitX, Vector3::UnitZ);
     mProjection = Matrix4::CreatePerspectiveFOV(Math::ToRadians(70.0f),
-        mScreenWidth, mScreenHeight, 25.0f, 10000.0f);
+                                                mScreenWidth, mScreenHeight, 25.0f, 10000.0f);
     mMeshShader->SetMatrixUniform("uViewProj", mView * mProjection);
     return true;
 }

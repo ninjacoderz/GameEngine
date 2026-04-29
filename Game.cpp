@@ -20,8 +20,8 @@
 
 Game::Game()
     : mTicksCount(0), mIsRunning(true)
-    , mUpdatingActors(false),
-    mRenderer(nullptr) {
+      , mUpdatingActors(false),
+      mRenderer(nullptr) {
 }
 
 bool Game::Initialize() {
@@ -31,7 +31,7 @@ bool Game::Initialize() {
     }
 
     mRenderer = new Renderer(this);
-    if (!mRenderer -> Initialize(WINDOW_WIDTH, WINDOW_HEIGHT)) {
+    if (!mRenderer->Initialize(WINDOW_WIDTH, WINDOW_HEIGHT)) {
         SDL_Log("Failed to initialize Renderer");
         delete mRenderer;
         mRenderer = nullptr;
@@ -108,24 +108,25 @@ void Game::UpdateGame() {
 }
 
 void Game::GenerateOutput() {
-	mRenderer->Draw();
+    mRenderer->Draw();
 }
 
 void Game::LoadData() {
-    Actor* a = new Actor(this);
+    Actor *a = new Actor(this);
     a->SetPosition(Vector3(200.0f, 75.0f, 0.0f));
     a->SetScale(100.0f);
     Quaternion q(Vector3::UnitY, -Math::PiOver2);
     q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::Pi + Math::Pi / 4.0f));
     a->SetRotation(q);
-    MeshComponent* mc = new MeshComponent(a);
+    MeshComponent *mc = new MeshComponent(a);
     mc->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
 
-    mRenderer->SetAmbientLight(Vector3(0.2f, 0.2f, 0.2f));
-    DirectionalLight& dir = mRenderer->GetDirectionalLight();
-    dir.mDirection = Vector3(0.0f, -0.707f, -0.707f);
-    dir.mDiffuseColor = Vector3(0.78f, 0.88f, 1.0f);
-    dir.mSpecColor = Vector3(0.8f, 0.8f, 0.8f);
+    Actor* b = new Actor(this);
+    b->SetPosition(Vector3(200.0f, -75.0f, 0.0f));
+    b->SetScale(3.0f);
+    mc = new MeshComponent(b);
+    mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
+
 }
 
 void Game::UnloadData() {
@@ -141,7 +142,6 @@ void Game::UnloadData() {
         delete i.second;
     }
     mTextures.clear();
-
 }
 
 Texture *Game::GetTexture(const std::string &fileName) {

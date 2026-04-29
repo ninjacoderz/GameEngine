@@ -49,8 +49,6 @@ private:
     Vector3 mAmbientLight;
     DirectionalLight mDirLight;
     float mScreenWidth, mScreenHeight;
-    VertexArray* mSpriteVerts;
-
     // Window
     SDL_Window* mWindow;
     // OpenGL context
