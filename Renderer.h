@@ -31,13 +31,14 @@ public:
     void RemoveMeshComp(MeshComponent* mesh);
     Texture* GetTexture(const std::string& textureName);
     Mesh* GetMesh(const std::string& meshName);
-
+    void SetAmbientLight(const Vector3& ambient) { mAmbientLight = ambient; }
+    DirectionalLight& GetDirectionalLight() { return mDirLight; }
     void SetOpenGLAttributes();
 private:
     bool LoadShaders();
     void SetLightUniforms(Shader *shader) const;
 
-    void CreateSpriteVerts();
+
     Game* mGame;
     std::unordered_map<std::string, Mesh*> mMeshes;
     std::unordered_map<std::string, Texture*> mTextures;
