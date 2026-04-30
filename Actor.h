@@ -27,7 +27,7 @@ public:
 	virtual ~Actor();
 
 	// Update function called from Game (not overridable)
-	void Update(float deltaTime);
+	virtual void Update(float deltaTime);
 	// Updates all the components attached to the actor (not overridable)
 	void UpdateComponents(float deltaTime);
 	// Any actor-specific update code (overridable)
@@ -38,6 +38,7 @@ public:
 	// Any actor-specific input code (overridable)
 	virtual void ActorInput(const SDL_Event& event);
 
+	Game* GetGame() { return mGame; }
 	// Getters/setters
 	const Vector3& GetPosition() const { return mPosition; }
 	void SetPosition(const Vector3& pos) { mPosition = pos; mRecomputeWorldTransform = true;}

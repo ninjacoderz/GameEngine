@@ -126,7 +126,12 @@ void Game::LoadData() {
     b->SetScale(3.0f);
     mc = new MeshComponent(b);
     mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
+    mCamera = new Camera(this);
 
+    Actor* c = new Actor(this);
+    c->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));
+    SpriteComponent* sc = new SpriteComponent(c);
+    sc->SetTexture(mRenderer->GetTexture("Assets/HealthBar.png"));
 }
 
 void Game::UnloadData() {
@@ -193,27 +198,4 @@ void Game::RemoveActor(Actor *actor) {
         std::iter_swap(iter, mActors.end() - 1);
         mActors.pop_back();
     }
-}
-
-void Game::AddSprite(SpriteComponent *sprite) {
-    // Find the insertion point in the sorted vector
-    // (The first element with a higher draw order than me)
-    int myDrawOrder = sprite->GetDrawOrder();
-    auto iter = mSprites.begin();
-    for (;
-        iter != mSprites.end();
-        ++iter) {
-        if (myDrawOrder < (*iter)->GetDrawOrder()) {
-            break;
-        }
-    }
-
-    // Inserts element before position of iterator
-    mSprites.insert(iter, sprite);
-}
-
-void Game::RemoveSprite(SpriteComponent *sprite) {
-    // (We can't swap because it ruins ordering)
-    auto iter = std::find(mSprites.begin(), mSprites.end(), sprite);
-    mSprites.erase(iter);
 }

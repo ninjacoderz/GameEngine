@@ -6,6 +6,8 @@
 #include <SDL3/SDL.h>
 #include <cassert>
 
+#include "SpriteComponent.h"
+
 const Vector3 DEFAULT_EMBIENTLIGHT = Vector3(0.2f, 0.2f, 0.2f);
 const Vector3 DEFAULT_DIRLIGHT = Vector3(0.0f, -0.707f, -0.707f);
 const Vector3 DEFAULT_DIFFUSECOLOR = Vector3(0.0f, 1.0f, 1.0f);
@@ -13,11 +15,12 @@ const Vector3 DEFAULT_SPECLIGHT = Vector3(0.8f, 0.8f, 0.8f);
 
 Renderer::Renderer(Game *game)
     : mGame(game)
-    , mMeshShader(nullptr)
-    , mScreenWidth(0)
-    , mScreenHeight(0)
-    , mWindow(nullptr)
-    , mContext(nullptr) {
+      , mMeshShader(nullptr)
+      , mSpriteShader(nullptr)
+      , mScreenWidth(0)
+      , mScreenHeight(0)
+      , mWindow(nullptr)
+      , mContext(nullptr) {
 }
 
 Renderer::~Renderer() {
@@ -54,11 +57,21 @@ bool Renderer::Initialize(float screenWidth, float screenHeight) {
     dir.mDirection = DEFAULT_DIRLIGHT;
     dir.mDiffuseColor = DEFAULT_DIFFUSECOLOR;
     dir.mSpecColor = DEFAULT_SPECLIGHT;
+
+    CreateSpriteVerts();
+
     return true;
 }
 
 
 void Renderer::Shutdown() {
+    delete mSpriteVerts;
+    mSpriteVerts = nullptr;
+
+    mSpriteShader->Unload();
+    delete mSpriteShader;
+    mSpriteShader = nullptr;
+
     mMeshShader->Unload();
     delete mMeshShader;
     mMeshShader = nullptr;
@@ -78,6 +91,11 @@ void Renderer::UnloadData() {
         delete i.second;
     }
     mMeshes.clear();
+}
+
+void Renderer::RemoveSprite(SpriteComponent *sprite) {
+    auto it = std::find(mSpriteComps.begin(), mSpriteComps.end(), sprite);
+    if (it != mSpriteComps.end()) mSpriteComps.erase(it);
 }
 
 void Renderer::Draw() const {
@@ -100,6 +118,15 @@ void Renderer::Draw() const {
         mc->Draw(mMeshShader);
     }
 
+    glDisable(GL_DEPTH_TEST);
+    glEnable(GL_BLEND);
+    glBlendEquationSeparate(GL_FUNC_ADD, GL_FUNC_ADD);
+    glBlendFuncSeparate(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ONE, GL_ZERO);
+    mSpriteShader->SetActive();
+    mSpriteVerts->SetActive();
+    for (auto sprite: mSpriteComps) {
+        sprite->Draw(mSpriteShader);
+    }
     // Swap the buffers
     SDL_GL_SwapWindow(mWindow);
 }
@@ -108,9 +135,12 @@ void Renderer::AddMeshComp(MeshComponent *mesh) {
     mMeshComps.emplace_back(mesh);
 }
 
+void Renderer::AddSpriteComp(SpriteComponent* spriteComp) {
+    mSpriteComps.emplace_back(spriteComp);
+}
 void Renderer::RemoveMeshComp(MeshComponent *mesh) {
     std::vector<MeshComponent *>::iterator it = std::find(mMeshComps.begin(), mMeshComps.end(), mesh);
-    mMeshComps.erase(it);
+    if (it != mMeshComps.end()) mMeshComps.erase(it);
 }
 
 Texture *Renderer::GetTexture(const std::string &textureName) {
@@ -167,6 +197,17 @@ void Renderer::SetOpenGLAttributes() {
 }
 
 bool Renderer::LoadShaders() {
+    mSpriteShader = new Shader();
+    if (!mSpriteShader->Load("Shaders/Sprite.vert", "Shaders/Sprite.frag"))
+    {
+        return false;
+    }
+
+    mSpriteShader->SetActive();
+    // Set the view-projection matrix
+    Matrix4 viewProj = Matrix4::CreateSimpleViewProj(mScreenWidth, mScreenHeight);
+    mSpriteShader->SetMatrixUniform("uViewProj", viewProj);
+
     // Create a basic mesh shader
     mMeshShader = new Shader();
     if (!mMeshShader->Load("Shaders/Phong.vert", "Shaders/Phong.frag")) {
@@ -176,7 +217,6 @@ bool Renderer::LoadShaders() {
     mView = Matrix4::CreateLookAt(Vector3::Zero, Vector3::UnitX, Vector3::UnitZ);
     mProjection = Matrix4::CreatePerspectiveFOV(Math::ToRadians(70.0f),
                                                 mScreenWidth, mScreenHeight, 25.0f, 10000.0f);
-    mMeshShader->SetMatrixUniform("uViewProj", mView * mProjection);
     return true;
 }
 
@@ -188,4 +228,21 @@ void Renderer::SetLightUniforms(Shader *shader) const {
     shader->SetVectorUniform("uDirLight.mDirection", mDirLight.mDirection);
     shader->SetVectorUniform("uDirLight.mDiffuseColor", mDirLight.mDiffuseColor);
     shader->SetVectorUniform("uDirLight.mSpecColor", mDirLight.mSpecColor);
+}
+
+void Renderer::CreateSpriteVerts()
+{
+    float vertices[] = {
+        -0.5f, 0.5f, 0.f, 0.f, 0.f, 0.0f, 0.f, 0.f, // top left
+        0.5f, 0.5f, 0.f, 0.f, 0.f, 0.0f, 1.f, 0.f, // top right
+        0.5f,-0.5f, 0.f, 0.f, 0.f, 0.0f, 1.f, 1.f, // bottom right
+        -0.5f,-0.5f, 0.f, 0.f, 0.f, 0.0f, 0.f, 1.f  // bottom left
+    };
+
+    unsigned int indices[] = {
+        0, 1, 2,
+        2, 3, 0
+    };
+
+    mSpriteVerts = new VertexArray(vertices, 4, indices, 6);
 }

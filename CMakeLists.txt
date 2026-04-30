@@ -40,6 +40,8 @@ add_executable(Asteroid
         Renderer.h
         MeshComponent.cpp
         MeshComponent.h
+        Camera.cpp
+        Camera.h
 )
 set(SDLTTF_VENDORED ON)
 set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")

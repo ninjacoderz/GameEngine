@@ -12,10 +12,9 @@
 #include <string>
 #include <vector>
 
+#include "Camera.h"
 #include "Renderer.h"
-#include "Shader.h"
 #include "Texture.h"
-#include "VertexArray.h"
 
 class Game
 {
@@ -27,13 +26,8 @@ public:
 
 	void AddActor(class Actor* actor);
 	void RemoveActor(class Actor* actor);
-
-	void AddSprite(class SpriteComponent* sprite);
-	void RemoveSprite(class SpriteComponent* sprite);
 	
 	Texture* GetTexture(const std::string& fileName);
-	bool LoadShaders();
-
 	Renderer* GetRenderer() const { return mRenderer; }
 private:
 	void ProcessInput();
@@ -48,11 +42,11 @@ private:
 	std::vector<class Actor*> mActors;
 	// Any pending actors
 	std::vector<class Actor*> mPendingActors;
-	// All the sprite components drawn
-	std::vector<class SpriteComponent*> mSprites;
 	Uint32 mTicksCount;
 	bool mIsRunning;
 	// Track if we're updating actors right now
 	bool mUpdatingActors;
 	Renderer* mRenderer;
+
+	Camera *mCamera;
 };

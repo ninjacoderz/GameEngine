@@ -8,6 +8,7 @@
 #include <SDL3/SDL.h>
 #include "Mesh.h"
 #include "MeshComponent.h"
+#include "SpriteComponent.h"
 
 struct DirectionalLight
 {
@@ -26,17 +27,24 @@ public:
     bool Initialize( float screenWidth, float screenHeight );
     void Shutdown();
     void UnloadData();
+
+    void RemoveSprite(SpriteComponent *sprite);
+
     void Draw() const;
     void AddMeshComp(MeshComponent* mesh);
+    void AddSpriteComp(SpriteComponent *spriteComp);
     void RemoveMeshComp(MeshComponent* mesh);
     Texture* GetTexture(const std::string& textureName);
     Mesh* GetMesh(const std::string& meshName);
     void SetAmbientLight(const Vector3& ambient) { mAmbientLight = ambient; }
     DirectionalLight& GetDirectionalLight() { return mDirLight; }
     void SetOpenGLAttributes();
+    void SetViewMatrix(const Matrix4& view) { mView = view; }
 private:
     bool LoadShaders();
     void SetLightUniforms(Shader *shader) const;
+
+    void CreateSpriteVerts();
 
 
     Game* mGame;
@@ -49,6 +57,11 @@ private:
     Vector3 mAmbientLight;
     DirectionalLight mDirLight;
     float mScreenWidth, mScreenHeight;
+
+    std::vector<SpriteComponent*> mSpriteComps;
+    Shader* mSpriteShader;
+    Matrix4 mSpriteViewProj;
+    VertexArray* mSpriteVerts;
     // Window
     SDL_Window* mWindow;
     // OpenGL context
