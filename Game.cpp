@@ -142,7 +142,7 @@ void Game::LoadData() {
     b->SetScale(3.0f);
     mc = new MeshComponent(b);
     mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
-    mCamera = new Camera(this);
+    mCamera = new CameraActor(this);
 
     Actor* c = new Actor(this);
     c->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));

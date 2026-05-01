@@ -7,9 +7,9 @@
 #include "Actor.h"
 
 
-class Camera: public Actor {
+class CameraActor: public Actor {
 public:
-    Camera(class Game* game);
+    CameraActor(class Game* game);
     void Update(float deltaTime) override;
     void ActorInput(const struct InputState &state) override;
 private:

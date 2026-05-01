@@ -2,12 +2,12 @@
 // Created by Binh Nguyen Thanh on 30/4/26.
 //
 
-#include "Camera.h"
+#include "CameraActor.h"
 
 #include "Game.h"
 #include "MoveComponent.h"
 
-void Camera::ActorInput(const struct InputState &state) {
+void CameraActor::ActorInput(const struct InputState &state) {
     float forwardSpeed = 0.0f;
     float angularSpeed = 0.0f;
     // wasd movement
@@ -32,11 +32,11 @@ void Camera::ActorInput(const struct InputState &state) {
     mMoveComp->SetAngularSpeed(angularSpeed);
 }
 
-Camera::Camera(class Game *game) : Actor(game) {
+CameraActor::CameraActor(class Game *game) : Actor(game) {
     mMoveComp = new MoveComponent(this);
 }
 
-void Camera::Update(float deltaTime) {
+void CameraActor::Update(float deltaTime) {
     Actor::Update(deltaTime);
 
     Vector3 cameraPos = GetPosition();

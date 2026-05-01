@@ -12,7 +12,7 @@
 #include <string>
 #include <vector>
 
-#include "Camera.h"
+#include "CameraActor.h"
 #include "Renderer.h"
 #include "Texture.h"
 
@@ -48,5 +48,5 @@ private:
 	// Track if we're updating actors right now
 	bool mUpdatingActors;
 	Renderer* mRenderer;
-	Camera *mCamera;
+	CameraActor *mCamera;
 };
