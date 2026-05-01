@@ -11,7 +11,7 @@ class Camera: public Actor {
 public:
     Camera(class Game* game);
     void Update(float deltaTime) override;
-    void ActorInput(const bool* keyState) override;
+    void ActorInput(const struct InputState &state) override;
 private:
     class MoveComponent* mMoveComp;
 };

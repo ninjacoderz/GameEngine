@@ -42,6 +42,8 @@ add_executable(Asteroid
         MeshComponent.h
         Camera.cpp
         Camera.h
+        InputSystem.cpp
+        InputSystem.h
 )
 set(SDLTTF_VENDORED ON)
 set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")
@@ -49,6 +51,7 @@ set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")
 target_include_directories(Asteroid
         PRIVATE ${PROJECT_SOURCE_DIR}/src
         PRIVATE ${VENDOR_DIR}/glew/include
+        PRIVATE ${VENDOR_DIR}/SDL/include
         PRIVATE ${VENDOR_DIR}/SOIL/includes
         PRIVATE ${VENDOR_DIR}/rapidjson/include
 )

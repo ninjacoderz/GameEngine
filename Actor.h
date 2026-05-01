@@ -11,6 +11,7 @@
 #include "Math.h"
 #include <cstdint>
 
+#include "InputSystem.h"
 #include "SDL3/SDL_events.h"
 
 class Actor
@@ -34,9 +35,9 @@ public:
 	virtual void UpdateActor(float deltaTime);
 
 	// ProcessInput function called from Game (not overridable)
-	void ProcessInput(const bool* keyState);
+	void ProcessInput(const struct InputState &state);
 	// Any actor-specific input code (overridable)
-	virtual void ActorInput(const bool* keyState);
+	virtual void ActorInput(const struct InputState &state);
 
 	Game* GetGame() { return mGame; }
 	// Getters/setters

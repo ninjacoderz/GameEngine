@@ -43,10 +43,10 @@ private:
 	// Any pending actors
 	std::vector<class Actor*> mPendingActors;
 	Uint32 mTicksCount;
+	class InputSystem* mInputSystem;
 	bool mIsRunning;
 	// Track if we're updating actors right now
 	bool mUpdatingActors;
 	Renderer* mRenderer;
-
 	Camera *mCamera;
 };

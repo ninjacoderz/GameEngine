@@ -13,6 +13,8 @@
 #include "SpriteComponent.h"
 #include "Random.h"
 #include <GL/glew.h>
+
+#include "InputSystem.h"
 #include "Math.h"
 
 #define WINDOW_WIDTH 1024
@@ -38,6 +40,13 @@ bool Game::Initialize() {
         return false;
     }
 
+    mInputSystem = new InputSystem();
+    if (!mInputSystem->Initialize()) {
+        SDL_Log("Failed to initialize InputSystem");
+        delete mInputSystem;
+        mInputSystem = nullptr;
+    }
+
     LoadData();
 
     mTicksCount = SDL_GetTicks();
@@ -53,25 +62,32 @@ void Game::RunLoop() {
 }
 
 void Game::ProcessInput() {
+
+    mInputSystem->PrepareForUpdate();
     SDL_Event event;
     while (SDL_PollEvent(&event)) {
         switch (event.type) {
             case SDL_EVENT_QUIT:
                 mIsRunning = false;
                 break;
+            case SDL_EVENT_MOUSE_WHEEL:
+                mInputSystem->ProcessEvent(event);
+                break;
+            default:
+                break;
         }
-
-        const bool* keyState = SDL_GetKeyboardState(nullptr);
-        if (keyState[SDL_SCANCODE_ESCAPE]) {
-            mIsRunning = false;
-        }
-
-        mUpdatingActors = true;
-        for (auto actor: mActors) {
-            actor->ProcessInput(keyState);
-        }
-        mUpdatingActors = false;
     }
+    mInputSystem->Update();
+    const InputState& inputState = mInputSystem->GetState();
+    if (inputState.Keyboard.GetKeyState(SDL_SCANCODE_ESCAPE) == EReleased) {
+        mIsRunning = false;
+    }
+
+    mUpdatingActors = true;
+    for (auto actor: mActors) {
+        actor->ProcessInput(inputState);
+    }
+    mUpdatingActors = false;
 }
 
 void Game::UpdateGame() {

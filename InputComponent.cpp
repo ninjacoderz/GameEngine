@@ -19,15 +19,15 @@ InputComponent::InputComponent(class Actor* owner)
 	  , mCounterClockwiseKey(0) {
 }
 
-void InputComponent::ProcessInput(const bool* keyState)
+void InputComponent::ProcessInput(const struct InputState& state)
 {
 	// Calculate forward speed for MoveComponent
 	float forwardSpeed = 0.0f;
-	if (keyState[mForwardKey])
+	if (state.Keyboard.GetKeyValue(SDL_Scancode(mForwardKey)))
 	{
 		forwardSpeed += mMaxForwardSpeed;
 	}
-	if (keyState[mBackKey] )
+	if (state.Keyboard.GetKeyValue(SDL_Scancode(mBackKey)))
 	{
 		forwardSpeed -= mMaxForwardSpeed;
 	}
@@ -35,11 +35,11 @@ void InputComponent::ProcessInput(const bool* keyState)
 
 	// Calculate angular speed for MoveComponent
 	float angularSpeed = 0.0f;
-	if (keyState[mClockwiseKey])
+	if (state.Keyboard.GetKeyValue(SDL_Scancode(mClockwiseKey)))
 	{
 		angularSpeed += mMaxAngularSpeed;
 	}
-	if (keyState[mCounterClockwiseKey])
+	if (state.Keyboard.GetKeyValue(SDL_Scancode(mCounterClockwiseKey)))
 	{
 		angularSpeed -= mMaxAngularSpeed;
 	}
