@@ -61,14 +61,14 @@ void Game::ProcessInput() {
                 break;
         }
 
-        const bool keyState = SDL_GetKeyboardState(NULL);
-        if (keyState && event.key.scancode == SDL_SCANCODE_ESCAPE) {
+        const bool* keyState = SDL_GetKeyboardState(nullptr);
+        if (keyState[SDL_SCANCODE_ESCAPE]) {
             mIsRunning = false;
         }
 
         mUpdatingActors = true;
         for (auto actor: mActors) {
-            actor->ProcessInput(event);
+            actor->ProcessInput(keyState);
         }
         mUpdatingActors = false;
     }

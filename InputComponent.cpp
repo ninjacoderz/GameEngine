@@ -10,25 +10,24 @@
 #include "Actor.h"
 
 InputComponent::InputComponent(class Actor* owner)
-:MoveComponent(owner)
-,mForwardKey(0)
-,mBackKey(0)
-,mClockwiseKey(0)
-,mCounterClockwiseKey(0)
-{
-	
+	: MoveComponent(owner)
+	  , mMaxForwardSpeed(0)
+      , mMaxAngularSpeed(0)
+      , mForwardKey(0)
+	  , mBackKey(0)
+	  , mClockwiseKey(0)
+	  , mCounterClockwiseKey(0) {
 }
 
-void InputComponent::ProcessInput(const SDL_Event& event)
+void InputComponent::ProcessInput(const bool* keyState)
 {
 	// Calculate forward speed for MoveComponent
 	float forwardSpeed = 0.0f;
-	const SDL_Scancode keyState = event.key.scancode;
-	if (keyState == mForwardKey)
+	if (keyState[mForwardKey])
 	{
 		forwardSpeed += mMaxForwardSpeed;
 	}
-	if (keyState == mBackKey )
+	if (keyState[mBackKey] )
 	{
 		forwardSpeed -= mMaxForwardSpeed;
 	}
@@ -36,11 +35,11 @@ void InputComponent::ProcessInput(const SDL_Event& event)
 
 	// Calculate angular speed for MoveComponent
 	float angularSpeed = 0.0f;
-	if (keyState == mClockwiseKey)
+	if (keyState[mClockwiseKey])
 	{
 		angularSpeed += mMaxAngularSpeed;
 	}
-	if (keyState == mCounterClockwiseKey)
+	if (keyState[mCounterClockwiseKey])
 	{
 		angularSpeed -= mMaxAngularSpeed;
 	}

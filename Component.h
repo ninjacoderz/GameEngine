@@ -23,7 +23,7 @@ public:
 	// Update this component by delta time
 	virtual void Update(float deltaTime);
 	// Process input for this component
-	virtual void ProcessInput(const SDL_Event& event) {}
+	virtual void ProcessInput(const bool* keyState) {}
 	virtual void OnUpdateWorldTransform() { }
 	int GetUpdateOrder() const { return mUpdateOrder; }
 protected:

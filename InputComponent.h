@@ -16,7 +16,7 @@ public:
 	// Lower update order to update first
 	InputComponent(class Actor* owner);
 
-	void ProcessInput(const SDL_Event& event) override;
+	void ProcessInput(const bool* keyState) override;
 	
 	// Getters/setters for private variables
 	float GetMaxForward() const { return mMaxForwardSpeed; }

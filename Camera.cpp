@@ -7,24 +7,23 @@
 #include "Game.h"
 #include "MoveComponent.h"
 
-void Camera::ActorInput(const SDL_Event& event) {
-    SDL_Scancode code = event.key.scancode;
+void Camera::ActorInput(const bool* keyState) {
     float forwardSpeed = 0.0f;
     float angularSpeed = 0.0f;
     // wasd movement
-    if (code == SDL_SCANCODE_W)
+    if (keyState[SDL_SCANCODE_W])
     {
         forwardSpeed += 300.0f;
     }
-    if (code == SDL_SCANCODE_S)
+    if (keyState[SDL_SCANCODE_S])
     {
         forwardSpeed -= 300.0f;
     }
-    if (code == SDL_SCANCODE_A)
+    if (keyState[SDL_SCANCODE_A])
     {
         angularSpeed -= Math::TwoPi;
     }
-    if (code == SDL_SCANCODE_D)
+    if (keyState[SDL_SCANCODE_D])
     {
         angularSpeed += Math::TwoPi;
     }

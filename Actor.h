@@ -34,9 +34,9 @@ public:
 	virtual void UpdateActor(float deltaTime);
 
 	// ProcessInput function called from Game (not overridable)
-	void ProcessInput(const SDL_Event &event);
+	void ProcessInput(const bool* keyState);
 	// Any actor-specific input code (overridable)
-	virtual void ActorInput(const SDL_Event& event);
+	virtual void ActorInput(const bool* keyState);
 
 	Game* GetGame() { return mGame; }
 	// Getters/setters
