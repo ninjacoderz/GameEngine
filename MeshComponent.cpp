@@ -8,7 +8,7 @@
 #include "Game.h"
 
 MeshComponent::MeshComponent(Actor* actor)
-: Component(actor), mMesh(nullptr), mTextureIndex(0)  {
+: Component(actor), mMesh(nullptr), mTextureIndex(0), mVisible(true)  {
     mOwner->GetGame()->GetRenderer()->AddMeshComp(this);
 }
 
@@ -35,4 +35,8 @@ void MeshComponent::SetMesh(Mesh *mesh) {
 
 void MeshComponent::SetTextureIndex(int index) {
     mTextureIndex = index;
+}
+
+void MeshComponent::SetVisible(bool visible) {
+    mVisible = visible;
 }

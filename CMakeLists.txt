@@ -46,6 +46,12 @@ add_executable(Asteroid
         InputSystem.h
         FPSActor.cpp
         FPSActor.h
+        FPSCameraComponent.cpp
+        FPSCameraComponent.h
+        CameraComponent.cpp
+        CameraComponent.h
+        PlaneActor.cpp
+        PlaneActor.h
 )
 set(SDLTTF_VENDORED ON)
 set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")

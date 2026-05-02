@@ -28,16 +28,12 @@ void MoveComponent::Update(float deltaTime)
 		mOwner->SetRotation(rot);
 	}
 
-	if (!Math::NearZero(mForwardSpeed))
+	if (!Math::NearZero(mForwardSpeed) || !Math::NearZero(mStrafeSpeed))
 	{
 		Vector3 pos = mOwner->GetPosition();
 		pos += mOwner->GetForward() * mForwardSpeed * deltaTime;
+		pos += mOwner->GetRight() * mStrafeSpeed * deltaTime;
 
-		// Screen wrapping (for asteroids)
-		if (pos.x < -512.0f) { pos.x = 510.0f; }
-		else if (pos.x > 512.0f) { pos.x = -510.0f; }
-		if (pos.y < -384.0f) { pos.y = 382.0f; }
-		else if (pos.y > 384.0f) { pos.y = -382.0f; }
 		mOwner->SetPosition(pos);
 	}
 }

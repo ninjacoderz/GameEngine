@@ -17,9 +17,13 @@ public:
     virtual void Draw(Shader* shader);
     virtual void SetMesh(Mesh* mesh);
     void SetTextureIndex(int index);
+
+    void SetVisible(bool visible);
+    bool GetVisible() const { return mVisible;}
 protected:
     Mesh* mMesh;
     int mTextureIndex;
+    bool mVisible;
 };
 
 #endif //ASTEROID_MESHCOMPONENT_H

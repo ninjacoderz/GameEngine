@@ -48,6 +48,7 @@ public:
 	Quaternion GetRotation() const { return mRotation; }
 	void SetRotation(Quaternion rotation) { mRotation = rotation; mRecomputeWorldTransform = true;}
 
+	Vector3 GetRight() const { return Vector3::Transform(Vector3::UnitY, mRotation); }
 	Vector3 GetForward() const { return Vector3::Transform(Vector3::UnitX, mRotation); }
 
 	State GetState() const { return mState; }

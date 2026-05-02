@@ -40,6 +40,7 @@ public:
     DirectionalLight& GetDirectionalLight() { return mDirLight; }
     void SetOpenGLAttributes();
     void SetViewMatrix(const Matrix4& view) { mView = view; }
+    SDL_Window* GetWindow() const { return mWindow; }
 private:
     bool LoadShaders();
     void SetLightUniforms(Shader *shader) const;

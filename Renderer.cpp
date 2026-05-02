@@ -17,6 +17,7 @@ Renderer::Renderer(Game *game)
     : mGame(game)
       , mMeshShader(nullptr)
       , mSpriteShader(nullptr)
+      , mSpriteVerts(nullptr)
       , mScreenWidth(0)
       , mScreenHeight(0)
       , mWindow(nullptr)
@@ -115,7 +116,10 @@ void Renderer::Draw() const {
     // Update lighting uniforms
     SetLightUniforms(mMeshShader);
     for (auto mc: mMeshComps) {
-        mc->Draw(mMeshShader);
+        if (mc->GetVisible())
+        {
+            mc->Draw(mMeshShader);
+        }
     }
 
     glDisable(GL_DEPTH_TEST);

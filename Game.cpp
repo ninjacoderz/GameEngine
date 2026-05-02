@@ -14,8 +14,10 @@
 #include "Random.h"
 #include <GL/glew.h>
 
+#include "FPSActor.h"
 #include "InputSystem.h"
 #include "Math.h"
+#include "PlaneActor.h"
 
 #define WINDOW_WIDTH 1024
 #define WINDOW_HEIGHT 768
@@ -41,6 +43,7 @@ bool Game::Initialize() {
     }
 
     mInputSystem = new InputSystem();
+    mInputSystem->SetRelativeMouseMode(GetRenderer()->GetWindow(), true);
     if (!mInputSystem->Initialize()) {
         SDL_Log("Failed to initialize InputSystem");
         delete mInputSystem;
@@ -128,21 +131,36 @@ void Game::GenerateOutput() {
 }
 
 void Game::LoadData() {
-    Actor *a = new Actor(this);
-    a->SetPosition(Vector3(200.0f, 75.0f, 0.0f));
-    a->SetScale(100.0f);
-    Quaternion q(Vector3::UnitY, -Math::PiOver2);
-    q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::Pi + Math::Pi / 4.0f));
-    a->SetRotation(q);
-    MeshComponent *mc = new MeshComponent(a);
-    mc->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
+    // Actor *a = new Actor(this);
+    // a->SetPosition(Vector3(200.0f, 75.0f, 0.0f));
+    // a->SetScale(100.0f);
+    // Quaternion q(Vector3::UnitY, -Math::PiOver2);
+    // q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::Pi + Math::Pi / 4.0f));
+    // a->SetRotation(q);
+    // MeshComponent *mc = new MeshComponent(a);
+    // mc->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
+    //
+    // Actor* b = new Actor(this);
+    // b->SetPosition(Vector3(200.0f, -75.0f, 0.0f));
+    // b->SetScale(3.0f);
+    // mc = new MeshComponent(b);
+    // mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
 
-    Actor* b = new Actor(this);
-    b->SetPosition(Vector3(200.0f, -75.0f, 0.0f));
-    b->SetScale(3.0f);
-    mc = new MeshComponent(b);
-    mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
-    mCamera = new CameraActor(this);
+    // Setup floor
+    Actor* a = new Actor(this);
+    const float start = -1250.0f;
+    const float size = 250.0f;
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            a = new PlaneActor(this);
+            a->SetPosition(Vector3(start + i * size, start + j * size, -100.0f));
+        }
+    }
+
+
+    FPSActor* mFPSActor = new FPSActor(this);
 
     Actor* c = new Actor(this);
     c->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));
