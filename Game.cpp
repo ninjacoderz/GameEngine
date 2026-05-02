@@ -159,6 +159,30 @@ void Game::LoadData() {
         }
     }
 
+    Quaternion q = Quaternion(Vector3::UnitX, Math::PiOver2);
+    for (int i = 0; i < 10; i++)
+    {
+        a = new PlaneActor(this);
+        a->SetPosition(Vector3(start + i * size, start - size, 0.0f));
+        a->SetRotation(q);
+
+        a = new PlaneActor(this);
+        a->SetPosition(Vector3(start + i * size, -start + size, 0.0f));
+        a->SetRotation(q);
+    }
+
+    q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::PiOver2));
+    // Forward/back walls
+    for (int i = 0; i < 10; i++)
+    {
+        a = new PlaneActor(this);
+        a->SetPosition(Vector3(start - size, start + i * size, 0.0f));
+        a->SetRotation(q);
+
+        a = new PlaneActor(this);
+        a->SetPosition(Vector3(-start + size, start + i * size, 0.0f));
+        a->SetRotation(q);
+    }
 
     FPSActor* mFPSActor = new FPSActor(this);
 

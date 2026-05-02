@@ -20,11 +20,22 @@ FPSActor::FPSActor(class Game *game) : Actor(game) {
 void FPSActor::UpdateActor(float deltaTime) {
     Actor::UpdateActor(deltaTime);
     // We do the update sub Actor soon here
-
+    // Update position of an FPS model relative to actor position
+    const Vector3 modelOffset(Vector3(10.0f, 10.0f, -10.0f));
+    Vector3 modelPos = GetPosition();
+    modelPos += GetForward() * modelOffset.x;
+    modelPos += GetRight() * modelOffset.y;
+    modelPos.z += modelOffset.z;
+    mFPSModel->SetPosition(modelPos);
+    // Initialize rotation to actor rotation
+    Quaternion q = GetRotation();
+    // Rotate by pitch from the camera
+    q = Quaternion::Concatenate(q,
+    Quaternion(GetRight(), mCameraComp->GetPitch()));
+    mFPSModel->SetRotation(q);
 }
 
 void FPSActor::ActorInput(const struct InputState &state) {
-    Actor::ActorInput(state);
 
     float forwardSpeed = 0.0f;
     float strafeSpeed = 0.0f;
@@ -69,20 +80,6 @@ void FPSActor::ActorInput(const struct InputState &state) {
         pitchSpeed *= maxPitchSpeed;
     }
     mCameraComp->SetPitchSpeed(pitchSpeed);
-
-    // Update position of an FPS model relative to actor position
-    const Vector3 modelOffset(Vector3(10.0f, 10.0f, -10.0f));
-    Vector3 modelPos = GetPosition();
-    modelPos += GetForward() * modelOffset.x;
-    modelPos += GetRight() * modelOffset.y;
-    modelPos.z += modelOffset.z;
-    mFPSModel->SetPosition(modelPos);
-    // Initialize rotation to actor rotation
-    Quaternion q = GetRotation();
-    // Rotate by pitch from the camera
-    q = Quaternion::Concatenate(q,
-    Quaternion(GetRight(), mCameraComp->GetPitch()));
-    mFPSModel->SetRotation(q);
 }
 
 void FPSActor::SetVisible(bool visible)

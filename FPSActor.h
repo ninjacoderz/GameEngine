@@ -21,9 +21,9 @@ private:
     class FPSCameraComponent* mCameraComp;
     class Actor* mFPSModel;
 
-    int maxMouseSpeed = 10;
-    float maxAngularSpeed = Math::Pi * 8;
-    float maxPitchSpeed = Math::Pi * 8;
+    int maxMouseSpeed = 2;
+    float maxAngularSpeed = Math::Pi;
+    float maxPitchSpeed = Math::Pi;
     float angularSpeed = 0.0f;
 };
 
