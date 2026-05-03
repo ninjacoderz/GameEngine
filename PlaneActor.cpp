@@ -12,6 +12,3 @@ PlaneActor::PlaneActor(class Game *game) : Actor(game) {
     MeshComponent* meshComp = new MeshComponent(this);
     meshComp->SetMesh(GetGame()->GetRenderer()->GetMesh("Assets/Plane.gpmesh"));
 }
-
-PlaneActor::~PlaneActor() {
-}

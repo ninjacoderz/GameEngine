@@ -17,6 +17,7 @@
 #include "FPSActor.h"
 #include "InputSystem.h"
 #include "Math.h"
+#include "OrbitActor.h"
 #include "PlaneActor.h"
 
 #define WINDOW_WIDTH 1024
@@ -184,7 +185,8 @@ void Game::LoadData() {
         a->SetRotation(q);
     }
 
-    FPSActor* mFPSActor = new FPSActor(this);
+    // FPSActor* mFPSActor = new FPSActor(this);
+    OrbitActor* mOrbitActor = new OrbitActor(this);
 
     Actor* c = new Actor(this);
     c->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));

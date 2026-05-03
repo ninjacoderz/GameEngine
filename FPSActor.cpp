@@ -86,6 +86,3 @@ void FPSActor::SetVisible(bool visible)
 {
     mMeshComp->SetVisible(visible);
 }
-
-FPSActor::~FPSActor() {
-}

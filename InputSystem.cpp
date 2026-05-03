@@ -29,6 +29,10 @@ ButtonState KeyboardState::GetKeyState(SDL_Scancode key) const {
     return EHeld;
 }
 
+bool MouseState::GetButtonValue(int button) const {
+    return (SDL_BUTTON_MASK(button) & mCurrButtons);
+}
+
 bool InputSystem::Initialize() {
     mState.Keyboard.mCurrState = SDL_GetKeyboardState(nullptr);
     memset(mState.Keyboard.mPrevState, 0,
