@@ -41,6 +41,8 @@ public:
     void SetOpenGLAttributes();
     void SetViewMatrix(const Matrix4& view) { mView = view; }
     SDL_Window* GetWindow() const { return mWindow; }
+    Vector3 Unproject(const Vector3& screenPoint);
+    void GetScreenDirection(Vector3& outStart, Vector3& outDir);
 private:
     bool LoadShaders();
     void SetLightUniforms(Shader *shader) const;

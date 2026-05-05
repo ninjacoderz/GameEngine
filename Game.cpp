@@ -20,6 +20,7 @@
 #include "Math.h"
 #include "OrbitActor.h"
 #include "PlaneActor.h"
+#include "SplineActor.h"
 
 #define WINDOW_WIDTH 1024
 #define WINDOW_HEIGHT 768
@@ -188,7 +189,8 @@ void Game::LoadData() {
 
     // FPSActor* mFPSActor = new FPSActor(this);
     // OrbitActor* mOrbitActor = new OrbitActor(this);
-    FollowActor* mFollowActor = new FollowActor(this);
+    // FollowActor* mFollowActor = new FollowActor(this);
+    SplineActor* mSplineActor = new SplineActor(this);
 
     Actor* c = new Actor(this);
     c->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));
