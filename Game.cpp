@@ -14,6 +14,7 @@
 #include "Random.h"
 #include <GL/glew.h>
 
+#include "FollowActor.h"
 #include "FPSActor.h"
 #include "InputSystem.h"
 #include "Math.h"
@@ -186,7 +187,8 @@ void Game::LoadData() {
     }
 
     // FPSActor* mFPSActor = new FPSActor(this);
-    OrbitActor* mOrbitActor = new OrbitActor(this);
+    // OrbitActor* mOrbitActor = new OrbitActor(this);
+    FollowActor* mFollowActor = new FollowActor(this);
 
     Actor* c = new Actor(this);
     c->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));

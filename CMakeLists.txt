@@ -54,6 +54,10 @@ add_executable(Asteroid
         OrbitActor.h
         OrbitCameraComponent.cpp
         OrbitCameraComponent.h
+        FollowActor.cpp
+        FollowActor.h
+        FollowCameraComponent.cpp
+        FollowCameraComponent.h
 )
 set(SDLTTF_VENDORED ON)
 set(VENDOR_DIR "${PROJECT_SOURCE_DIR}/vendor")
